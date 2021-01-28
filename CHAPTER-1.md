@@ -1,10 +1,14 @@
-Intents and Broadcasting
-1) What is intent?
+# Intents and Broadcasting
+
+__What is intent?__
+
 - It is a kind of message or information that is passed to the components. 
 - It is used to launch an activity, display a web page, send SMS, send email, etc. 
 - There are two types of intents in android:
   - Implicit Intent
   - Explicit Intent
+  
+# Explicit Intent
 	Explicit Intent - If you want communication between the components of your application only then you can use the Explicit Intents.
 	Explicit Intents are used to communicate with a particular component of the same application.
 	For example, if you want to launch an Activity by clicking some button on the present Activity
