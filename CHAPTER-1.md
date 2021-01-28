@@ -1,6 +1,6 @@
 # Intents and Broadcasting
 
-__What is intent?__
+# What is intent?
 
 - It is a kind of message or information that is passed to the components. 
 - It is used to launch an activity, display a web page, send SMS, send email, etc. 
@@ -8,10 +8,11 @@ __What is intent?__
   - Implicit Intent
   - Explicit Intent
   
-# Explicit Intent
-	Explicit Intent - If you want communication between the components of your application only then you can use the Explicit Intents.
-	Explicit Intents are used to communicate with a particular component of the same application.
-	For example, if you want to launch an Activity by clicking some button on the present Activity
+# What is Explicit Intent?
+- If you want communication between the components of your application only then you can use the Explicit Intents.
+- Explicit Intents are used to communicate with a particular component of the same application.
+- For example, if you want to launch an Activity by clicking some button on the present Activity.
+
 	Implicit Intent - By using the Implicit Intents you can communicate between various applications present in the mobile device. 
 	For example, you can access the current location by accessing the location data from other application also i.e. if one application A is detecting the current location of the user then you can use the data of the user i.e. the current location by communicating with application A.
 	Pending Intent – If you want someone to perform any Intent operation at future point of time on behalf of you, then we will use Pending Intent.
