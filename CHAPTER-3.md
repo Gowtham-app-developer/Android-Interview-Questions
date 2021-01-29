@@ -3,7 +3,9 @@
 # Garbage Collector
 
 - Garbage collection is the process by which Android programs perform automatic memory management using several GC algorithm e.g. Mark and Sweep.
-- Android garbage collection is an automatic process which removes unused objects from memory. However, frequent garbage collection consumes a lot of CPU, and it will also       pause the app.
+- If our app creates a lot of objects, then the Android run time (ART) environment will trigger garbage collection (GC) frequently.
+- Android garbage collection is an automatic process which removes unused objects from memory.
+- However, frequent garbage collection consumes a lot of CPU, and it will also pause the app.
 
 # What is JVM?
 
@@ -15,17 +17,19 @@
    
 # What is DVM?
 
-- The Dalvik Virtual Machine (DVM) is an android virtual machine optimized for mobile devices. It optimizes the virtual machine for memory, battery life and performance.
-- The Java Compiler(javac) converts the Java Source Code into Java Byte-Code(.class). Then DEX Compiler converts this (.class) file into in Dalvik Byte Code i.e. “.dex” file.
+- The Dalvik Virtual Machine (DVM) is an android virtual machine optimized for mobile devices. 
+- It optimizes the virtual machine for memory, battery life and performance.
+- The Java Compiler(javac) converts the Java Source Code into Java Byte-Code(.class). 
+- Then DEX Compiler converts this (.class) file into in Dalvik Byte Code i.e. “.dex” file.
 - Advantages – Execution is Faster, Applications are given on their own instances.
      
 # What is ART?
 
-- ART is the new Android Runtime. 
-- Android Runtime has replaced DVM since Android Lollipop. 
-- ART uses Ahead of Time Approach (AOT) instead of JIT.
-- Using AOT, the dex files are compiled before they are needed. 
-- Usually, they are done at installation time only and then stored in phone storage.
+- Android Apps, written in Java, converted to byte code, packaged as apk and run on Runtime. 
+- That runtime can be either DVM or ART. 
+- Dalvik Virtual Machine(DVM) was the default runtime till Kitkat. 
+- From Lollipop onwards, Android Runtime is the default platform for the android applications to run. 
+- ART is claimed to be the fastest runtime than DVM, since ART does ahead-of-compilation which converts Android apks to odex to improve Application performance.
 
 # What is runtime?
 
