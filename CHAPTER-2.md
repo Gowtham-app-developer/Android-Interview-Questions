@@ -85,4 +85,11 @@ __DAO:__
 - The __model__ refers to the data model classes. 
 - The __view__ refers to the xml files.
 - The __controller__ handles the business logic.
+- Negatives could be If we change the view, the controller logic should also be changed and  Maintenance is also an issues.
+
+# MVP
+
+- It as Model-View-Presenter architecture. 
+- View more separated from Model and the Presenter is the mediator between Model and View.
+- Easier to create unit tests
 
