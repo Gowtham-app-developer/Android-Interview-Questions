@@ -86,3 +86,14 @@
 - Gradle is a build system (open source) which is used to automate building, testing, deployment etc. 
 - “Build.gradle” are scripts where one can automate the tasks. 
 - For example, the simple task to copy some files from one directory to another can be performed by Gradle build script before the actual build process happens.
+
+## What is Git?
+
+- Git is an Open Source Distributed Version Control System tool designed to handle everything from small to very large projects with speed and efficiency.
+
+## Distributed Version Control System
+
+- Git has a remote repository which is stored in a server and a local repository which is stored in the computer of each developer.
+- This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers’ computers.
+- Git is a Distributed Version Control System since the code is present in every developer’s computer.
+
