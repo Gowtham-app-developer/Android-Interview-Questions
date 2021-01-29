@@ -6,10 +6,10 @@
 -	These components are loosely coupled by the application manifest file. 
 -	AndroidManifest.xml describes each component of the application and how they interact.
 -	There are four different types of app components:
-  - Activities
-  - Services
-  - Broadcast receivers
-  - Content providers
+    - Activities
+    - Services
+    - Broadcast receivers
+    - Content providers
 
 # Intents and Broadcasting
 
