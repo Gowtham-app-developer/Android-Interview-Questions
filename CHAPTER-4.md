@@ -1,7 +1,7 @@
 
 # Services & Long-running Operations
 
-### What is services
+## What is services
 
 - A Service is an application component that can perform long-running operations in the background, and it doesn't provide a user interface. 
 - It can run in the background, even when the user is not interacting with your application. 
@@ -46,7 +46,7 @@ __Unbound Service:__
 - With AsyncTask, you can update UI unlike java Thread. 
 - But many long running tasks will choke the performance.
 
-# Difference between Service, Intent Service, AsyncTask & Threads
+## Difference between Service, Intent Service, AsyncTask & Threads
 
 - Android __service__ is a component that is used to perform operations on the background such as playing music. 
 - It doesn’t has any UI (user interface). 
@@ -58,7 +58,7 @@ __Unbound Service:__
 - A __thread__ is a single sequential flow of control within a program. 
 - Threads can be thought of as mini-processes running within a main process.
 
-# What are Handlers?
+## What are Handlers?
 
 - Handlers are objects for managing threads. 
 - It receives messages and writes code on how to handle the message. 
