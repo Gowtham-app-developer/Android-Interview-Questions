@@ -122,5 +122,6 @@
 
 ## What is ADB?
 
-- ADB is a command line tool. 
-- It is used to bridge communication between an emulator instance (Android device) and background running daemon process (server).
+- The Android Debug Bridge (ADB) is a client-server program used in Android application development. 
+- The Android Debug-Bridge is part of the Android SDK and is made up of three components: a client, a daemon, and a server. 
+- It is used to manage either an emulator instance or an actual Android device.
