@@ -113,3 +113,14 @@
    - Unused variables
    - Unhanded exceptions
    - Imports that are not used in the project, and many more..
+   
+## DDMS 
+
+- DDMS stands for Dalvik debug monitor server, that provide many services on the device.
+- The service could include message formation, call spoofing, capturing screenshot, exploring internal threads and file systems e.t.c
+- Running DDMS -> From Android studio click on Tools>Android>Android device Monitor.
+
+## What is ADB?
+
+- ADB is a command line tool. 
+- It is used to bridge communication between an emulator instance (Android device) and background running daemon process (server).
