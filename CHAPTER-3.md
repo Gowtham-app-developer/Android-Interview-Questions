@@ -69,3 +69,14 @@
 - Enable shrinkResources.
 - Strip down all the unused locale resources by adding required resources name in “resConfigs”.
 - Convert all the images to the webp or vector drawables
+
+# What is ProGuard?
+
+- ProGuard is a free java tool in Android, which helps us to do the following,
+- Shrink(Minify) the code: Remove unused code in the project.
+- Obfuscate the code: Rename the names of class, fields, etc.
+- Optimize the code: Do things like inlining the functions.
+- In short, ProGuard makes the following impact on our project,
+      - It reduces the size of the application.
+      - It removes the unused classes and methods that contribute to the 64K method counts limit of an Android application.
+      - It makes the application difficult to reverse engineer by obfuscating the code.
