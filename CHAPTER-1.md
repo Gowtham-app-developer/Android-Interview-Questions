@@ -102,7 +102,7 @@ onDestroy	Called before the activity is destroyed.
 - Sticky Intents allows communication between a function and a service. 
 - For example if BATTERY_LOW event occurs then that Intent will stick with Android so that any future requests for BATTERY_LOW, will return the Intent.
 
-# Services
+# Services & Long-running Operations
 
 # What is services
 
@@ -175,7 +175,18 @@ __Unbound Service:__
 - JobManager makes handling uploads easier as it handles automatically the unreliability of the network. It also survives application restarts.
 
 __Scenarios:__
-  - Tasks that should be done once the device is connect to a power supply
-  - Tasks that require network access or a Wi-Fi connection.
-  - Task that are not critical or user facing
-  - Tasks that should be running on a regular basis as batch where the timing is not critical
+- Tasks that should be done once the device is connect to a power supply
+- Tasks that require network access or a Wi-Fi connection.
+- Task that are not critical or user facing
+- Tasks that should be running on a regular basis as batch where the timing is not critical
+
+# How to run parallel tasks in Java or Android?
+
+- Creating and destroying threads has a high CPU usage, so when we need to perform lots of small, simple tasks concurrently, the overhead of creating our own threads can take     up a significant portion of the CPU cycles and severely affect the final response time.
+- ThreadPool consists of a task queue and a group of worker threads, which allows it to run multiple parallel instances of a task.
+
+# How should update the UI of an activity from a background service?
+
+- We need to register a LocalBroadcastReceiver in the activity. And send a broadcast with the data using intents from the background service. 
+- As long as the activity is in the foreground, the UI will be updated from the background. Ensure to unregister the broadcast receiver in the onStop() method of the activity     to avoid memory leaks. 
+- We can also register a Handler and pass data using Handlers. I have detailed a sample implementation on this.
