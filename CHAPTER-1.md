@@ -26,6 +26,18 @@ onStop	Called when activity is no longer visible to the user.
 onRestart	Called after your activity is stopped, prior to start.
 onDestroy	Called before the activity is destroyed.
 
+# Content Provider
+
+- A content provider component supplies data from one application to others on request and such requests are handled by the methods of the ContentResolver class. 
+- A content provider can use different ways to store its data and the data can be stored in a database, in files, or even over a network.
+
+# Broadcast Receiver
+
+- Broadcast Receivers simply respond to broadcast messages from other applications or from the system itself. 
+- These messages are sometime called events or intents.
+- When overriding the onReceive() method where each message is received as an Intent object parameter.
+- Types of Broadcasts -> Normal Broadcasts, Ordered Broadcasts.
+
 
 # Intents and Broadcasting
 
