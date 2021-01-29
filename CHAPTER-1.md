@@ -59,6 +59,11 @@ onDestroy	Called before the activity is destroyed.
 - The activity context should be used when you are passing the context in the scope of an activity or you need the context whose lifecycle is attached to the current context.
 - For example - MainActivity. It is an instance of MainActivity only.
 
+# Application Class
+
+- The Application class in Android is the base class within an Android app that contains all other components such as activities and services.
+- The Application class, or any subclass of the Application class, is instantiated before any other class when the process for your application/package is created.
+
 # Intents and Broadcasting
 
 # What is Intent?
