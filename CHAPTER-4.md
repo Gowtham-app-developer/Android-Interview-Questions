@@ -78,45 +78,45 @@ __Scenarios:__
 - Task that are not critical or user facing
 - Tasks that should be running on a regular basis as batch where the timing is not critical
 
-# How to run parallel tasks in Java or Android?
+## How to run parallel tasks in Java or Android?
 
 - Creating and destroying threads has a high CPU usage, so when we need to perform lots of small, simple tasks concurrently, the overhead of creating our own threads can take     up a significant portion of the CPU cycles and severely affect the final response time.
 - ThreadPool consists of a task queue and a group of worker threads, which allows it to run multiple parallel instances of a task.
 
-# How should update the UI of an activity from a background service?
+## How should update the UI of an activity from a background service?
 
 - We need to register a LocalBroadcastReceiver in the activity. And send a broadcast with the data using intents from the background service. 
 - As long as the activity is in the foreground, the UI will be updated from the background. Ensure to unregister the broadcast receiver in the onStop() method of the activity     to avoid memory leaks. 
 - We can also register a Handler and pass data using Handlers. I have detailed a sample implementation on this.
 
-# What is Memory Leak?
+## What is Memory Leak?
 
 - Failure of releasing unused objects from the memory
 - That means there are unused objects in the application that the garbage collector cannot release from memory. 
 - So the memory unit is occupied until the end of the application/method.
 
-# ANR
+## ANR
 
 - ANR (Application Not Responding )is due to handling long running task in Main Thread(UI thread).
 - If the main thread is stopped for more than 5 sec you get ANR.
 - Note: Never run long running task on UI thread
 
-# How to avoid ANRs?
+## How to avoid ANRs?
 
 - Create a different worker thread for long running operations like database operations, network operations etc.
 
-# Crash
+## Crash
 
 - Crash are due to exception and error like Nullpoint,classNotfound, typecast ,parse error etc. ANR also causes crash of application.
 
-# Async Task
+## Async Task
 
 - Android application runs on a single thread when launched. 
 - Due to this single thread model tasks that take longer time to fetch the response can make the application non-responsive. 
 - To avoid this we use android AsyncTask to perform the heavy tasks in background on a dedicated thread and passing the results back to the UI thread. 
 - Hence use of AsyncTask in android application keeps the UI thread responsive at all times.
 
-# What are the basic methods used in an android AsyncTask class?
+## What are the basic methods used in an android AsyncTask class?
 
 - __doInBackground() :__ This method contains the code which needs to be executed in background. In this method we can send results multiple times to the UI thread by publishProgress() method. 
 - To notify that the background processing has been completed we just need to use the return statements
@@ -124,27 +124,27 @@ __Scenarios:__
 - __onPostExecute() :__ This method is called after doInBackground method completes processing. Result from doInBackground is passed to this method
 - __onProgressUpdate() :__ This method receives progress updates from doInBackground method, which is published via publishProgress method, and this method can use this           progress update to update the UI thread
 
-# what are the three generic types used in an android AsyncTask class?:
+## what are the three generic types used in an android AsyncTask class?:
 
 - __Params :__ The type of the parameters sent to the task upon execution
 - __Progress :__ The type of the progress units published during the background computation
 - __Result :__ The type of the result of the background computation
 
-# What are the Advantages of using AsyncTask
+## What are the Advantages of using AsyncTask
 
 - Provides generic solution for all network calls
 - Publish progress to UI while executing.
 - Run Asynchronously
 - Easy to maintain and read.
 
-# Problems in AysncTask
+## Problems in AysncTask
 
 - When you rotate your screen, Activity gets destroyed, so AsyncTask will not have a valid reference to publish data from onPostExecute(). 
 - In order to retain it, you need to usesetRetainState(true) if calling from fragment or onConfigChanges() if calling from activity method of an activity.
 - If activity gets finished, AsyncTask execution will not cancelled automatically, you need to cancel them else they will keep on running in the background.
 - If any exception occurs while performing network task, you need to handle them manually.
 
-# Android Threading
+## Android Threading
 
 - When an application is launched in Android, it creates the first thread of execution, known as the “main” thread. 
 - The main thread is responsible for dispatching events to the appropriate user interface widgets as well as communicating with components from the Android UI toolkit.
