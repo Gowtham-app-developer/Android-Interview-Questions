@@ -134,31 +134,31 @@ __Unbound Service:__
 
 # Difference between Service & Intent Service
 
-- Service is the base class for Android services that can be extended to create any service. A
+- __Service__ is the base class for Android services that can be extended to create any service. A
 - class that directly extends Service runs on the main thread so it will block the UI (if there is one) and should therefore either be used only for short tasks or should make   use of other threads for longer tasks.
-- IntentService is a subclass of Service that handles asynchronous requests (expressed as “Intents”) on demand. 
+- __IntentService__ is a subclass of Service that handles asynchronous requests (expressed as “Intents”) on demand. 
 - Clients send requests through startService(Intent) calls. 
 - The service is started as needed, handles each Intent in turn using a worker thread, and stops itself when it runs out of work.
 
 # Difference between AsyncTasks & Threads?
 
-- Thread should be used to separate long running operations from main thread so that performance is improved. 
+- __Thread__ should be used to separate long running operations from main thread so that performance is improved. 
 - But it can't be cancelled elegantly and it can't handle configuration changes of Android. 
 - You can't update UI from Thread.
-- AsyncTask can be used to handle work items shorter than 5ms in duration. 
+- __AsyncTask__ can be used to handle work items shorter than 5ms in duration. 
 - With AsyncTask, you can update UI unlike java Thread. 
 - But many long running tasks will choke the performance.
 
 # Difference between Service, Intent Service, AsyncTask & Threads
 
-- Android service is a component that is used to perform operations on the background such as playing music. 
+- Android __service__ is a component that is used to perform operations on the background such as playing music. 
 - It doesn’t has any UI (user interface). 
 - The service runs in the background indefinitely even if application is destroyed.
-- AsyncTask allows you to perform asynchronous work on your user interface. 
+- __AsyncTask__ allows you to perform asynchronous work on your user interface. 
 - It performs the blocking operations in a worker thread and then publishes the results on the UI thread, without requiring you to handle threads and/or handlers yourself.
-- IntentService is a base class for Services that handle asynchronous requests (expressed as Intents) on demand. 
+- __IntentService__ is a base class for Services that handle asynchronous requests (expressed as Intents) on demand. 
 - Clients send requests through startService(Intent) calls; the service is started as needed, handles each Intent in turn using a worker thread, and stops itself when it runs     out of work.
-- A thread is a single sequential flow of control within a program. Threads can be thought of as mini-processes running within a main process.
+- A __thread__ is a single sequential flow of control within a program. Threads can be thought of as mini-processes running within a main process.
 
 # What are Handlers?
 
@@ -196,3 +196,48 @@ __Scenarios:__
 - Failure of releasing unused objects from the memory
 - That means there are unused objects in the application that the garbage collector cannot release from memory. 
 - So the memory unit is occupied until the end of the application/method.
+
+# ANR
+
+- ANR (Application Not Responding )is due to handling long running task in Main Thread(UI thread).
+- If the main thread is stopped for more than 5 sec you get ANR.
+- Note: Never run long running task on UI thread
+
+# How to avoid ANRs?
+
+- Create a different worker thread for long running operations like database operations, network operations etc.
+
+# Crash
+
+- Crash are due to exception and error like Nullpoint,classNotfound, typecast ,parse error etc. ANR also causes crash of application.
+
+# Async Task
+
+- Android application runs on a single thread when launched. 
+- Due to this single thread model tasks that take longer time to fetch the response can make the application non-responsive. 
+- To avoid this we use android AsyncTask to perform the heavy tasks in background on a dedicated thread and passing the results back to the UI thread. 
+- Hence use of AsyncTask in android application keeps the UI thread responsive at all times.
+
+# What are the basic methods used in an android AsyncTask class?
+
+- __doInBackground() :__ This method contains the code which needs to be executed in background. In this method we can send results multiple times to the UI thread by publishProgress() method. 
+- To notify that the background processing has been completed we just need to use the return statements
+- __onPreExecute() :__ This method contains the code which is executed before the background processing starts
+- __onPostExecute() :__ This method is called after doInBackground method completes processing. Result from doInBackground is passed to this method
+- __onProgressUpdate() :__ This method receives progress updates from doInBackground method, which is published via publishProgress method, and this method can use this           progress update to update the UI thread
+
+# what are The three generic types used in an android AsyncTask class?:
+
+- __Params :__ The type of the parameters sent to the task upon execution
+- __Progress :__ The type of the progress units published during the background computation
+- __Result :__ The type of the result of the background computation
+
+# What is the relationship between the life cycle of an AsyncTask and an Activity? What problems can this result in? How can these problems be avoided?
+
+- An AsyncTask is not tied to the life cycle of the Activity that contains it. So, for example, if you start an AsyncTask inside an Activity and the user rotates the device, the Activity will be destroyed (and a new Activity instance will be created) but the AsyncTask will not die but instead goes on living until it completes.
+Then, when the AsyncTask does complete, rather than updating the UI of the new Activity, it updates the former instance of the Activity (i.e., the one in which it was created but that is not displayed anymore!). This can lead to an Exception (of the type java.lang.IllegalArgumentException: View not attached to window manager if you use, for instance, findViewById to retrieve a view inside the Activity).
+There’s also the potential for this to result in a memory leak since the AsyncTask maintains a reference to the Activity, which prevents the Activity from being garbage collected as long as the AsyncTask remains alive.
+For these reasons, using AsyncTasks for long-running background tasks is generally a bad idea . Rather, for long-running background tasks, a different mechanism (such as a service) should be employed.
+Note: AsyncTasks by default run on a single thread using a serial executor, meaning it has only 1 thread and each task runs one after the other.
+
+
