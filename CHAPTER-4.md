@@ -1,30 +1,30 @@
 
 # Services & Long-running Operations
 
-## What is services
+## Services
 
 - A Service is an application component that can perform long-running operations in the background, and it doesn't provide a user interface. 
 - It can run in the background, even when the user is not interacting with your application. 
 - These are the three different types of services ->Foreground Services, Background Services and Bound Services.
 
-__Foreground Service:__ 
+## Foreground Service 
 
 - A foreground service performs some operation that is noticeable to the user. 
 - For example, we can use a foreground service to play an audio track. 
 - A Notification must be displayed to the user.
 
-__Background Service:__
+## Background Service
 
 - A background service performs an operation that isn’t directly noticed by the user. 
 - In Android API level 26 and above, there are restrictions to using background services and it is recommended to use WorkManager in these cases.
 
-__Bound Service:__ 
+##Bound Service
 
 - A service is bound when an application component binds to it by calling bindService(). 
 - A bound service offers a client-server interface that allows components to interact with the service, send requests, receive results. 
 - A bound service runs only as long as another application component is bound to it.
 
-__Unbound Service:__
+## Unbound Service
 
 - A service is started when an application component, such as an activity, starts it by calling startService(). 
 - Once started, a service can run in the background indefinitely, even if the component that started it is destroyed.
