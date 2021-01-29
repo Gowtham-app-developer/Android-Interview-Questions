@@ -1,5 +1,5 @@
 
-## Services & Long-running Operations
+# Services & Long-running Operations
 
 ### What is services
 
@@ -29,7 +29,7 @@ __Unbound Service:__
 - A service is started when an application component, such as an activity, starts it by calling startService(). 
 - Once started, a service can run in the background indefinitely, even if the component that started it is destroyed.
 
-# Difference between Service & Intent Service
+## Difference between Service & Intent Service
 
 - __Service__ is the base class for Android services that can be extended to create any service. A
 - class that directly extends Service runs on the main thread so it will block the UI (if there is one) and should therefore either be used only for short tasks or should make   use of other threads for longer tasks.
@@ -37,7 +37,7 @@ __Unbound Service:__
 - Clients send requests through startService(Intent) calls. 
 - The service is started as needed, handles each Intent in turn using a worker thread, and stops itself when it runs out of work.
 
-# Difference between AsyncTasks & Threads?
+## Difference between AsyncTasks & Threads?
 
 - __Thread__ should be used to separate long running operations from main thread so that performance is improved. 
 - But it can't be cancelled elegantly and it can't handle configuration changes of Android. 
