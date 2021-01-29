@@ -190,3 +190,9 @@ __Scenarios:__
 - We need to register a LocalBroadcastReceiver in the activity. And send a broadcast with the data using intents from the background service. 
 - As long as the activity is in the foreground, the UI will be updated from the background. Ensure to unregister the broadcast receiver in the onStop() method of the activity     to avoid memory leaks. 
 - We can also register a Handler and pass data using Handlers. I have detailed a sample implementation on this.
+
+# What is Memory Leak?
+
+- Failure of releasing unused objects from the memory
+- That means there are unused objects in the application that the garbage collector cannot release from memory. 
+- So the memory unit is occupied until the end of the application/method.
