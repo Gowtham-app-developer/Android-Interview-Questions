@@ -143,3 +143,9 @@ __Scenarios:__
 - In order to retain it, you need to usesetRetainState(true) if calling from fragment or onConfigChanges() if calling from activity method of an activity.
 - If activity gets finished, AsyncTask execution will not cancelled automatically, you need to cancel them else they will keep on running in the background.
 - If any exception occurs while performing network task, you need to handle them manually.
+
+# Android Threading
+
+- When an application is launched in Android, it creates the first thread of execution, known as the “main” thread. 
+- The main thread is responsible for dispatching events to the appropriate user interface widgets as well as communicating with components from the Android UI toolkit.
+- To keep your application responsive, it is essential to avoid using the main thread to perform any operation that may end up keeping it blocked.
