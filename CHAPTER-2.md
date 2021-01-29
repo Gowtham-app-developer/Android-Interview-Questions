@@ -20,4 +20,16 @@
     - Following the best practices and writing the boilerplate code.
     - Making complex things very simple.
 
+# Data Binding
+
+- The Data Binding Library is a support library that allows you to bind UI components in your layouts to data sources in your app using a declarative format rather than             programmatically.
+- In other words, Android DataBinding provides a way to tie the UI with business logic (i.e.) allowing the UI values to update automatically without manual intervention. 
+- This reduces lot of boilerplate code in your business logic that you usually write to sync the UI when new data is available. 
+
+# View Model
+
+- The ViewModel class is designed to hold and manage UI-related data in a life-cycle conscious way. 
+- This allows data to survive configuration changes such as screen rotations.
+- View model create in the memory when activity creates, It lives until the activity cleared from the memory. 
+- So ViewModel can hold value belong to the activity.
 
