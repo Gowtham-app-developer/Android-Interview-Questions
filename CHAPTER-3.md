@@ -97,3 +97,19 @@
 - This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers’ computers.
 - Git is a Distributed Version Control System since the code is present in every developer’s computer.
 
+## What is multiple apks?
+
+- Generating the multiple number of apks for a single application, by splitting a single apk into multiple apks, where each apk is specific for some sort of devices. 
+- Multiple apk is mainly used to generate specific apks for different screen densities and different CPU architecture.
+
+## What is Firebase?
+
+- Firebase is a NoSQL type database that makes use of sockets, which allows the client to receive information live - without having to make GET requests to the server.
+
+## What is Lint?
+
+- Lint is a code scanning tool provided by the Android Studio to identify, suggest and correct the wrong or the risky code present in the project.
+- That errors or warnings can be of:
+   - Unused variables
+   - Unhanded exceptions
+   - Imports that are not used in the project, and many more..
