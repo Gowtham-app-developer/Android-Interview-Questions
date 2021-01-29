@@ -76,7 +76,7 @@
 - Shrink(Minify) the code: Remove unused code in the project.
 - Obfuscate the code: Rename the names of class, fields, etc.
 - Optimize the code: Do things like inlining the functions.
-- In short, ProGuard makes the following impact on our project,
-      - It reduces the size of the application.
-      - It removes the unused classes and methods that contribute to the 64K method counts limit of an Android application.
-      - It makes the application difficult to reverse engineer by obfuscating the code.
+- In short, ProGuard makes the following impact on our project,  
+    - It reduces the size of the application.
+    - It removes the unused classes and methods that contribute to the 64K method counts limit of an Android application.
+    - It makes the application difficult to reverse engineer by obfuscating the code.
