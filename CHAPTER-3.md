@@ -70,7 +70,7 @@
 - Strip down all the unused locale resources by adding required resources name in “resConfigs”.
 - Convert all the images to the webp or vector drawables
 
-# What is ProGuard?
+## What is ProGuard?
 
 - ProGuard is a free java tool in Android, which helps us to do the following,
 - Shrink(Minify) the code: Remove unused code in the project.
@@ -80,3 +80,9 @@
     - It reduces the size of the application.
     - It removes the unused classes and methods that contribute to the 64K method counts limit of an Android application.
     - It makes the application difficult to reverse engineer by obfuscating the code.
+    
+## What is Gradle?
+
+- Gradle is a build system (open source) which is used to automate building, testing, deployment etc. 
+- “Build.gradle” are scripts where one can automate the tasks. 
+- For example, the simple task to copy some files from one directory to another can be performed by Gradle build script before the actual build process happens.
