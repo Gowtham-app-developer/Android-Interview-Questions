@@ -1,6 +1,6 @@
 # Intents and Broadcasting
 
-# What is intent?
+# What is Intent?
 
 - Intents are messages that can be used to pass information to the various components of android.. 
 - It is used to launch an activity, display a web page, send SMS, send email, etc. 
