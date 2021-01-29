@@ -54,5 +54,10 @@
 - MutableLiveData is commonly used since it provides the  postvalues(), setvalues() methods publicly, something that LiveData class doesn’t provide.
 - LiveData/MutableLiveData is commonly used in updating data in a RecyclerView from a collection type (List, Array List etc.).
 
+# Room Database
+
+- Room is a persistence library, part of the Android Jetpack.
+- Room provides an abstraction layer over SQLite to allow fluent database access while harnessing the full power of SQLite.
+- It makes it easier to work with SQLiteDatabase objects in your app, decreasing the amount of boilerplate code and verifying SQL queries at compile time.
 
 
