@@ -101,3 +101,81 @@ onDestroy	Called before the activity is destroyed.
 - These are the Intents which sticks with Android system for future broadcast listener.
 - Sticky Intents allows communication between a function and a service. 
 - For example if BATTERY_LOW event occurs then that Intent will stick with Android so that any future requests for BATTERY_LOW, will return the Intent.
+
+# Services
+
+# What is services
+
+- A Service is an application component that can perform long-running operations in the background, and it doesn't provide a user interface. 
+- It can run in the background, even when the user is not interacting with your application. 
+- These are the three different types of services ->Foreground Services, Background Services and Bound Services.
+
+__Foreground Service__ 
+
+- A foreground service performs some operation that is noticeable to the user. 
+- For example, we can use a foreground service to play an audio track. 
+- A Notification must be displayed to the user.
+
+__Background Service__
+
+- A background service performs an operation that isn’t directly noticed by the user. 
+- In Android API level 26 and above, there are restrictions to using background services and it is recommended to use WorkManager in these cases.
+
+__Bound Service__ 
+
+- A service is bound when an application component binds to it by calling bindService(). 
+- A bound service offers a client-server interface that allows components to interact with the service, send requests, receive results. 
+- A bound service runs only as long as another application component is bound to it.
+
+__Unbound Service__
+
+- A service is started when an application component, such as an activity, starts it by calling startService(). 
+- Once started, a service can run in the background indefinitely, even if the component that started it is destroyed.
+
+# Difference between Service & Intent Service
+
+- Service is the base class for Android services that can be extended to create any service. A
+- class that directly extends Service runs on the main thread so it will block the UI (if there is one) and should therefore either be used only for short tasks or should make   use of other threads for longer tasks.
+- IntentService is a subclass of Service that handles asynchronous requests (expressed as “Intents”) on demand. 
+- Clients send requests through startService(Intent) calls. 
+- The service is started as needed, handles each Intent in turn using a worker thread, and stops itself when it runs out of work.
+
+# Difference between AsyncTasks & Threads?
+
+- Thread should be used to separate long running operations from main thread so that performance is improved. 
+- But it can't be cancelled elegantly and it can't handle configuration changes of Android. 
+- You can't update UI from Thread.
+- AsyncTask can be used to handle work items shorter than 5ms in duration. 
+- With AsyncTask, you can update UI unlike java Thread. 
+- But many long running tasks will choke the performance.
+
+# Difference between Service, Intent Service, AsyncTask & Threads
+
+- Android service is a component that is used to perform operations on the background such as playing music. 
+- It doesn’t has any UI (user interface). 
+- The service runs in the background indefinitely even if application is destroyed.
+- AsyncTask allows you to perform asynchronous work on your user interface. 
+- It performs the blocking operations in a worker thread and then publishes the results on the UI thread, without requiring you to handle threads and/or handlers yourself.
+- IntentService is a base class for Services that handle asynchronous requests (expressed as Intents) on demand. 
+- Clients send requests through startService(Intent) calls; the service is started as needed, handles each Intent in turn using a worker thread, and stops itself when it runs out of work.
+- A thread is a single sequential flow of control within a program. Threads can be thought of as mini-processes running within a main process.
+
+# What are Handlers?
+
+- Handlers are objects for managing threads. 
+- It receives messages and writes code on how to handle the message. 
+- They run outside of the activity’s lifecycle, so they need to be cleaned up properly or else you will have thread leaks.
+- Handlers allow communicating between the background thread and the main thread.
+- A Handler class is preferred when we need to perform a background task repeatedly after every x seconds/minutes.
+
+# What is a Job Scheduling?
+
+- Job Scheduling api, as the name suggests, allows to schedule jobs while letting the system optimize based on memory, power, and connectivity conditions.
+- The JobScheduler supports batch scheduling of jobs. The Android system can combine jobs so that battery consumption is reduced. 
+- JobManager makes handling uploads easier as it handles automatically the unreliability of the network. It also survives application restarts.
+
+__Scenarios:__
+- Tasks that should be done once the device is connect to a power supply
+- Tasks that require network access or a Wi-Fi connection.
+- Task that are not critical or user facing
+- Tasks that should be running on a regular basis as batch where the timing is not critical
