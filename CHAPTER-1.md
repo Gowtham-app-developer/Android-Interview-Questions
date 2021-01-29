@@ -110,24 +110,24 @@ onDestroy	Called before the activity is destroyed.
 - It can run in the background, even when the user is not interacting with your application. 
 - These are the three different types of services ->Foreground Services, Background Services and Bound Services.
 
-__Foreground Service__ 
+__Foreground Service:__ 
 
 - A foreground service performs some operation that is noticeable to the user. 
 - For example, we can use a foreground service to play an audio track. 
 - A Notification must be displayed to the user.
 
-__Background Service__
+__Background Service:__
 
 - A background service performs an operation that isn’t directly noticed by the user. 
 - In Android API level 26 and above, there are restrictions to using background services and it is recommended to use WorkManager in these cases.
 
-__Bound Service__ 
+__Bound Service:__ 
 
 - A service is bound when an application component binds to it by calling bindService(). 
 - A bound service offers a client-server interface that allows components to interact with the service, send requests, receive results. 
 - A bound service runs only as long as another application component is bound to it.
 
-__Unbound Service__
+__Unbound Service:__
 
 - A service is started when an application component, such as an activity, starts it by calling startService(). 
 - Once started, a service can run in the background indefinitely, even if the component that started it is destroyed.
@@ -157,7 +157,7 @@ __Unbound Service__
 - AsyncTask allows you to perform asynchronous work on your user interface. 
 - It performs the blocking operations in a worker thread and then publishes the results on the UI thread, without requiring you to handle threads and/or handlers yourself.
 - IntentService is a base class for Services that handle asynchronous requests (expressed as Intents) on demand. 
-- Clients send requests through startService(Intent) calls; the service is started as needed, handles each Intent in turn using a worker thread, and stops itself when it runs out of work.
+- Clients send requests through startService(Intent) calls; the service is started as needed, handles each Intent in turn using a worker thread, and stops itself when it runs     out of work.
 - A thread is a single sequential flow of control within a program. Threads can be thought of as mini-processes running within a main process.
 
 # What are Handlers?
@@ -175,7 +175,7 @@ __Unbound Service__
 - JobManager makes handling uploads easier as it handles automatically the unreliability of the network. It also survives application restarts.
 
 __Scenarios:__
-- Tasks that should be done once the device is connect to a power supply
-- Tasks that require network access or a Wi-Fi connection.
-- Task that are not critical or user facing
-- Tasks that should be running on a regular basis as batch where the timing is not critical
+  - Tasks that should be done once the device is connect to a power supply
+  - Tasks that require network access or a Wi-Fi connection.
+  - Task that are not critical or user facing
+  - Tasks that should be running on a regular basis as batch where the timing is not critical
