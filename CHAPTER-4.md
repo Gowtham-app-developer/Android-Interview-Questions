@@ -18,7 +18,7 @@
 - A background service performs an operation that isn’t directly noticed by the user. 
 - In Android API level 26 and above, there are restrictions to using background services and it is recommended to use WorkManager in these cases.
 
-##Bound Service
+## Bound Service
 
 - A service is bound when an application component binds to it by calling bindService(). 
 - A bound service offers a client-server interface that allows components to interact with the service, send requests, receive results. 
@@ -66,7 +66,7 @@
 - Handlers allow communicating between the background thread and the main thread.
 - A Handler class is preferred when we need to perform a background task repeatedly after every x seconds/minutes.
 
-# What is a Job Scheduling?
+## What is a Job Scheduling?
 
 - Job Scheduling api, as the name suggests, allows to schedule jobs while letting the system optimize based on memory, power, and connectivity conditions.
 - The JobScheduler supports batch scheduling of jobs. The Android system can combine jobs so that battery consumption is reduced. 
