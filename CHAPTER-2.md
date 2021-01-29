@@ -13,3 +13,11 @@
 - __Data Binding__ It helps in declaratively binding UI elements to in our layout to data sources of our app.
 - __WorkManager__ Manage every background jobs in Android with the circumstances we choose.
 
+# Android Jetpack
+
+- Android Jetpack is a collection of Android software components which helps us in building great Android apps.
+- These software components help in:
+    - Following the best practices and writing the boilerplate code.
+    - Making complex things very simple.
+
+
