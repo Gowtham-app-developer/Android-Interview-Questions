@@ -232,5 +232,19 @@ __Scenarios:__
 - __Progress :__ The type of the progress units published during the background computation
 - __Result :__ The type of the result of the background computation
 
+# What are the Advantages of using AsyncTask
+
+- Provides generic solution for all network calls
+- Publish progress to UI while executing.
+- Run Asynchronously
+- Easy to maintain and read.
+
+# Problems in AysncTask
+
+- When you rotate your screen, Activity gets destroyed, so AsyncTask will not have a valid reference to publish data from onPostExecute(). 
+- In order to retain it, you need to usesetRetainState(true) if calling from fragment or onConfigChanges() if calling from activity method of an activity.
+- If activity gets finished, AsyncTask execution will not cancelled automatically, you need to cancel them else they will keep on running in the background.
+- If any exception occurs while performing network task, you need to handle them manually.
+
 
 
