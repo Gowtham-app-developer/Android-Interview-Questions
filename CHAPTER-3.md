@@ -125,3 +125,21 @@
 - The Android Debug Bridge (ADB) is a client-server program used in Android application development. 
 - The Android Debug-Bridge is part of the Android SDK and is made up of three components: a client, a daemon, and a server. 
 - It is used to manage either an emulator instance or an actual Android device.
+
+# Android Unit Testing
+
+## Unit Testing
+
+- Unit Testing is done to ensure that the developer would be unable to write low quality/erroneous code. 
+- It makes sense to write Unit Tests before writing the actual app as then you wouldn’t have a bias towards the success of your tests, you will write tests beforehand and the     actual code will have to adhere to the design guidelines laid out by the test.
+
+## Junit
+
+- It is a “Unit Testing” framework for Java Applications. 
+- It is an automation framework for Unit as well as UI Testing. 
+- It contains annotations such as @Test, @Before, @After etc.
+
+## Mockito
+
+- Mockito mocks (or fakes) the dependencies required by the class being tested. 
+- It provides annotations such as @Mock.
