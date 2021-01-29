@@ -38,6 +38,26 @@ onDestroy	Called before the activity is destroyed.
 - When overriding the onReceive() method where each message is received as an Intent object parameter.
 - Types of Broadcasts -> Normal Broadcasts, Ordered Broadcasts.
 
+# Context
+
+- It is the context of the current state of the application.
+- It can be used to get information regarding the activity and application.
+- It can be used to get access to resources, databases, and shared preferences, and etc.
+- Both the Activity and Application classes extend the Context class.
+- Types of Context -> Application Context, Activity Context
+
+# Application Context
+
+- This context is tied to the lifecycle of an application. 
+- The application context can be used where you need a context whose lifecycle is separate from the current context or when you are passing a context beyond the scope of an       activity.
+- For example - MyApplication(which extends Application class). It is an instance of MyApplication only.
+
+# Activity Context
+
+- This context is available in an activity which are currently present. 
+- This context is tied to the lifecycle of an activity. 
+- The activity context should be used when you are passing the context in the scope of an activity or you need the context whose lifecycle is attached to the current context.
+- For example - MainActivity. It is an instance of MainActivity only.
 
 # Intents and Broadcasting
 
