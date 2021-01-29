@@ -124,7 +124,7 @@ __Scenarios:__
 - __onPostExecute() :__ This method is called after doInBackground method completes processing. Result from doInBackground is passed to this method
 - __onProgressUpdate() :__ This method receives progress updates from doInBackground method, which is published via publishProgress method, and this method can use this           progress update to update the UI thread
 
-# what are The three generic types used in an android AsyncTask class?:
+# what are the three generic types used in an android AsyncTask class?:
 
 - __Params :__ The type of the parameters sent to the task upon execution
 - __Progress :__ The type of the progress units published during the background computation
