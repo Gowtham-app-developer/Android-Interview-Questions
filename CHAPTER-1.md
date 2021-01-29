@@ -32,8 +32,6 @@
 -	You will use <intent-filter> element in the manifest file to list down actions, categories and data types associated with any activity, service, or broadcast receiver.
   
 # What is Sticky Intent?
-- Sticky Intents allows communication between a function and a service. sendStickyBroadcast() performs a sendBroadcast(Intent) known as sticky, 
-  (i.e.) the Intent you are sending stays around after the broadcast is complete, so that others can quickly retrieve that data through the return value of registerReceiver       (Broadcast Receiver, Intent Filter). 
-
-- For example, if you take an intent for ACTION_BATTERY_CHANGED to get battery change events: When you call registerReceiver () for that action — even with a null                 BroadcastReceiver — you get the Intent that was last Broadcast for that action. 
-- Hence, you can use this to find the state of the battery without necessarily registering for all future state changes in the battery.
+- These are the Intents which sticks with Android system for future broadcast listener.
+- Sticky Intents allows communication between a function and a service. 
+- For example if BATTERY_LOW event occurs then that Intent will stick with Android so that any future requests for BATTERY_LOW, will return the Intent.
