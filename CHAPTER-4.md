@@ -55,7 +55,8 @@ __Unbound Service:__
 - It performs the blocking operations in a worker thread and then publishes the results on the UI thread, without requiring you to handle threads and/or handlers yourself.
 - __IntentService__ is a base class for Services that handle asynchronous requests (expressed as Intents) on demand. 
 - Clients send requests through startService(Intent) calls; the service is started as needed, handles each Intent in turn using a worker thread, and stops itself when it runs     out of work.
-- A __thread__ is a single sequential flow of control within a program. Threads can be thought of as mini-processes running within a main process.
+- A __thread__ is a single sequential flow of control within a program. 
+- Threads can be thought of as mini-processes running within a main process.
 
 # What are Handlers?
 
