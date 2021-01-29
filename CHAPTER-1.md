@@ -10,6 +10,22 @@
     - Services
     - Broadcast receivers
     - Content providers
+    
+# Activity
+
+- An activity represents a single screen with a user interface just like window or Containers.
+- Android activity is the subclass of ContextThemeWrapper class.
+
+# Activity Lifecycle
+
+onCreate	Called when activity is first created.
+onStart	Called when activity is becoming visible to the user.
+onResume	Called when activity will start interacting with the user.
+onPause	Called when activity is not visible to the user.
+onStop	Called when activity is no longer visible to the user.
+onRestart	Called after your activity is stopped, prior to start.
+onDestroy	Called before the activity is destroyed.
+
 
 # Intents and Broadcasting
 
