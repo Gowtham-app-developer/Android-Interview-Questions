@@ -78,4 +78,11 @@ __DAO:__
 - DAO Stands for Data Access Object. 
 - It is an interface that defines all the operations that we need to perform in our database.
 
+# MVC
+
+- It is a Model-View-Controller and the most commonly used architecture. 
+- These are the three components used in MVC.
+- The __model__ refers to the data model classes. 
+- The __view__ refers to the xml files.
+- The __controller__ handles the business logic.
 
