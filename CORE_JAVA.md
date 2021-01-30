@@ -127,6 +127,9 @@ __Usage of Java super Keyword__
 ## Final keyword
 
 - Final is a non-access modifier applicable only to a variable, a method or a class.
+- Final Variable -> To create constant Variable.
+- Final Methods -> Prevent Method Overriding.
+- Final Classes -> Prevent Inheritance
 
 ## What is a deadlock in Java
 
