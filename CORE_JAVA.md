@@ -274,6 +274,11 @@ private static volatile RESTService instance;
  }
  ```
  
+ ## What is Java PriorityQueue? 
+ 
+ - In Priority Queue, each element is having some priority and all the elements are present in a queue. 
+ - The operations are performed based on the priority.
+ 
  ## ArrayList vs HashMap in Java
  ## Exception Handling
  ## Ennum
@@ -282,3 +287,5 @@ private static volatile RESTService instance;
  ## Hash Map
  ## List and Array
  ## Linked List
+ ## Generics
+## Type cast
