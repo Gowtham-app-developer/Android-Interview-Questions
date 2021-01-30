@@ -232,6 +232,16 @@ MyButton.setOnClickListener(new Button.OnClickListener {
    });
 ```
 
+## Differences between abstract classes and interfaces
+
+- __Type of methods:__ Interface can have only abstract methods. Abstract class can have abstract and non-abstract methods. From Java 8, it can have default and static methods   also.
+- __Final Variables:__ Variables declared in a Java interface are by default final. An abstract class may contain non-final variables.
+- __Type of variables:__ Abstract class can have final, non-final, static and non-static variables. Interface has only static and final variables.
+- __Implementation:__ Abstract class can provide the implementation of interface. Interface can’t provide the implementation of abstract class.
+- __Inheritance vs Abstraction:__ A Java interface can be implemented using keyword “implements” and abstract class can be extended using keyword “extends”.
+- __Multiple implementation:__ An interface can extend another Java interface only, an abstract class can extend another Java class and implement multiple Java interfaces.
+- __Accessibility of Data Members:__ Members of a Java interface are public by default. A Java abstract class can have class members like private, protected, etc.
+
 ## What is a singleton class in Android?
 
 A singleton class is a class which can create only an object that can be shared all other classes.
