@@ -135,6 +135,38 @@ __Usage of Java super Keyword__
 - Final Methods -> Prevent Method Overriding.
 - Final Classes -> Prevent Inheritance
 
+ ## Difference between == and .equals() method in Java?
+
+- We can use == operators for reference comparison (address comparison) and .equals() method for content comparison. 
+- In simple words, == checks if both objects point to the same memory location whereas .equals() evaluates to the comparison of values in the objects.
+
+## Why strings are Immutable?
+
+- Once a value is assigned to a string it cannot be changed and if changed, it creates a new object of the String. 
+- This is not the case with StringBuffer.
+
+## Final modifier?
+
+- Final modifiers - once declared cannot be modified. A blank final variable in Java is a final variable that is not initialized during declaration.
+    - final Classes- A final class cannot have subclasses.
+    - final Variables- A final variable cannot be changed once it is initialized.
+    - final Methods- A final method cannot be overridden by subclasses.
+    
+## Finalize keyword?
+
+- Finalize is a method used to perform clean up processing just before object is garbage collected.
+
+## Finally keyword?
+
+- Finally is a code block and is used to place important code, it will be executed whether exception is handled or not.
+
+## Static variables?
+
+- The Variables that have only one copy per class are known as static variables. 
+- They are not attached to a particular instance of a class but rather belong to a class as a whole.
+- A static variable is associated with the class as a whole rather than with specific instances of a class. 
+- Non-static variables take on unique values with each object instance.
+
 ## What is a deadlock in Java
 
 - A deadlock occurs when a thread enters a waiting state because a requested system resource is held by another waiting process, which in turn is waiting for another resource     held by another waiting process.
