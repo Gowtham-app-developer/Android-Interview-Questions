@@ -167,6 +167,22 @@ __Usage of Java super Keyword__
 - A static variable is associated with the class as a whole rather than with specific instances of a class. 
 - Non-static variables take on unique values with each object instance.
 
+## Difference between Encapsulation & Abstraction?
+
+- Abstraction focuses on the outside view of an object (i.e. the interface)
+- Encapsulation (information hiding) prevents clients from seeing it’s inside view.
+- Abstraction solves the problem in the design side while Encapsulation is the Implementation.
+
+
+## Constructors vs Methods?
+
+- Constructors must have the name as the class name and does not have a return type. 
+- It can be used to instantiate any objects in the class whereas methods have no such rule and is another member of the class. Constructors cannot be inherited but a derived - - class can call the super constructor of parent class.
+- this(): Constructors use this to refer to another constructor in the same class with a different parameter list.
+- super(): Constructors use super to invoke the superclass's constructor.
+- Methods: Instance methods on the other hand require an instance of the class to exist before they can be called, so an instance of a class needs to be created by using the     new keyword. 
+- Class methods are methods which are declared as static. The method can be called without creating an instance of the class
+
 ## What is a deadlock in Java
 
 - A deadlock occurs when a thread enters a waiting state because a requested system resource is held by another waiting process, which in turn is waiting for another resource     held by another waiting process.
