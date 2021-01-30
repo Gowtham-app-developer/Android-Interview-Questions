@@ -273,3 +273,11 @@ private static volatile RESTService instance;
      return instance;
  }
  ```
+ 
+ ## ArrayList vs HashMap in Java
+ ## Exception Handling
+ ## Ennum
+ ## Annotation
+ ## Ternary Operator
+ ## Hash Map
+ ## List and Array
