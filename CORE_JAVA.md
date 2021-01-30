@@ -40,3 +40,22 @@
 - __Public:__ The access level of a public modifier is everywhere. 
 - It can be accessed from within the class, outside the class, within the package and outside the package.
 - There are many non-access modifiers, such as static, abstract, synchronized, native, volatile, transient, etc.
+
+## What is Encapsulation?
+
+- Binding (or wrapping) code and data together into a single unit are known as encapsulation..
+-	The whole idea behind encapsulation is to hide the implementation details from users.
+-	If a data member is private it means it can only be accessed within the same class.
+-	No outside class can access private data member (variable) of other class.
+-	We can use setter and getter methods to set and get the data in it.
+-	By providing only a setter or getter method, you can make the class read-only or write-only.
+
+## Abstract Classes
+
+- A class which is declared with the abstract keyword is known as an abstract class in Java.
+- It can have abstract and non-abstract methods (method with the body).
+- Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+- There are two ways to achieve abstraction in java
+    - Abstract class (0 to 100%)
+    - Interface (100%)
+
