@@ -79,11 +79,25 @@
 - If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
 - Method overloading increases the readability of the program.
 
+__Points to get Rememeber:__
+- Overloaded methods must change the argument list
+- Overloaded methods can change the return type
+- Overloaded methods can change the access modifier
+- Overloaded methods can declare new or broader checked exceptions
+- A method can be overloaded in the same class or in a subclass
+
 ## Method Overriding
 
 - If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
 - Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.
 - The method must have the same name and parameters as in the parent class.
+
+__Points to get Rememeber:__
+- You can’t override a method marked public and make it protected
+- You cannot override a method marked final
+- You cannot override a method marked static
+- Static methods cannot be overridden. 
+- Overloaded methods can still be overridden.
 
 
 
