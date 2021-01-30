@@ -186,3 +186,23 @@ __Usage of Java super Keyword__
 ## What is a deadlock in Java
 
 - A deadlock occurs when a thread enters a waiting state because a requested system resource is held by another waiting process, which in turn is waiting for another resource     held by another waiting process.
+
+## What is a singleton class in Android?
+
+A singleton class is a class which can create only an object that can be shared all other classes.
+
+```ruby
+private static volatile RESTService instance;
+ protected RESTService(Context context) {
+     super(context);
+ }
+ 
+ public static RESTService getInstance(Context context) {
+ if (instance == null) {
+    synchronized (RESTService.class) {
+       if (instance == null) instance = new RESTService(context);
+         }
+     }
+     return instance;
+ }
+ ```
