@@ -65,5 +65,13 @@
 - It means by default all functions and properties of an interface are abstract.
 - An interface in java is a blueprint of a class and is a mechanism to achieve abstraction.
 - It is used to achieve abstraction and multiple inheritance in Java.
-Interfaces can have abstract methods and variables.
+- Interfaces can have abstract methods and variables.
+
+## Polymorphism
+
+- Polymorphism is the ability of an object to take on many forms. 
+- The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object. 
+- In Java, we use method overloading and method overriding to achieve polymorphism.
+- Two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism.
+
 
