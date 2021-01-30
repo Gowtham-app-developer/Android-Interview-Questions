@@ -247,6 +247,13 @@ MyButton.setOnClickListener(new Button.OnClickListener {
 - String.intern() is used to mange memory in Java code. 
 - It is used when we have duplicates value in different strings. When you call the String.intern(), then if in the String pool that string is present then the equals() method     will return true and it will return that string only.
 
+## Garbage Collector
+
+- Garbage collection is the process by which Android programs perform automatic memory management using several GC algorithm e.g. Mark and Sweep.
+- If our app creates a lot of objects, then the Android run time (ART) environment will trigger garbage collection (GC) frequently.
+- Android garbage collection is an automatic process which removes unused objects from memory.
+- However, frequent garbage collection consumes a lot of CPU, and it will also pause the app.
+
 ## What is a singleton class in Android?
 
 A singleton class is a class which can create only an object that can be shared all other classes.
