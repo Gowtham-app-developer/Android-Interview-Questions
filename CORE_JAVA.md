@@ -21,6 +21,7 @@
 
 ## Why Multiple Inheritance is Not Supported in Java
 
+- To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
 - Consider a case where class A extends class B and Class C and both class B and C have the same method display().
 - Now java compiler cannot decide, which display method it should inherit. 
 - To prevent such situation, multiple inheritances is not allowed in java.
@@ -106,6 +107,26 @@ __Points to get Rememeber:__
 - Variables should be explicitly given a value, otherwise they may contain a random value that remained from the previous variable that was using the same memory space. 
 - To avoid this problem, Java language assigns default values to data types.
 - __Instantiation__ is the process of explicitly assigning definitive value to a declared variable.
+
+## Super Keyword
+
+- The super keyword in Java is a reference variable which is used to refer immediate parent class object.
+- Whenever you create the instance of subclass, an instance of parent class is created implicitly which is referred by super reference variable.
+
+__Usage of Java super Keyword__
+- super can be used to refer immediate parent class instance variable.
+- super can be used to invoke immediate parent class method.
+- super() can be used to invoke immediate parent class constructor.
+
+## Runtime Polymorphism
+
+- Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
+- The overridden method is called through the reference variable of a superclass.
+- __Upcasting__ -> If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
+
+## Final keyword
+
+- Final is a non-access modifier applicable only to a variable, a method or a class.
 
 ## What is a deadlock in Java
 
