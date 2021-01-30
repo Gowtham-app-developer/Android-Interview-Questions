@@ -58,4 +58,12 @@
 - There are two ways to achieve abstraction in java
     - Abstract class (0 to 100%)
     - Interface (100%)
+    
+## Interfaces
+
+- An Interface can be considered as a fully abstract class.
+- It means by default all functions and properties of an interface are abstract.
+- An interface in java is a blueprint of a class and is a mechanism to achieve abstraction.
+- It is used to achieve abstraction and multiple inheritance in Java.
+Interfaces can have abstract methods and variables.
 
