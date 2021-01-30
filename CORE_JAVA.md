@@ -100,4 +100,9 @@ __Points to get Rememeber:__
 - Overloaded methods can still be overridden.
 
 
+## What is the difference between instantiation and initialization of an object?
 
+- __Initialization__ is the process of the memory allocation, when a new variable is created. 
+- Variables should be explicitly given a value, otherwise they may contain a random value that remained from the previous variable that was using the same memory space. 
+- To avoid this problem, Java language assigns default values to data types.
+- __Instantiation__ is the process of explicitly assigning definitive value to a declared variable.
