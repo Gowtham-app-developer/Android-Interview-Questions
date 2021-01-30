@@ -91,6 +91,10 @@ __classes Anatomy__
 - It is used to achieve abstraction and multiple inheritance in Java.
 - Interfaces can have abstract methods and variables.
 
+## Can an Interface implement another Interface?
+
+- Yes, an interface can implement another interface (and more than one), but it needs to use extends, rather than implements keyword and while you can not remove methods from     parent interface, you can add new ones freely to your sub-interface.
+
 ## Polymorphism
 
 - Polymorphism is the ability of an object to take on many forms. 
