@@ -242,6 +242,11 @@ MyButton.setOnClickListener(new Button.OnClickListener {
 - __Multiple implementation:__ An interface can extend another Java interface only, an abstract class can extend another Java class and implement multiple Java interfaces.
 - __Accessibility of Data Members:__ Members of a Java interface are public by default. A Java abstract class can have class members like private, protected, etc.
 
+## What is String.intern()? When and why should it be used?
+
+- String.intern() is used to mange memory in Java code. 
+- It is used when we have duplicates value in different strings. When you call the String.intern(), then if in the String pool that string is present then the equals() method     will return true and it will return that string only.
+
 ## What is a singleton class in Android?
 
 A singleton class is a class which can create only an object that can be shared all other classes.
