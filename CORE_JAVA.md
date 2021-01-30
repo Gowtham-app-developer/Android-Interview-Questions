@@ -13,6 +13,25 @@
 
 - A java package is a group of similar types of classes, interfaces and sub-packages.
 
+## Classes and Objects
+
+- A template (blueprint) for creating objects (the real thing).
+- For example, we can take a Mic -> Mic is an object.
+
+__classes Anatomy__
+
+- properties or attributes -> color, name, micType
+- Methods -> turnOn, turnOff, setVolume(), mute()
+- Objects will have those properties and methods tool (i.e.) It is a basic unit of Object Oriented Programming and represents the real life entities.
+
+## Constructor
+
+- The Constructor is a method that add to our class which will allow us to construct the object.
+- In other words,The constructor is a block of codes similar to the method. 
+- It is called when an instance of the class is created. 
+- At the time of calling constructor, memory for the object is allocated in the memory.
+- It calls a default constructor if there is no constructor available in the class.
+
 ## What is Inheritance?
 
 - Inheritance is the process by which objects of one class acquire the properties & objects of another class. 
