@@ -187,6 +187,28 @@ __Usage of Java super Keyword__
 
 - A deadlock occurs when a thread enters a waiting state because a requested system resource is held by another waiting process, which in turn is waiting for another resource     held by another waiting process.
 
+## What are anonymous classes?
+
+- An anonymous class is just what its name implies -- it has no name. 
+- It combines the class declaration and the creation of an instance of the class in one step. 
+- Since anonymous classes have no name, objects can not be instantiated from outside the class in which the anonymous class is defined. 
+- In fact, an anonymous object can only be instantiated from within the same scope in which it is defined.
+
+__Rules:__
+
+- An anonymous class must always extend a super class or implement an interface but it cannot have an explicit extends or implements clause.
+- An anonymous class must implement all the abstract methods in the super class or the interface.
+- An anonymous class always uses the default constructor from the super class to create an instance.
+
+```ruby
+MyButton.setOnClickListener(new Button.OnClickListener {
+       @override
+          public void onClick(View view){
+              //some code
+          }
+   });
+```
+
 ## What is a singleton class in Android?
 
 A singleton class is a class which can create only an object that can be shared all other classes.
