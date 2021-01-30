@@ -106,3 +106,7 @@ __Points to get Rememeber:__
 - Variables should be explicitly given a value, otherwise they may contain a random value that remained from the previous variable that was using the same memory space. 
 - To avoid this problem, Java language assigns default values to data types.
 - __Instantiation__ is the process of explicitly assigning definitive value to a declared variable.
+
+## What is a deadlock in Java
+
+- A deadlock occurs when a thread enters a waiting state because a requested system resource is held by another waiting process, which in turn is waiting for another resource     held by another waiting process.
