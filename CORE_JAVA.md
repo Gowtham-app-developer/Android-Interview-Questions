@@ -198,6 +198,28 @@ __Usage of Java super Keyword__
 - Java Serialiation API provides the features to perform seralization & de-serialization.
 - A class must implement java.io.Serializable interface to be eligible for serialization.
 
+## What are anonymous classes?
+
+- An anonymous class is just what its name implies -- it has no name. 
+- It combines the class declaration and the creation of an instance of the class in one step. 
+- Since anonymous classes have no name, objects can not be instantiated from outside the class in which the anonymous class is defined. 
+- In fact, an anonymous object can only be instantiated from within the same scope in which it is defined.
+
+__Rules:__
+
+- An anonymous class must always extend a super class or implement an interface but it cannot have an explicit extends or implements clause.
+- An anonymous class must implement all the abstract methods in the super class or the interface.
+- An anonymous class always uses the default constructor from the super class to create an instance.
+
+```ruby
+MyButton.setOnClickListener(new Button.OnClickListener {
+       @override
+          public void onClick(View view){
+              //some code
+          }
+   });
+```
+
 ## Final modifier
 
 - Final modifiers - once declared cannot be modified.
@@ -225,7 +247,8 @@ __Usage of Java super Keyword__
 ## Constructors vs Methods?
 
 - Constructors must have the name as the class name and does not have a return type. 
-- It can be used to instantiate any objects in the class whereas methods have no such rule and is another member of the class. Constructors cannot be inherited but a derived - - class can call the super constructor of parent class.
+- It can be used to instantiate any objects in the class whereas methods have no such rule and is another member of the class. 
+- Constructors cannot be inherited but a derived class can call the super constructor of parent class.
 - this(): Constructors use this to refer to another constructor in the same class with a different parameter list.
 - super(): Constructors use super to invoke the superclass's constructor.
 - Methods: Instance methods on the other hand require an instance of the class to exist before they can be called, so an instance of a class needs to be created by using the     new keyword. 
@@ -234,29 +257,6 @@ __Usage of Java super Keyword__
 ## What is a deadlock in Java
 
 - A deadlock occurs when a thread enters a waiting state because a requested system resource is held by another waiting process, which in turn is waiting for another resource     held by another waiting process.
-
-## What are anonymous classes?
-
-- An anonymous class is just what its name implies -- it has no name. 
-- It combines the class declaration and the creation of an instance of the class in one step. 
-- Since anonymous classes have no name, objects can not be instantiated from outside the class in which the anonymous class is defined. 
-- In fact, an anonymous object can only be instantiated from within the same scope in which it is defined.
-
-__Rules:__
-
-- An anonymous class must always extend a super class or implement an interface but it cannot have an explicit extends or implements clause.
-- An anonymous class must implement all the abstract methods in the super class or the interface.
-- An anonymous class always uses the default constructor from the super class to create an instance.
-
-```ruby
-MyButton.setOnClickListener(new Button.OnClickListener {
-       @override
-          public void onClick(View view){
-              //some code
-          }
-   });
-```
-
 
 ## What is String.intern()? When and why should it be used?
 
