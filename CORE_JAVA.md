@@ -348,6 +348,31 @@ byte y = (byte)x;
 - As a programmer, you can write code to do something after these events. 
 - This is why Java is referred to as being event-driven.
 - An application can listen for updates and changes via event listeners.
+
+## Stack Memory
+
+- The stack memory is a physical space (in RAM) allocated to each thread at run time. 
+- It is created when a thread creates. 
+- Memory management in the stack follows LIFO (Last-In-First-Out) order because it is accessible globally. 
+- It stores the variables, references to objects, and partial results. 
+- When Memory allocated to stack lives until the function returns. 
+- If there is no space for creating the new objects, it throws the java.lang.StackOverFlowError. 
+- The scope of the elements is limited to their threads. 
+- The JVM creates a separate stack for each thread.
+
+## Heap Memory
+
+- It is created when the JVM starts up and used by the application as long as the application runs. 
+- It stores objects and JRE classes.
+- Whenever we create objects it occupies space in the heap memory while the reference of that object creates in the stack. 
+- It does not follow any order like the stack. It dynamically handles the memory blocks. 
+- It means, we need not to handle the memory manually. 
+- For managing the memory automatically, Java provides the garbage collector that deletes the objects which are no longer being used. 
+- Memory allocated to heap lives until any one event, either program terminated or memory free does not occur. 
+- The elements are globally accessible in the application.
+- It is a common memory space shared with all the threads. 
+- If the heap space is full, it throws the java.lang.OutOfMemoryError. 
+- The heap memory is further divided into the following memory areas:
  
  ## ArrayList vs HashMap in Java
  ## Annotation
