@@ -14,7 +14,7 @@
 | 6 | [Does Java support multiple inheritance?](CORE_JAVA.md#does-java-support-multiple-inheritance) |
 | 7 | [Why Multiple Inheritance is Not Supported in Java?](CORE_JAVA.md#why-multiple-inheritance-is-not-supported-in-java) |
 | 8 | [Access Modifiers](CORE_JAVA.md#access-modifiers) |
-| 9 | [What is Encapsulation?]CORE_JAVA.md#what-is-encapsulation) |
+| 9 | [What is Encapsulation?](CORE_JAVA.md#what-is-encapsulation) |
 | 10 | [Abstract Classes](CORE_JAVA.md#abstract-classes) |
 | 11 | [Interfaces](CORE_JAVA.md#interfaces) |
 | 12 | [Can an Interface implement another Interface?](CORE_JAVA.md#can-an-interface-implement-another-interface) |
