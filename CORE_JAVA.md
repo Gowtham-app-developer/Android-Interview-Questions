@@ -374,13 +374,37 @@ byte y = (byte)x;
 - If the heap space is full, it throws the java.lang.OutOfMemoryError. 
 - The heap memory is further divided into the following memory areas:
  
- ## ArrayList vs HashMap in Java
- ## Annotation
- ## Ternary Operator
- ## Hash Map
- ## List and Array
- ## Linked List
- ## Generics
+## Generics 
+ 
+- Java Generic methods and generic classes enable programmers to specify, with a single method declaration, a set of related methods, or with a single class declaration, a set    of related types, respectively.
+- Generics also provide compile-time type safety that allows programmers to catch invalid types at compile time.
+
+## Array vs ArrayList
+
+- __Array__ is a simple fixed-size data structure which requires a size at the time of creation.
+- An Array can contain both primitive data types or objects of a class depending on the definition of the array but it has a fixed size.
+- __ArrayList__ is a dynamic sized data structure which doesn’t require a specific size at the time of initialization.
+- An ArrayList can’t be created for primitive data types. 
+- It only contains an object and it has the ability to grow and shrink dynamically.
+
+## HashMap
+
+- HashMap in Java in a collection class which implements Map interface. 
+- It is used to store key & value pairs. Each key is mapped to a single value in the map.
+- Keys are unique. 
+- It means we can insert a key ‘K’ only once in a map. Duplicate keys are not allowed. 
+- Though a value 'V' can be mapped to multiple keys.
+
+## Java Annotation
+
+- Java Annotation is a tag that represents the metadata i.e. attached with class, interface, methods or fields to indicate some additional information which can be used by java compiler and JVM.
+- Annotations in Java are used to provide additional information, so it is an alternative option for XML and Java marker interfaces.
+- There are several built-in annotations in Java. Some annotations are applied to Java code and some to other annotations.
+- Built-In Java Annotations used in Java code -> @Override, @SuppressWarnings and @Deprecated
+- Built-In Java Annotations used in other annotations -> @Target, @Retention, @Inherited and @Documented
+
+## Ternary Operator
 ## Difference between stack memory & heap memory?
 ## Design Pattern
+## Linked List
 
