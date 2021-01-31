@@ -41,26 +41,22 @@
 | 34 | [Constructors vs Methods?](CORE_JAVA.md#constructors-vs-methods) |
 | 35 | [What is a deadlock in Java](CORE_JAVA.md#what-is-a-deadlock-in-java) |
 | 36 | [What is String.intern()? When and why should it be used?](CORE_JAVA.md#what-is-stringintern-when-and-why-should-it-be-used) |
-| 37 | [Oops](README.md#git) |
-| 38 | [Oops](README.md#git) |
-| 39 | [Oops](README.md#git) |
-| 40 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-| 41 | [Oops](README.md#git) |
-
+| 37 | [Garbage Collector](CORE_JAVA.md#garbage-collector) |
+| 38 | [What is Memory Leak?](CORE_JAVA.md#what-is-memory-leak) |
+| 39 | [What is Java PriorityQueue?](CORE_JAVA.md#what-is-java-priorityqueue) |
+| 40 | [Enum in Java](CORE_JAVA.md#enum-in-java) |
+| 41 | [Exception Handling]CORE_JAVA.md#exception-handling) |
+| 42 | [Type cast](CORE_JAVA.md#type-cast) |
+| 43 | [Event-driven programming](CORE_JAVA.md#event-driven-programming) |
+| 44 | [Stack Memory](CORE_JAVA.md#stack-memory) |
+| 45 | [Heap Memory](CORE_JAVA.md#heap-memory) |
+| 46 | [Generics](CORE_JAVA.md#generics) |
+| 47 | [Array vs ArrayList](CORE_JAVA.md#array-vs-arraylist) |
+| 48 | [HashMap](CORE_JAVA.md#hashmap) |
+| 49 | [Java Annotation](CORE_JAVA.md#java-annotation) |
+| 50 | [Difference between stack memory & heap memory?](CORE_JAVA.md#difference-between-stack-memory--heap-memory) |
+| 51 | [Design Pattern](CORE_JAVA.md#design-pattern) |
+| 52 | [Singleton design Pattern](CORE_JAVA.md#singleton-design-pattern) |
+| 53 | [Linked List](CORE_JAVA.md#linked-list) |
+| 54 | [ArrayList vs LinkedList](CORE_JAVA.md#arraylist-vs-linkedlist) |
 
