@@ -31,19 +31,36 @@
 | 23 | [Why strings are Immutable?](CORE_JAVA.md#why-strings-are-immutable) |
 | 24 | [What is the difference between instantiation, initialization and Declaration of an object?](CORE_JAVA.md#what-is-the-difference-between-instantiation-initialization-and-declaration-of-an-object) |
 | 25 | [Static variables](CORE_JAVA.md#static-variables) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
-| 23 | [Oops](README.md#git) |
+| 26 | [Serialization and De-serialization](CORE_JAVA.md#serialization-and-de-serialization) |
+| 27 | [What are anonymous classes?](CORE_JAVA.md#what-are-anonymous-classes) |
+| 28 | [What is a singleton class in Android?](CORE_JAVA.md#what-is-a-singleton-class-in-android) |
+| 29 | [Final modifier](CORE_JAVA.md#final-modifier) |
+| 30 | [Finalize keyword](CORE_JAVA.md#finalize-keyword) |
+| 31 | [Finally keyword](CORE_JAVA.md#finally-keyword) |
+| 32 | [Difference between Encapsulation & Abstraction?](CORE_JAVA.md#difference-between-encapsulation--abstraction) |
+| 34 | [Constructors vs Methods?](CORE_JAVA.md#constructors-vs-methods) |
+| 35 | [What is a deadlock in Java](CORE_JAVA.md#what-is-a-deadlock-in-java) |
+| 36 | [What is String.intern()? When and why should it be used?](CORE_JAVA.md#what-is-stringintern-when-and-why-should-it-be-used) |
+| 37 | [Oops](README.md#git) |
+| 38 | [Oops](README.md#git) |
+| 39 | [Oops](README.md#git) |
+| 40 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+| 41 | [Oops](README.md#git) |
+
 
