@@ -332,6 +332,16 @@ __Error__
 
 - Error is irrecoverable.
 - Example: OutOfMemoryError, VirtualMachineError, AssertionError etc.
+
+## Type cast
+
+- Casting is a process of changing one type value to another type. 
+- In Java, we can cast one type of value to another type and it is known as type casting.
+
+```ruby
+int x = 10;
+byte y = (byte)x;
+```
  
  ## ArrayList vs HashMap in Java
  ## Annotation
@@ -340,7 +350,6 @@ __Error__
  ## List and Array
  ## Linked List
  ## Generics
-## Type cast
 ## Difference between stack memory & heap memory?
 ## Design Pattern
 
