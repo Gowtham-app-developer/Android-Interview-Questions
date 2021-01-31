@@ -415,5 +415,18 @@ byte y = (byte)x;
 - Stack memory size is very less when compared to Heap memory. Because of simplicity in memory allocation (LIFO), stack memory is very fast when compared to heap memory.
 
 ## Design Pattern
+
+- Design Patterns are already defined and provides industry standard approach to solve a recurring problem, so it saves time if we sensibly use the design pattern. 
+- There are many java design patterns that we can use in our java based projects.
+- Using design patterns promotes reusability that leads to more robust and highly maintainable code. 
+- It helps in reducing total cost of ownership (TCO) of the software product.
+- Since design patterns are already defined, it makes our code easy to understand and debug. 
+- It leads to faster development and new members of team understand it easily.
+
+## Singleton design Pattern
+
+- The singleton design pattern is used to restrict the instantiation of a class and ensures that only one instance of the class exists in the JVM. 
+- In other words, a singleton class is a class that can have only one object (an instance of the class) at a time per JVM instance.
+
 ## Linked List
 
