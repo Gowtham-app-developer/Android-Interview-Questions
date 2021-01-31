@@ -303,16 +303,16 @@ private static volatile RESTService instance;
  
 - While developing an application, there may arise a situation where we want a variable to have a value out of a given set of allowed values only.
 - for example, if we have a variable DressSize, then it should have following values: small, medium and large.
-- In Kotlin, and in Java too, Enums help us achieve this.
-- In Kotlin we can create an enum class with the help of enum keyword.
-- Kotlin enums can have properties, functions, can implement interfaces, etc.
-- The enum data type (also known as Enumerated Data Type) is used to define an enum in Kotlin.
+- In Java, and in Java too, Enums help us achieve this.
+- In Java we can create an enum class with the help of enum keyword.
+- Java enums can have properties, functions, can implement interfaces, etc.
+- The enum data type (also known as Enumerated Data Type) is used to define an enum in Java.
 
  ## Exception Handling
 
 - The Exception Handling in Java is one of the powerful technique to handle the runtime errors so that normal flow of the application can be maintained.
 - In other words, Exception Handling is a mechanism to handle runtime errors such as ClassNotFoundException, IOException, SQLException, RemoteException, etc.
-- In Kotlin, all exception classes are descendants of class Throwable.
+- In Java, all exception classes are descendants of class Throwable.
 - four keyword Types -> try, catch, finally and throw
 - Types -> Checked Exception, Unchecked Exception and Errors
 
@@ -341,6 +341,13 @@ __Error__
 int x = 10;
 byte y = (byte)x;
 ```
+
+## event-driven programming
+
+- In Java GUI applications, a user's interaction with a component is called an event. 
+- As a programmer, you can write code to do something after these events. 
+- This is why Java is referred to as being event-driven.
+- An application can listen for updates and changes via event listeners.
  
  ## ArrayList vs HashMap in Java
  ## Annotation
