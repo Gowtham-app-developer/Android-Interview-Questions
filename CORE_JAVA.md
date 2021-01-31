@@ -35,7 +35,7 @@
 
 - Java supports multiple inheritance by interface only since it can implement multiple interfaces but can extend only one class.
 
-## Why Multiple Inheritance is Not Supported in Java
+## Why Multiple Inheritance is Not Supported in Java?
 
 - To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
 - Consider a case where class A extends class B and Class C and both class B and C have the same method display().
