@@ -428,6 +428,16 @@ byte y = (byte)x;
 - The singleton design pattern is used to restrict the instantiation of a class and ensures that only one instance of the class exists in the JVM. 
 - In other words, a singleton class is a class that can have only one object (an instance of the class) at a time per JVM instance.
 
+## Linked List
+
+- The LinkedList class of the Java collections framework provides the functionality of the linked list data structure (doubly linkedlist).
+- A single node of doubly linkedlist that has 3 fields Prev, Data, and Next.
+- Java Doubly LinkedList
+- Each element in a linked list is known as a node. It consists of 3 fields:
+    - Prev - stores an address of the previous element in the list. It is null for the first element
+    - Next - stores an address of the next element in the list. It is null for the last element
+    - Data - stores the actual data
+
 ## ArrayList vs LinkedList
 
 - The LinkedList class is a collection which can contain many objects of the same type, just like the ArrayList.
