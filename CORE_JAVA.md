@@ -403,8 +403,17 @@ byte y = (byte)x;
 - Built-In Java Annotations used in Java code -> @Override, @SuppressWarnings and @Deprecated
 - Built-In Java Annotations used in other annotations -> @Target, @Retention, @Inherited and @Documented
 
-## Ternary Operator
 ## Difference between stack memory & heap memory?
+
+- Heap memory is used by all the parts of the application whereas stack memory is used only by one thread of execution.
+- Whenever an object is created, it’s always stored in the Heap space and stack memory contains the reference to it. 
+- Stack memory only contains local primitive variables and reference variables to objects in heap space.
+- Objects stored in the heap are globally accessible whereas stack memory can’t be accessed by other threads.
+- Heap memory is divided into Young-Generation, Old-Generation etc, more details at Java Garbage Collection.
+- Stack memory is short-lived whereas heap memory lives from the start till the end of application execution.
+- When stack memory is full, Java runtime throws java.lang.StackOverFlowError whereas if heap memory is full, it throws java.lang.OutOfMemoryError: Java Heap Space error.
+- Stack memory size is very less when compared to Heap memory. Because of simplicity in memory allocation (LIFO), stack memory is very fast when compared to heap memory.
+
 ## Design Pattern
 ## Linked List
 
