@@ -94,7 +94,22 @@
 - The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object. 
 - In Java, we use method overloading and method overriding to achieve polymorphism.
 - Two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism.
+- Static Polymorphism also known as compile time polymorphism.
+- Dynamic Polymorphism also known as runtime polymorphism
 
+## Compiletime Polymorphism (or Static polymorphism)
+
+- Polymorphism that is resolved during compiler time is known as static polymorphism. 
+- Method overloading is an example of compile time polymorphism.
+
+## Runtime Polymorphism (or Dynamic polymorphism)
+
+- It is also known as Dynamic Method Dispatch. 
+- Dynamic polymorphism is a process in which a call to an overridden method is resolved at runtime, thats why it is called runtime polymorphism. 
+
+## Upcasting 
+
+- If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
 
 ## Method Overloading
 
@@ -120,12 +135,6 @@ __Points to get Rememeber:__
 - You cannot override a method marked static
 - Static methods cannot be overridden. 
 - Overloaded methods can still be overridden.
-
-## Runtime Polymorphism
-
-- Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
-- The overridden method is called through the reference variable of a superclass.
-- __Upcasting__ -> If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
 
 ## What is the difference between instantiation and initialization of an object?
 
