@@ -190,6 +190,14 @@ __Usage of Java super Keyword__
 - A static variable is associated with the class as a whole rather than with specific instances of a class. 
 - Non-static variables take on unique values with each object instance.
 
+## Serialization and De-serialization
+ 
+- It is a mechanism to convert an object into byte stream so that it can be written into a file, transported through a network or stored into database.
+- De-serialization is just a vice versa.
+- In simple words serialization is converting an object to stream of bytes and de-serialization is rebuilding the object from stream of bytes. 
+- Java Serialiation API provides the features to perform seralization & de-serialization.
+- A class must implement java.io.Serializable interface to be eligible for serialization.
+
 ## Final modifier
 
 - Final modifiers - once declared cannot be modified.
