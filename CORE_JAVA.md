@@ -9,10 +9,6 @@
 - The execution of the code does not depend upon the OS.
 - It is said to be platform-independent because the java compiled code(byte code) can run on all operating systems.
 
-## Java Package
-
-- A java package is a group of similar types of classes, interfaces and sub-packages.
-
 ## Classes and Objects
 
 - A template (blueprint) for creating objects (the real thing).
