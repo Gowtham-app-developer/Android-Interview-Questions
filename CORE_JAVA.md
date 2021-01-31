@@ -11,14 +11,11 @@
 
 ## Classes and Objects
 
-- A template (blueprint) for creating objects (the real thing).
+- A template (blueprint) for creating objects (the real thing) that we're going to showing in our app.
+- A class has two important things (i.e.) Properties and Methods.
+- Example: If we take a car color and numberOfSeats is properties and drive(), break() is Methods.
+- It is a basic unit of Object Oriented Programming and represents the real life entities.
 - For example, we can take a Mic -> Mic is an object.
-
-__classes Anatomy__
-
-- properties or attributes -> color, name, micType
-- Methods -> turnOn, turnOff, setVolume(), mute()
-- Objects will have those properties and methods tool (i.e.) It is a basic unit of Object Oriented Programming and represents the real life entities.
 
 ## Constructor
 
