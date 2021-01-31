@@ -220,6 +220,26 @@ MyButton.setOnClickListener(new Button.OnClickListener {
    });
 ```
 
+## What is a singleton class in Android?
+
+- A singleton class is a class which can create only an object that can be shared all other classes.
+
+```ruby
+private static volatile RESTService instance;
+ protected RESTService(Context context) {
+     super(context);
+ }
+ 
+ public static RESTService getInstance(Context context) {
+ if (instance == null) {
+    synchronized (RESTService.class) {
+       if (instance == null) instance = new RESTService(context);
+         }
+     }
+     return instance;
+ }
+ ```
+
 ## Final modifier
 
 - Final modifiers - once declared cannot be modified.
@@ -273,26 +293,6 @@ MyButton.setOnClickListener(new Button.OnClickListener {
 ## What is Memory Leak?
 
 - A Memory Leak is a situation when there are objects present in the heap that are no longer used, but the garbage collector is unable to remove them from memory and, thus they are unnecessarily maintained.
-
-## What is a singleton class in Android?
-
-A singleton class is a class which can create only an object that can be shared all other classes.
-
-```ruby
-private static volatile RESTService instance;
- protected RESTService(Context context) {
-     super(context);
- }
- 
- public static RESTService getInstance(Context context) {
- if (instance == null) {
-    synchronized (RESTService.class) {
-       if (instance == null) instance = new RESTService(context);
-         }
-     }
-     return instance;
- }
- ```
  
  ## What is Java PriorityQueue? 
  
