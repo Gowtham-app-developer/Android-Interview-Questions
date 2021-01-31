@@ -15,7 +15,7 @@
 - A class has two important things (i.e.) Properties and Methods.
 - Example: If we take a car color and numberOfSeats is properties and drive(), break() is Methods.
 - It is a basic unit of Object Oriented Programming and represents the real life entities.
-- For example, we can take a Mic -> Mic is an object.
+- For example, we can take a Car -> Car is an object.
 
 ## Constructor
 
