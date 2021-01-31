@@ -342,7 +342,7 @@ int x = 10;
 byte y = (byte)x;
 ```
 
-## event-driven programming
+## Event-driven programming
 
 - In Java GUI applications, a user's interaction with a component is called an event. 
 - As a programmer, you can write code to do something after these events. 
