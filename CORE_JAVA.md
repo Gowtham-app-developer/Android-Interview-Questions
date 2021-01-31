@@ -335,8 +335,7 @@ __Error__
 
 ## Type cast
 
-- Casting is a process of changing one type value to another type. 
-- In Java, we can cast one type of value to another type and it is known as type casting.
+- The process of converting the value of one data type (int, float, double, etc.) to another data type is known as typecasting.
 
 ```ruby
 int x = 10;
