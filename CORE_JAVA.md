@@ -102,6 +102,12 @@ __classes Anatomy__
 - In Java, we use method overloading and method overriding to achieve polymorphism.
 - Two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism.
 
+## Runtime Polymorphism
+
+- Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
+- The overridden method is called through the reference variable of a superclass.
+- __Upcasting__ -> If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
+
 ## Method Overloading
 
 - If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
@@ -144,12 +150,6 @@ __Usage of Java super Keyword__
 - super can be used to refer immediate parent class instance variable.
 - super can be used to invoke immediate parent class method.
 - super() can be used to invoke immediate parent class constructor.
-
-## Runtime Polymorphism
-
-- Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
-- The overridden method is called through the reference variable of a superclass.
-- __Upcasting__ -> If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
 
 ## Final keyword
 
