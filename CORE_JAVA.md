@@ -254,6 +254,10 @@ MyButton.setOnClickListener(new Button.OnClickListener {
 - Android garbage collection is an automatic process which removes unused objects from memory.
 - However, frequent garbage collection consumes a lot of CPU, and it will also pause the app.
 
+## What is Memory Leak?
+
+- A Memory Leak is a situation when there are objects present in the heap that are no longer used, but the garbage collector is unable to remove them from memory and, thus they are unnecessarily maintained.
+
 ## What is a singleton class in Android?
 
 A singleton class is a class which can create only an object that can be shared all other classes.
@@ -279,9 +283,18 @@ private static volatile RESTService instance;
  - In Priority Queue, each element is having some priority and all the elements are present in a queue. 
  - The operations are performed based on the priority.
  
- ## ArrayList vs HashMap in Java
+ ## Enum in Java
+ 
+- While developing an application, there may arise a situation where we want a variable to have a value out of a given set of allowed values only.
+- for example, if we have a variable DressSize, then it should have following values: small, medium and large.
+- In Kotlin, and in Java too, Enums help us achieve this.
+- In Kotlin we can create an enum class with the help of enum keyword.
+- Kotlin enums can have properties, functions, can implement interfaces, etc.
+- The enum data type (also known as Enumerated Data Type) is used to define an enum in Kotlin.
+
  ## Exception Handling
- ## Ennum
+ 
+ ## ArrayList vs HashMap in Java
  ## Annotation
  ## Ternary Operator
  ## Hash Map
@@ -291,4 +304,4 @@ private static volatile RESTService instance;
 ## Type cast
 ## Difference between stack memory & heap memory?
 ## Design Pattern
-## Memory Leak
+
