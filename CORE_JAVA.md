@@ -31,12 +31,6 @@
 - It provides code reusability. 
 - It is used to achieve runtime polymorphism.
 
-## Runtime Polymorphism
-
-- Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
-- The overridden method is called through the reference variable of a superclass.
-- __Upcasting__ -> If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
-
 ## Does Java support multiple inheritance?
 
 - Java supports multiple inheritance by interface only since it can implement multiple interfaces but can extend only one class.
@@ -127,6 +121,11 @@ __Points to get Rememeber:__
 - Static methods cannot be overridden. 
 - Overloaded methods can still be overridden.
 
+## Runtime Polymorphism
+
+- Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
+- The overridden method is called through the reference variable of a superclass.
+- __Upcasting__ -> If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
 
 ## What is the difference between instantiation and initialization of an object?
 
