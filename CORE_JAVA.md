@@ -173,7 +173,7 @@ __Usage of Java super Keyword__
 - Once a value is assigned to a string it cannot be changed and if changed, it creates a new object of the String. 
 - This is not the case with StringBuffer.
 
-## What is the difference between instantiation, initialization and Declration of an object?
+## What is the difference between instantiation, initialization and Declaration of an object?
 
 - __Initialization__ is the process when values are put into the memory that was allocated. 
 - This is what the Constructor of a class does when using the new keyword.
@@ -181,12 +181,13 @@ __Usage of Java super Keyword__
 - __Instantiation__ is the process when memory is allocated for an object. 
 - This is what the new keyword is doing. 
 - A reference to the object that was created is returned from the new keyword.
-- __Declration__ is the process when you state to the program that there will be an object of a certain type existing and what the name of that object will be.
+- __Declaration__ is the process when you state to the program that there will be an object of a certain type existing and what the name of that object will be.
 
 
 ## Final modifier?
 
-- Final modifiers - once declared cannot be modified. A blank final variable in Java is a final variable that is not initialized during declaration.
+- Final modifiers - once declared cannot be modified.
+- A blank final variable in Java is a final variable that is not initialized during declaration.
     - final Classes- A final class cannot have subclasses.
     - final Variables- A final variable cannot be changed once it is initialized.
     - final Methods- A final method cannot be overridden by subclasses.
