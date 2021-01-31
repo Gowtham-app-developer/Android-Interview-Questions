@@ -183,8 +183,14 @@ __Usage of Java super Keyword__
 - A reference to the object that was created is returned from the new keyword.
 - __Declaration__ is the process when you state to the program that there will be an object of a certain type existing and what the name of that object will be.
 
+## Static variables
 
-## Final modifier?
+- The Variables that have only one copy per class are known as static variables. 
+- They are not attached to a particular instance of a class but rather belong to a class as a whole.
+- A static variable is associated with the class as a whole rather than with specific instances of a class. 
+- Non-static variables take on unique values with each object instance.
+
+## Final modifier
 
 - Final modifiers - once declared cannot be modified.
 - A blank final variable in Java is a final variable that is not initialized during declaration.
@@ -192,20 +198,14 @@ __Usage of Java super Keyword__
     - final Variables- A final variable cannot be changed once it is initialized.
     - final Methods- A final method cannot be overridden by subclasses.
     
-## Finalize keyword?
+## Finalize keyword
 
 - Finalize is a method used to perform clean up processing just before object is garbage collected.
 
-## Finally keyword?
+## Finally keyword
 
 - Finally is a code block and is used to place important code, it will be executed whether exception is handled or not.
 
-## Static variables?
-
-- The Variables that have only one copy per class are known as static variables. 
-- They are not attached to a particular instance of a class but rather belong to a class as a whole.
-- A static variable is associated with the class as a whole rather than with specific instances of a class. 
-- Non-static variables take on unique values with each object instance.
 
 ## Difference between Encapsulation & Abstraction?
 
