@@ -27,9 +27,15 @@
 
 ## What is Inheritance?
 
-- Inheritance is the process by which objects of one class acquire the properties & objects of another class. 
+- Inheritance is the process by which objects of one class acquire the properties & methods of another class. 
 - It provides code reusability. 
 - It is used to achieve runtime polymorphism.
+
+## Runtime Polymorphism
+
+- Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
+- The overridden method is called through the reference variable of a superclass.
+- __Upcasting__ -> If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
 
 ## Does Java support multiple inheritance?
 
@@ -95,11 +101,6 @@
 - In Java, we use method overloading and method overriding to achieve polymorphism.
 - Two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism.
 
-## Runtime Polymorphism
-
-- Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
-- The overridden method is called through the reference variable of a superclass.
-- __Upcasting__ -> If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
 
 ## Method Overloading
 
