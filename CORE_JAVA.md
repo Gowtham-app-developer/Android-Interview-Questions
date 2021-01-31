@@ -19,8 +19,8 @@
 
 ## Constructor
 
-- The Constructor is a method that add to our class which will allow us to construct the object.
-- In other words,The constructor is a block of codes similar to the method. 
+- Constructor is a block of code that initializes the newly created object.
+- Constructor resembles an instance method in java but it’s not a method as it doesn’t have a return type.
 - It is called when an instance of the class is created. 
 - At the time of calling constructor, memory for the object is allocated in the memory.
 - It calls a default constructor if there is no constructor available in the class.
