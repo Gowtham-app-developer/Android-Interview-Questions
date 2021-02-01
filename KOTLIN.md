@@ -38,4 +38,57 @@ const val a = "My String" // it is perfectly fine
 
 ## Null safety in Kotlin
 
-- https://github.com/AndroidPillars/Kotlin/blob/main/CHAPTER-1.md#null-safety
+- Kotlin's type system is aimed at eliminating the danger of null references from code.
+- Types -> Nullable Types and Non-Nullable Types
+
+__Nullable Types__
+
+- Nullable types are declared by putting a ? behind the String.
+
+```ruby
+var name: String? = "Android"  
+name = null
+```
+
+__Non Nullable Types__
+
+- Non nullable types are normal strings which are declared as String.
+
+```ruby
+val name: String = null // compile error  
+```
+
+__Null checks(!!)__
+
+- The null check operator !! is used to inform the compiler that the property or variable is null or not. 
+- If it is null then it will throw some NullPointerException.
+
+```ruby
+studentA!!.giveGoodies() //works fine if studentA is not null
+```
+
+__Safe call (?.)__
+
+- In the below example, If any of the value is null i.e. if either of studentA, courseName, instructor is null then the whole expression will return null.
+
+```ruby
+studentA?.courseName?.instructor?.name 
+```
+
+__Safe call (?.) vs Null checks(!!)__
+
+- The basic difference between the Safe call and Null check is that we use Null checks (!!) only when we are confident that the property can’t have a null value. 
+- If we are not sure that the value of the property is null or not then we prefer to use Safe calls(?.).
+
+__Elvis Operator (?:)__
+
+- Elvis operator (?:) is used to return the not null value even the conditional expression is null. 
+- It is also used to check the null safety of values.
+
+```ruby
+var name: String? = null  
+var company: String? = "May be declare nullable string"  
+var nameLength:  Int = name ?.length ?: -1  
+var companyLength:  Int = company ?.length ?:  -1  
+```
+
