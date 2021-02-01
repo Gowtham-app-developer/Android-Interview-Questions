@@ -9,3 +9,12 @@
 - Kotlin was developed by JetBrains team.
 - The project was started in 2010 to develop the language and officially, first released in February 2016.
 - Kotlin was developed under the Apache 2.0 license.
+
+## Advantages of Kotlin
+
+- Kotlin allows writing less code.
+- Kotlin has a strong community.
+- Kotlin is fully compatible with Java.
+- Adopting Kotlin is easy.
+- Kotlin development offers more safety.
+- Kotlin suits for the multi-platform development.
