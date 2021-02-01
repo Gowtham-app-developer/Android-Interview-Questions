@@ -19,12 +19,12 @@
 - Kotlin development offers more safety.
 - Kotlin suits for the multi-platform development.
 
-# var & val
+## var & val
 
 - var is like general variable and it's known as a mutable variable in kotlin and can be assigned multiple times.
 - val is like Final variable and it's known as immutable in kotlin and can be initialized only single time.
 
-# const vs val
+## const vs val
 
 - In kotlin, const and val both represents the immutability and read only values and act as final keyword in java.
 - val keyword must be used to declare for run time values and const keyword must be used to declare compile time values.
