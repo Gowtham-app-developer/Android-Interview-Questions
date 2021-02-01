@@ -35,3 +35,7 @@ const val fun1 = anyFunctionOrConstructor() // it is not fine
 val fun2 = anyFunctionOrConstructor() // it is perfectly fine      
 const val a = "My String" // it is perfectly fine
 ```
+
+## Null safety in Kotlin
+
+- https://github.com/AndroidPillars/Kotlin/blob/main/CHAPTER-1.md#null-safety
