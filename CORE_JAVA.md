@@ -110,6 +110,7 @@
 ## Upcasting 
 
 - If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
+- In other words, Upcasting is the typecasting of a child object to a parent object.
 
 ## Method Overloading
 
