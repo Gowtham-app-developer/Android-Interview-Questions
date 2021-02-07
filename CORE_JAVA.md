@@ -128,6 +128,7 @@ __Points to get Rememeber:__
 - If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
 - Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.
 - The method must have the same name and parameters as in the parent class.
+- Method overriding is used for runtime polymorphism
 
 __Points to get Rememeber:__
 - You can’t override a method marked public and make it protected
