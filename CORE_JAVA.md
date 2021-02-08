@@ -248,8 +248,7 @@ private static volatile RESTService instance;
 
 ## Finally keyword
 
-- Finally is a code block and is used to place important code, it will be executed whether exception is handled or not.
-
+- Finally is a code block and is used to place important code, it will be executed at the end of a try catch block regardless of whether or not an exception occurs.
 
 ## Difference between Encapsulation & Abstraction?
 
