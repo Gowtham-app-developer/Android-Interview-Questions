@@ -158,22 +158,19 @@ __Usage of Java super Keyword__
 - super can be used to invoke immediate parent class method.
 - super() can be used to invoke immediate parent class constructor.
 
-## Final keyword
+## Final Keyword
 
-- Final is a non-access modifier applicable only to a variable, a method or a class.
+- Final keyword is a non-access modifier applicable only to a variable, a method or a class.
 - Final Variable -> To create constant Variable.
 - Final Methods -> Prevent Method Overriding.
 - Final Classes -> Prevent Inheritance
 
-## Static variables
+## Static Keyword
 
 - static is a non-access modifier applicable only to a blocks, variables, methods and nested classes.
 - static keyword in Java is used for memory management mainly.
-- Static variables are stored in the static memory.
 - Static variables are created when the program starts and destroyed when the program stops.
-- In other words you can say that only a single copy of static variable is created and shared among all the instances of the class.
-- Memory allocation for such variables only happens once when the class is loaded in the memory.
-
+- Static Variable -> It creates Only a single copy of static variable is created and shared among all the instances of the class.
 
  ## Difference between == and .equals() method in Java?
 
