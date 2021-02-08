@@ -307,8 +307,7 @@ private static volatile RESTService instance;
 
  ## Exception Handling
 
-- The Exception Handling in Java is one of the powerful technique to handle the runtime errors so that normal flow of the application can be maintained.
-- In other words, Exception Handling is a mechanism to handle runtime errors such as ClassNotFoundException, IOException, SQLException, RemoteException, etc.
+- The Exception Handling is a mechanism to handle the runtime errors so that normal flow of the application can be maintained.
 - In Java, all exception classes are descendants of class Throwable.
 - four keyword Types -> try, catch, finally and throw
 - Types -> Checked Exception, Unchecked Exception and Errors
@@ -321,7 +320,6 @@ __Checked Exception__
 
 __Unchecked Exception__
 
-- The classes which inherit RuntimeException are known as unchecked exceptions.
 - Unchecked exceptions are not checked at compile-time, but they are checked at runtime.
 - Example:  ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc.
 
