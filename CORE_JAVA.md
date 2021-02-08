@@ -279,8 +279,8 @@ private static volatile RESTService instance;
 ## Garbage Collector
 
 - Garbage collection is the process by which Android programs perform automatic memory management using several GC algorithm e.g. Mark and Sweep.
+- In other words, Android garbage collection is an automatic process which removes unused objects from memory.
 - If our app creates a lot of objects, then the Android run time (ART) environment will trigger garbage collection (GC) frequently.
-- Android garbage collection is an automatic process which removes unused objects from memory.
 - However, frequent garbage collection consumes a lot of CPU, and it will also pause the app.
 
 ## What is Memory Leak?
