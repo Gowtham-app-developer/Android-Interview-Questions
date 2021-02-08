@@ -196,10 +196,10 @@ __Usage of Java super Keyword__
 ## Serialization and De-serialization
  
 - It is a mechanism to convert an object into byte stream so that it can be written into a file, transported through a network or stored into database.
-- De-serialization is just a vice versa.
 - In simple words serialization is converting an object to stream of bytes and de-serialization is rebuilding the object from stream of bytes. 
 - Java Serialiation API provides the features to perform seralization & de-serialization.
 - A class must implement java.io.Serializable interface to be eligible for serialization.
+- Realtime Example -> When the account holder tries to withdraw money from the server through ATM, the account holder information like withdrawal details will be serialized and   sent to the server where the details are deserialized and used to perform operations.
 
 ## What are anonymous classes?
 
