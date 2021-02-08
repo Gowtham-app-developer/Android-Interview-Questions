@@ -297,11 +297,11 @@ private static volatile RESTService instance;
  - The operations are performed based on the priority.
  
  ## Enum in Java
- 
-- While developing an application, there may arise a situation where we want a variable to have a value out of a given set of allowed values only.
+
+- The enum is a special "class" that represents a fixed set of constants (unchangeable variables, like final variables). 
+- In Java we can create an enum class with the help of enum keyword.
 - for example, if we have a variable DressSize, then it should have following values: small, medium and large.
 - In Java, and in Java too, Enums help us achieve this.
-- In Java we can create an enum class with the help of enum keyword.
 - Java enums can have properties, functions, can implement interfaces, etc.
 - The enum data type (also known as Enumerated Data Type) is used to define an enum in Java.
 
