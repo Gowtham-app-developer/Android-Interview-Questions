@@ -167,6 +167,7 @@ __Usage of Java super Keyword__
 
  ## Difference between == and .equals() method in Java?
 
+- Main difference between .equals() method and == operator is that one is method and other is operator.
 - We can use == operators for reference comparison (address comparison) and .equals() method for content comparison. 
 - In simple words, == checks if both objects point to the same memory location whereas .equals() evaluates to the comparison of values in the objects.
 
