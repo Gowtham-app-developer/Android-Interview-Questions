@@ -285,7 +285,8 @@ private static volatile RESTService instance;
 
 ## What is Memory Leak?
 
-- A Memory Leak is a situation when there are objects present in the heap that are no longer used, but the garbage collector is unable to remove them from memory and, thus they are unnecessarily maintained.
+- A Memory Leak is a situation  when objects are no longer being used by the application, but the Garbage Collector is unable to remove them from working memory – because they’re still being referenced. 
+- As a result, the application consumes more and more resources – which eventually leads to a fatal OutOfMemoryError.
  
  ## What is Java PriorityQueue? 
  
