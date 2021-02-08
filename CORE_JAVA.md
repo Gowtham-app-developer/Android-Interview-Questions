@@ -247,6 +247,7 @@ private static volatile RESTService instance;
 - The finalize() method is defined in Object class which is the super most class in Java. 
 - The finalize() method is called by the garbage collector for an object when garbage collection determines that there are no more references to the object.
 - The garbage collection determines each object of the class, if there is no reference for the object it means it should be destroyed.
+- The finally block is a key tool for preventing resource leaks.
 
 ## Finally keyword
 
