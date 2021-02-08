@@ -202,16 +202,8 @@ __Usage of Java super Keyword__
 
 ## What are anonymous classes?
 
-- An anonymous class is just what its name implies -- it has no name. 
-- It combines the class declaration and the creation of an instance of the class in one step. 
-- Since anonymous classes have no name, objects can not be instantiated from outside the class in which the anonymous class is defined. 
-- In fact, an anonymous object can only be instantiated from within the same scope in which it is defined.
-
-__Rules:__
-
-- An anonymous class must always extend a super class or implement an interface but it cannot have an explicit extends or implements clause.
-- An anonymous class must implement all the abstract methods in the super class or the interface.
-- An anonymous class always uses the default constructor from the super class to create an instance.
+- An anonymous class is just as its name implies it has no name. 
+- It should be used if you have to override method of class or interface.
 
 ```ruby
 MyButton.setOnClickListener(new Button.OnClickListener {
