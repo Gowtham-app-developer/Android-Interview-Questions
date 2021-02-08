@@ -27,10 +27,10 @@
 | 19 | [Differences between abstract classes and interfaces](CORE_JAVA.md#differences-between-abstract-classes-and-interfaces) |
 | 20 | [Super Keyword](CORE_JAVA.md#super-keyword) |
 | 21 | [Final keyword](CORE_JAVA.md#final-keyword) |
-| 22 | [Difference between == and .equals() method in Java?](CORE_JAVA.md#difference-between--and-equals-method-in-java) |
-| 23 | [Why strings are Immutable?](CORE_JAVA.md#why-strings-are-immutable) |
+| 22 | [Static Keyword](CORE_JAVA.md#static-keyword) |
+| 23 | [Difference between == and .equals() method in Java?](CORE_JAVA.md#difference-between--and-equals-method-in-java) |
+| 24 | [Why strings are Immutable?](CORE_JAVA.md#why-strings-are-immutable) |
 | 24 | [What is the difference between instantiation, initialization and Declaration of an object?](CORE_JAVA.md#what-is-the-difference-between-instantiation-initialization-and-declaration-of-an-object) |
-| 25 | [Static variables](CORE_JAVA.md#static-variables) |
 | 26 | [Serialization and De-serialization](CORE_JAVA.md#serialization-and-de-serialization) |
 | 27 | [What are anonymous classes?](CORE_JAVA.md#what-are-anonymous-classes) |
 | 28 | [What is a singleton class in Android?](CORE_JAVA.md#what-is-a-singleton-class-in-android) |
