@@ -167,10 +167,9 @@ __Usage of Java super Keyword__
 
 ## Static Keyword
 
-- static is a non-access modifier applicable only to a blocks, variables, methods and nested classes.
-- static keyword in Java is used for memory management mainly.
-- Static variables are created when the program starts and destroyed when the program stops.
-- Static Variable -> If Only a single copy of static variable is created and shared among all the instances of the class.
+- Static is a non-access modifier applicable only to a blocks, variables, methods and nested classes.
+- Static Keyword in Java is used for memory management mainly.
+- Static Keyword belongs to the class than an instance of the class.
 
  ## Difference between == and .equals() method in Java?
 
