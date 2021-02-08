@@ -35,7 +35,7 @@
 | 27 | [What are anonymous classes?](CORE_JAVA.md#what-are-anonymous-classes) |
 | 28 | [What is a singleton class in Android?](CORE_JAVA.md#what-is-a-singleton-class-in-android) |
 | 29 | [Final modifier](CORE_JAVA.md#final-modifier) |
-| 30 | [Finalize()](CORE_JAVA.md##finalize) |
+| 30 | [Finalize()](CORE_JAVA.md#finalize) |
 | 31 | [Finally keyword](CORE_JAVA.md#finally-keyword) |
 | 32 | [Difference between Encapsulation & Abstraction?](CORE_JAVA.md#difference-between-encapsulation--abstraction) |
 | 34 | [Constructors vs Methods?](CORE_JAVA.md#constructors-vs-methods) |
