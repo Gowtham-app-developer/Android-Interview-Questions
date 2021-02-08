@@ -165,6 +165,16 @@ __Usage of Java super Keyword__
 - Final Methods -> Prevent Method Overriding.
 - Final Classes -> Prevent Inheritance
 
+## Static variables
+
+- static is a non-access modifier applicable only to a blocks, variables, methods and nested classes.
+- static keyword in Java is used for memory management mainly.
+- Static variables are stored in the static memory.
+- Static variables are created when the program starts and destroyed when the program stops.
+- In other words you can say that only a single copy of static variable is created and shared among all the instances of the class.
+- Memory allocation for such variables only happens once when the class is loaded in the memory.
+
+
  ## Difference between == and .equals() method in Java?
 
 - Main difference between .equals() method and == operator is that one is method and other is operator.
@@ -185,13 +195,6 @@ __Usage of Java super Keyword__
 - This is what the new keyword is doing. 
 - A reference to the object that was created is returned from the new keyword.
 - __Declaration__ is the process when you state to the program that there will be an object of a certain type existing and what the name of that object will be.
-
-## Static variables
-
-- The Variables that have only one copy per class are known as static variables. 
-- They are not attached to a particular instance of a class but rather belong to a class as a whole.
-- A static variable is associated with the class as a whole rather than with specific instances of a class. 
-- Non-static variables take on unique values with each object instance.
 
 ## Serialization and De-serialization
  
