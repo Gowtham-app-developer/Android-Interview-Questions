@@ -242,9 +242,11 @@ private static volatile RESTService instance;
     - final Variables- A final variable cannot be changed once it is initialized.
     - final Methods- A final method cannot be overridden by subclasses.
     
-## Finalize keyword
+## Finalize()
 
-- Finalize is a method used to perform clean up processing just before object is garbage collected.
+- The finalize() method is defined in Object class which is the super most class in Java. 
+- The finalize() method is called by the garbage collector for an object when garbage collection determines that there are no more references to the object.
+- The garbage collection determines each object of the class, if there is no reference for the object it means it should be destroyed.
 
 ## Finally keyword
 
