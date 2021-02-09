@@ -116,13 +116,7 @@
 
 - If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
 - Method overloading increases the readability of the program.
-
-__Points to get Rememeber:__
-- Overloaded methods must change the argument list
-- Overloaded methods can change the return type
-- Overloaded methods can change the access modifier
-- Overloaded methods can declare new or broader checked exceptions
-- A method can be overloaded in the same class or in a subclass
+- There are two ways to overload the method in java -> By changing number of arguments, By changing the data type.
 
 ## Method Overriding
 
