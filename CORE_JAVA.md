@@ -90,7 +90,7 @@
 
 ## Polymorphism
 
-- Polymorphism is the ability of an object to take on many forms. 
+- Polymorphism is a concept by which we can perform a single action in many ways.
 - The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object. 
 - In Java, we use method overloading and method overriding to achieve polymorphism.
 - Two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism.
