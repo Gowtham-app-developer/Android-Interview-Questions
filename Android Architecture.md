@@ -7,7 +7,7 @@
 
 ## Android Architecture Components
 
--	The Android Architecture Components is the collection of libraries that helps developers to design clean, robust, testable and maintainable apps. 
+-	The __Android Architecture Components__ is the collection of libraries that helps developers to design clean, robust, testable and maintainable apps. 
 - __LiveData__ is used to build data objects that notify views when the underlying database changes.
 -	__ViewModel__ stores UI-related data that isn't destroyed on app rotations.
 -	__Room__ is a SQLite object mapping library and we used it to avoid boilerplate code and easily convert SQLite table data to Java objects. 
