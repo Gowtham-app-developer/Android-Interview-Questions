@@ -42,7 +42,7 @@ __Advantages of using ViewModel__
 
 __How it Works__
 
--	The method onChanged() would get trigger whenever the LiveData is changed.
+- The method onChanged() would get trigger whenever the LiveData is changed.
 - setvalue() runs on the main thread.
 - postvalues() runs on the background thread.
 - Invoking  getvalues() on the LiveData type instance would return you the current data.
@@ -51,6 +51,6 @@ __How it Works__
 
 - MutableLiveData is just a class that extends the LiveData type class.
 - MutableLiveData is commonly used since it provides the  postvalues(), setvalues() methods publicly, something that LiveData class doesn’t provide.
-- LiveData/MutableLiveData is commonly used in updating data in a RecyclerView from a collection type (List, Array List etc.).
+- LiveData/MutableLiveData is commonly used in updating data in a RecyclerView from a collection type (List, Array List etc.)
 
 
