@@ -38,7 +38,8 @@ __Advantages of using ViewModel__
 - LiveData is a part of the architecture patterns.
 - It’s basically a data holder that contains primitive/collection types.
 - It’s used for observing changes in the view and updating the view when it is ACTIVE.
-- In simple terms, LiveData is just a data type which notifies it’s observer whenever the data is changed. LiveData is like a data changed notifier.
+- In simple terms, LiveData is just a data type which notifies it’s observer whenever the data is changed. 
+- LiveData is like a data changed notifier.
 
 __How it Works__
 
