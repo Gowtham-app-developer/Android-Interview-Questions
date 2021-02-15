@@ -98,16 +98,33 @@ __Disadvantages__
 - It breaks the dependency on what we have on view.
 
 __Model__
-o	It is business logic and Data State. Getting and manipulating the data, communicates with the presenter, interacts with the database. It doesn't interact with the view.
 
-	View: 
-o	Consists of UI, activity, and fragment. It interacts with the presenter.
+- It is business logic and Data State. Getting and manipulating the data, communicates with the presenter, interacts with the database. It doesn't interact with the view.
 
+__View__
 
+- Consists of UI, activity, and fragment. It interacts with the presenter.
 
-	Presenter: 
-o	It presents the data from the model. Control all the behavior that want to display from the app. 
-o	It drives the view. 
+__Presenter__
+
+- It presents the data from the model. Control all the behavior that want to display from the app. 
+- It drives the view. 
+- It tells view what to do. 
+- Any interaction between the model and the view is handled by the presenter. 
+- Saves the data back to the model.
+
+__Advantages__
+
+-	It makes view dumb so that you can swap the view easily.
+-	Reusable of View and Presenter
+-	Code is more readable and maintainable
+-	Easy testing as business logic separated from UI
+
+__Disadvantages__
+
+- Tight coupling between View and Presenter
+- Huge amount of interfaces for interaction between layers.
+- The code size is quite excessive.
 
 ## Differences between MVC and MVP
 
