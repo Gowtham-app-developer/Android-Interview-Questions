@@ -5,6 +5,10 @@
 -	Android Jetpack is a collection of Android software components which helps us in building Android apps.
 -	These software components helps in reducing the boilerplate code and making complex things very simple.
 
+## What is Architecture?
+
+- If you are building an application in an organized manner with some set of rules, describe proper functionalities and implement it with proper protocols, then it is called an Architecture.
+
 ## Android Architecture Components
 
 -	The __Android Architecture Components__ is the collection of libraries that helps developers to design clean, robust, testable and maintainable apps. 
