@@ -54,4 +54,39 @@ __How it Works__
 - MutableLiveData is commonly used since it provides the  postvalues(), setvalues() methods publicly, something that LiveData class doesn’t provide.
 - LiveData/MutableLiveData is commonly used in updating data in a RecyclerView from a collection type (List, Array List etc.)
 
+## What is MVC?
+- It is a Model-View-Controller.
+-	The most commonly used architecture. 
+-	These are the three components used in MVC -> Model, View and Controller.
+
+## Model
+- It is business logic and Data State. 
+- Getting and manipulating the data, communicates with the controller, interacts with the database, sometimes update the views.
+
+## View
+- User Interface consists of XML. 
+- It communicates with the controller and sometimes interacts with the model. 
+- It passed some dynamic views through the controller.
+
+## Controller: 
+
+- It is Activity/Fragment. 
+- It communicates with view and model. 
+- It takes the user input from view/REST services. 
+- Process request Get data from the model and passes to the view.
+
+__Advantages__
+
+- It keeps business logic separate in the model.
+- Support asynchronous techniques
+- The modification does not affect the entire model.
+- Faster development process.
+
+__Disadvantages__
+
+- Due to large code controller is unmanageable.
+- Hinders the Unit testing.
+- Increased Complexity.
+
+
 
