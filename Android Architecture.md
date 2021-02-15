@@ -55,20 +55,23 @@ __How it Works__
 - LiveData/MutableLiveData is commonly used in updating data in a RecyclerView from a collection type (List, Array List etc.)
 
 ## What is MVC?
+
 - It is a Model-View-Controller.
 -	The most commonly used architecture. 
 -	These are the three components used in MVC -> Model, View and Controller.
 
-## Model
+__Model__
+
 - It is business logic and Data State. 
 - Getting and manipulating the data, communicates with the controller, interacts with the database, sometimes update the views.
 
-## View
+__View__
+
 - User Interface consists of XML. 
 - It communicates with the controller and sometimes interacts with the model. 
 - It passed some dynamic views through the controller.
 
-## Controller: 
+__Controller__
 
 - It is Activity/Fragment. 
 - It communicates with view and model. 
@@ -88,5 +91,36 @@ __Disadvantages__
 - Hinders the Unit testing.
 - Increased Complexity.
 
+## What is MVP?
+
+- It as Model-View-Presenter.
+- For the phase of developing time or for the phase of developers it is vital to divide the architecture into layers. 
+- It breaks the dependency on what we have on view.
+
+__Model__
+o	It is business logic and Data State. Getting and manipulating the data, communicates with the presenter, interacts with the database. It doesn't interact with the view.
+
+	View: 
+o	Consists of UI, activity, and fragment. It interacts with the presenter.
 
 
+
+	Presenter: 
+o	It presents the data from the model. Control all the behavior that want to display from the app. 
+o	It drives the view. 
+
+## Differences between MVC and MVP
+
+__Model View Controller__
+
+- Controllers are behavior based and can share multiple views.
+- View can communicate directly with Model
+
+__Model View Presenter__
+
+- View more separated from Model. 
+- The Presenter is the mediator between Model and View.
+- Easier to create unit tests
+- Generally there is a one to one mapping between View and Presenter, with the possibility to use multiple Presenters for complex Views
+- Listen to user action and model updates
+- Updates model and view as well
