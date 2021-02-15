@@ -87,6 +87,16 @@ __DAO:__
 - An architecture pattern gives modularity to the project files and assures that all the codes get covered in Unit testing. 
 - It makes the task easy for developers to maintain the software and to expand the features of the application in the future.
 
+# MVC
+
+- It is a Model-View-Controller and the most commonly used architecture. 
+- MVC separates the business logic and presentation layer from each other.
+- These are the three components used in MVC.
+- The __model__ refers to the data model classes. 
+- The __view__ refers to the xml files.
+- The __controller__ handles the business logic.
+- Negatives could be If we change the view, the controller logic should also be changed and  Maintenance is also an issues.
+
 ## What is MVC?
 
 - It is a Model-View-Controller.
