@@ -54,6 +54,11 @@ __How it Works__
 - MutableLiveData is commonly used since it provides the  postvalues(), setvalues() methods publicly, something that LiveData class doesn’t provide.
 - LiveData/MutableLiveData is commonly used in updating data in a RecyclerView from a collection type (List, Array List etc.)
 
+## Architecture pattern
+
+- An architecture pattern gives modularity to the project files and assures that all the codes get covered in Unit testing. 
+- It makes the task easy for developers to maintain the software and to expand the features of the application in the future.
+
 ## What is MVC?
 
 - It is a Model-View-Controller.
