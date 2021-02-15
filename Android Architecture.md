@@ -104,7 +104,8 @@ __Disadvantages__
 
 __Model__
 
-- It is business logic and Data State. Getting and manipulating the data, communicates with the presenter, interacts with the database. It doesn't interact with the view.
+- It is business logic and Data State. Getting and manipulating the data, communicates with the presenter, interacts with the database. 
+- It doesn't interact with the view.
 
 __View__
 
