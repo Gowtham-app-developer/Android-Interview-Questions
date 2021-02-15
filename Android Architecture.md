@@ -136,13 +136,14 @@ __Disadvantages__
 
 ## What is MVP?
 
-- It as Model-View-Presenter.
-- For the phase of developing time or for the phase of developers it is vital to divide the architecture into layers. 
-- It breaks the dependency on what we have on view.
+- It as Model-View-Presenter architecture. 
+- View more separated from Model and the Presenter is the mediator between Model and View.
+- Easier to create unit tests
 
 __Model__
 
-- It is business logic and Data State. Getting and manipulating the data, communicates with the presenter, interacts with the database. 
+- It is business logic and Data State. 
+- Getting and manipulating the data, communicates with the presenter, interacts with the database. 
 - It doesn't interact with the view.
 
 __View__
@@ -151,11 +152,9 @@ __View__
 
 __Presenter__
 
-- It presents the data from the model. Control all the behavior that want to display from the app. 
-- It drives the view. 
-- It tells view what to do. 
-- Any interaction between the model and the view is handled by the presenter. 
-- Saves the data back to the model.
+- The Presenter is responsible to act as the middle man between View and Model. 
+- It retrieves data from the Model and returns it formatted to the View.
+- But unlike the typical MVC, it also decides what happens when you interact with the View.
 
 __Advantages__
 
