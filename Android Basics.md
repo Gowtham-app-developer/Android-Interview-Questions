@@ -26,6 +26,10 @@ onStop	Called when activity is no longer visible to the user.
 onRestart	Called after your activity is stopped, prior to start.
 onDestroy	Called before the activity is destroyed.
 
+# What is Manifest.xml?
+
+- The AndroidManifest.xml file contains information of your package, including components of the application such as activities, services, broadcast receivers, content           providers etc.
+
 # Content Provider
 
 - A content provider component supplies data from one application to others on request and such requests are handled by the methods of the ContentResolver class. 
