@@ -46,6 +46,25 @@
 - These messages are sometime called events or intents.
 - When overriding the onReceive() method where each message is received as an Intent object parameter.
 - Types of Broadcasts -> Normal Broadcasts, Ordered Broadcasts.
+- __Static Broadcast Receivers__ These types of Receivers are declared in the manifest file and works even if the app is closed.
+- __Dynamic Broadcast Receivers__ These types of receivers work only if the app is active or minimized.
+
+## Types of Broadcasts
+There are two types of broadcasts received by receivers and they are:
+1. Normal Broadcasts:
+These are asynchronous broadcasts.
+Receivers of this type of broadcasts may run in any order, sometimes altogether.
+This is efficient.
+Receivers cannot use the result.
+They cannot abort the included APIs.
+These broadcasts are sent with Context.sendBroadcast
+2. Ordered Broadcasts
+These are synchronous broadcasts.
+One broadcast is delivered to one receiver at a time.
+Receivers can use the result. In fact as each receiver executes, result is passed to next receiver.
+Receiver can abort the broadcast and hence no broadcast is received by other receivers.
+The order of receivers is managed and controlled by the attribute android:priority in corresponding intent-filter.
+If receivers will have same priority then they may run in any order.
 
 ## Context
 
