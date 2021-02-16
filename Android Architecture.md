@@ -150,7 +150,6 @@ __Drawbacks__
 - It losses the tight coupling between each component.
 - Works on the concept of observables.
 - Children don't have reference to the parent, they only have reference by observables.
-- For more visit, https://github.com/Gowtham-app-developer/MVVM-using-Java#mvvm-using-java
 
 __Model__
 
@@ -167,6 +166,12 @@ __ViewModel__
 
 - It is basically a link between Model and View.
 - It handles the communication of the view with the rest of the application (calling the business logic classes) and exposes the states/data to whomever needs to consume it       using LiveData.
+
+__Drawbacks__
+
+- You have to create observables for each UI component.
+- The code size is quite excessive.
+- For more visit, https://github.com/Gowtham-app-developer/MVVM-using-Java#mvvm-using-java
 
 ## Differences between MVC and MVP
 
