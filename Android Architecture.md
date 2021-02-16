@@ -68,16 +68,16 @@ __How it Works__
 
 - There are having 3 components in room.
 
-__Entity:__ 
+__Entity__ 
 
 - Instead of creating the SQLite table, we will create the Entity. Entity is nothing but a model class annotated with @Entity. 
 - The variables of this class is our columns, and the class is our table.
 
-__Database:__ 
+__Database__ 
 
 - It is an abstract class where we define all our entities.
 
-__DAO:__ 
+__DAO__ 
 
 - DAO Stands for Data Access Object. 
 - It is an interface that defines all the operations that we need to perform in our database.
@@ -96,6 +96,7 @@ __DAO:__
 - The __view__ refers to the xml files.
 - The __controller__ handles the business logic.
 - Negatives could be If we change the view, the controller logic should also be changed and  Maintenance is also an issues.
+- For more visit, https://github.com/Gowtham-app-developer/MVC-using-Java#mvc-using-java
 
 ## MVP
 
@@ -105,6 +106,7 @@ __DAO:__
 - The __Presenter__ acts as a bridge that connects a Model and a View.
 - The __View__ is responsible for laying out views with the relevant data as instructed by the Presenter and the View never communicates with Model directly.
 - The main problem is the tight-coupling between the View and the Presenter and extra layer of difficulty while writing unit tests.
+- For more visit, https://github.com/Gowtham-app-developer/MVP-using-Java#mvp-using-java
 
 ## What is MVVM?
 
@@ -113,6 +115,7 @@ __DAO:__
 - It losses the tight coupling between each component.
 - Works on the concept of observables.
 - Children don't have reference to the parent, they only have reference by observables.
+- For more visit, https://github.com/Gowtham-app-developer/MVVM-using-Java#mvvm-using-java
 
 __Model__
 
