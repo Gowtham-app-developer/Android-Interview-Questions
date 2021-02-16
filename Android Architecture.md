@@ -117,11 +117,29 @@ __Drawbacks__
 
 ## MVP
 
-- In MVP, all presentation logic is pushed to the presenter. 
-- MVP advocates separating business and persistence logic out of the Activity and Fragment
-- The __Model__ handles the data part of our application
-- The __Presenter__ acts as a bridge that connects a Model and a View.
-- The __View__ is responsible for laying out views with the relevant data as instructed by the Presenter and the View never communicates with Model directly.
+- It as Model-View-Presenter architecture. 
+- View more separated from Model and the Presenter is the mediator between Model and View.
+- Easier to create unit tests.
+
+__Model__
+
+- It is business logic and Data State. 
+- Getting and manipulating the data, communicates with the presenter, interacts with the database. 
+- It doesn't interact with the view.
+
+__View__
+
+- Consists of UI, activity, and fragment. 
+- It interacts with the presenter.
+
+__Presenter__
+
+- The Presenter is responsible to act as the middle man between View and Model. 
+- It retrieves data from the Model and returns it formatted to the View.
+- But unlike the typical MVC, it also decides what happens when you interact with the View.
+
+__Drawbacks__
+
 - The main problem is the tight-coupling between the View and the Presenter and extra layer of difficulty while writing unit tests.
 - For more visit, https://github.com/Gowtham-app-developer/MVP-using-Java#mvp-using-java
 
