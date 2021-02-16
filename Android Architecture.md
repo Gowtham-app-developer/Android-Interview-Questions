@@ -111,6 +111,8 @@ __Controller__
 - It communicates with view and model.
 - It takes the user input from view/REST services and process request Get data from the model and passes to the view.  
 
+__Drawbacks__
+
 - Negatives could be If we change the view, the controller logic should also be changed and  Maintenance is also an issues.
 - For more visit, https://github.com/Gowtham-app-developer/MVC-using-Java#mvc-using-java
 
