@@ -166,6 +166,7 @@ __View__
 __ViewModel__
 
 - It is basically a link between Model and View.
+- It handles the communication of the view with the rest of the application (calling the business logic classes) and exposes the states/data to whomever needs to consume it       using LiveData.
 
 ## Differences between MVC and MVP
 
