@@ -193,3 +193,9 @@ __Model View Presenter__
 - Generally there is a one to one mapping between View and Presenter, with the possibility to use multiple Presenters for complex Views
 - Listen to user action and model updates
 - Updates model and view as well
+
+## What is Clean Code?
+
+- Clean code can be read and enhanced by a developer other than its original author that comes With understandability comes readability, changeability, extensibility, and         maintainability.
+- Code should be elegant, no duplication, Runs all the Tests, Create the meaningful Names in Classes and functions ,Minimize the number of entities such as classes, Methods and   the Functions.
+
