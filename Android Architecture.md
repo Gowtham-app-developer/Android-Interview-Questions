@@ -103,7 +103,7 @@ __DAO:__
 - MVP advocates separating business and persistence logic out of the Activity and Fragment
 - The __Model__ handles the data part of our application
 - The __Presenter__ acts as a bridge that connects a Model and a View.
-- The __View__ is responsible for laying out views with the relevant data as instructed by the Presenter
+- The __View__ is responsible for laying out views with the relevant data as instructed by the Presenter and the View never communicates with Model directly.
 
 ## What is MVC?
 
