@@ -104,6 +104,7 @@ __DAO:__
 - The __Model__ handles the data part of our application
 - The __Presenter__ acts as a bridge that connects a Model and a View.
 - The __View__ is responsible for laying out views with the relevant data as instructed by the Presenter and the View never communicates with Model directly.
+- The main problem is the tight-coupling between the View and the Presenter and extra layer of difficulty while writing unit tests.
 
 ## What is MVC?
 
