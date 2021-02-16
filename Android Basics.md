@@ -35,19 +35,19 @@
 
 - It consists of AndroidManifest.xml, Java, drawable, layout, mipmap, colors.xml, strings.xml, styles.xml and build.gradle(Module: app).
 
-# Content Provider
+## Content Provider
 
 - A content provider component supplies data from one application to others on request and such requests are handled by the methods of the ContentResolver class. 
 - A content provider can use different ways to store its data and the data can be stored in a database, in files, or even over a network.
 
-# Broadcast Receiver
+## Broadcast Receiver
 
 - Broadcast Receivers simply respond to broadcast messages from other applications or from the system itself. 
 - These messages are sometime called events or intents.
 - When overriding the onReceive() method where each message is received as an Intent object parameter.
 - Types of Broadcasts -> Normal Broadcasts, Ordered Broadcasts.
 
-# Context
+## Context
 
 - It is the context of the current state of the application.
 - It can be used to get information regarding the activity and application.
@@ -55,20 +55,20 @@
 - Both the Activity and Application classes extend the Context class.
 - Types of Context -> Application Context, Activity Context
 
-# Application Context
+## Application Context
 
 - This context is tied to the lifecycle of an application. 
 - The application context can be used where you need a context whose lifecycle is separate from the current context or when you are passing a context beyond the scope of an       activity.
 - For example - MyApplication(which extends Application class). It is an instance of MyApplication only.
 
-# Activity Context
+## Activity Context
 
 - This context is available in an activity which are currently present. 
 - This context is tied to the lifecycle of an activity. 
 - The activity context should be used when you are passing the context in the scope of an activity or you need the context whose lifecycle is attached to the current context.
 - For example - MainActivity. It is an instance of MainActivity only.
 
-# Application Class
+## Application Class
 
 - The Application class in Android is the base class within an Android app that contains all other components such as activities and services.
 - The Application class, or any subclass of the Application class, is instantiated before any other class when the process for your application/package is created.
