@@ -194,6 +194,12 @@ __Model View Presenter__
 - Listen to user action and model updates
 - Updates model and view as well
 
+## What is Repository Pattern?
+
+- The Repository pattern is useful to separate persistence concerns from rest of the application. 
+- In using the Repository design pattern, you can hide the details of how the data is eventually stored or retrieved to and from the data store. This data store can be a         database, an xml file, etc. 
+- This also helps improve testing ability because now, you can mock the Repository and test rest of the code easily without connection to persistence layer.
+
 ## What is Clean Code?
 
 - Clean code can be read and enhanced by a developer other than its original author that comes With understandability comes readability, changeability, extensibility, and         maintainability.
