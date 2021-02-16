@@ -143,7 +143,7 @@ __Drawbacks__
 - The main problem is the tight-coupling between the View and the Presenter and extra layer of difficulty while writing unit tests.
 - For more visit, https://github.com/Gowtham-app-developer/MVP-using-Java#mvp-using-java
 
-## What is MVVM?
+## MVVM
 
 - MVVM stands for Model View ViewModel and it is a design pattern that is used to build softwares applications.
 - MVVM helps us to separate the Business Logic of our Application from the Views or UI.
