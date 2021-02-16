@@ -90,11 +90,27 @@ __DAO__
 ## MVC
 
 - It is a Model-View-Controller and the most commonly used architecture. 
-- MVC separates the business logic and presentation layer from each other.
+- MVC helps us to separates the business logic and presentation layer from each other.
 - These are the three components used in MVC.
-- The __model__ refers to the data model classes. 
-- The __view__ refers to the xml files.
+
+__Model__
+ 
+- It has business logic and Data State. 
+- Getting and manipulating the data, communicates with the controller, interacts with the database, sometimes update the views.
+
+__View__
+
+- The __View__ refers to the xml files.
+- It communicates with the controller and sometimes interacts with the model. 
+- It passes some dynamic views through the controller.
+
+__Controller__
+
 - The __controller__ handles the business logic.
+- It is Activity/Fragment. 
+- It communicates with view and model. 
+- It takes the user input from view/REST services and process request Get data from the model and passes to the view.
+
 - Negatives could be If we change the view, the controller logic should also be changed and  Maintenance is also an issues.
 - For more visit, https://github.com/Gowtham-app-developer/MVC-using-Java#mvc-using-java
 
