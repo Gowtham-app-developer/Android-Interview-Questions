@@ -1,6 +1,6 @@
 # Basics
 
-# Tell all the Android application components
+## Tell all the Android application components
 
 - Application components are the essential building blocks of an Android application.
 -	These components are loosely coupled by the application manifest file. 
@@ -11,12 +11,12 @@
     - Broadcast receivers
     - Content providers
     
-# Activity
+## Activity
 
 - An activity represents a single screen with a user interface just like window or Containers.
 - Android activity is the subclass of ContextThemeWrapper class.
 
-# Activity Lifecycle
+## Activity Lifecycle
 
 - onCreate -> Called when activity is first created.  
 - onStart -> Called when activity is becoming visible to the user.
@@ -26,10 +26,14 @@
 - onRestart -> Called after your activity is stopped, prior to start.
 - onDestroy -> Called before the activity is destroyed.
 
-# What is Manifest.xml?
+## What is Manifest.xml?
 
 - AndroidManifest.xml describes each component of the application and how they interact.
 - The AndroidManifest.xml file contains information of your package, including components of the application such as activities, services, broadcast receivers, content           providers etc.
+
+## What is the project structure of an Android Application?
+
+- It consists of AndroidManifest.xml, Java, drawable, layout, mipmap, colors.xml, strings.xml, styles.xml and build.gradle(Module: app).
 
 # Content Provider
 
