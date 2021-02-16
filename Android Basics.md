@@ -18,16 +18,17 @@
 
 # Activity Lifecycle
 
-onCreate	Called when activity is first created.
-onStart	Called when activity is becoming visible to the user.
-onResume	Called when activity will start interacting with the user.
-onPause	Called when activity is not visible to the user.
-onStop	Called when activity is no longer visible to the user.
-onRestart	Called after your activity is stopped, prior to start.
-onDestroy	Called before the activity is destroyed.
+- onCreate -> Called when activity is first created.  
+- onStart -> Called when activity is becoming visible to the user.
+- onResume -> Called when activity will start interacting with the user.
+- onPause -> Called when activity is not visible to the user.
+- onStop -> Called when activity is no longer visible to the user.
+- onRestart -> Called after your activity is stopped, prior to start.
+- onDestroy -> Called before the activity is destroyed.
 
 # What is Manifest.xml?
 
+- AndroidManifest.xml describes each component of the application and how they interact.
 - The AndroidManifest.xml file contains information of your package, including components of the application such as activities, services, broadcast receivers, content           providers etc.
 
 # Content Provider
