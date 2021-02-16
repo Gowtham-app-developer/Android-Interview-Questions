@@ -106,77 +106,28 @@ __DAO:__
 - The __View__ is responsible for laying out views with the relevant data as instructed by the Presenter and the View never communicates with Model directly.
 - The main problem is the tight-coupling between the View and the Presenter and extra layer of difficulty while writing unit tests.
 
-## What is MVC?
+## What is MVVM?
 
-- It is a Model-View-Controller.
--	The most commonly used architecture. 
--	These are the three components used in MVC -> Model, View and Controller.
-
-__Model__
-
-- It is business logic and Data State. 
-- Getting and manipulating the data, communicates with the controller, interacts with the database, sometimes update the views.
-
-__View__
-
-- User Interface consists of XML. 
-- It communicates with the controller and sometimes interacts with the model. 
-- It passed some dynamic views through the controller.
-
-__Controller__
-
-- It is Activity/Fragment. 
-- It communicates with view and model. 
-- It takes the user input from view/REST services. 
-- Process request Get data from the model and passes to the view.
-
-__Advantages__
-
-- It keeps business logic separate in the model.
-- Support asynchronous techniques
-- The modification does not affect the entire model.
-- Faster development process.
-
-__Disadvantages__
-
-- Due to large code controller is unmanageable.
-- Hinders the Unit testing.
-- Increased Complexity.
-
-## What is MVP?
-
-- It as Model-View-Presenter architecture. 
-- View more separated from Model and the Presenter is the mediator between Model and View.
-- Easier to create unit tests
+- MVVM stands for Model View ViewModel and it is a design pattern that is used to build softwares applications.
+- MVVM helps us to separate the Business Logic of our Application from the Views or UI.
+- It losses the tight coupling between each component.
+- Works on the concept of observables.
+- Children don't have reference to the parent, they only have reference by observables.
 
 __Model__
 
+- This is responsible for handling the data in the application. 
 - It is business logic and Data State. 
-- Getting and manipulating the data, communicates with the presenter, interacts with the database. 
-- It doesn't interact with the view.
+- Model cannot directly interact with Views, but it interacts with ViewModels and then Views with the help of observables.
 
 __View__
 
-- Consists of UI, activity, and fragment. It interacts with the presenter.
+- This is the User Interface of our Application. 
+- It should not contain any application logic.
 
-__Presenter__
+__ViewModel__
 
-- The Presenter is responsible to act as the middle man between View and Model. 
-- It retrieves data from the Model and returns it formatted to the View.
-- But unlike the typical MVC, it also decides what happens when you interact with the View.
-
-__Advantages__
-
--	It makes view dumb so that you can swap the view easily.
--	Reusable of View and Presenter
--	Code is more readable and maintainable
--	Easy testing as business logic separated from UI
-
-__Disadvantages__
-
-- Tight coupling between View and Presenter
-- Huge amount of interfaces for interaction between layers.
-- The code size is quite excessive.
+- It is basically a link between Model and View.
 
 ## Differences between MVC and MVP
 
