@@ -31,7 +31,7 @@
 - AndroidManifest.xml describes each component of the application and how they interact.
 - The AndroidManifest.xml file contains information of your package, including components of the application such as activities, services, broadcast receivers, content           providers etc.
 
-## What is the project structure of an Android Application?
+## Project structure of an Android Application
 
 - It consists of AndroidManifest.xml, Java, drawable, layout, mipmap, colors.xml, strings.xml, styles.xml and build.gradle(Module: app).
 
