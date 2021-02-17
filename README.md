@@ -8,7 +8,7 @@
 | --------	 | ------------ |
 | 1 | [Android Basics](README.md#android-basics-1) |
 | 2 | [Core Java](README.md#core-java) |
-| 3 | [Android Architecture Components](README.md#core-java) |
+| 3 | [Android Architecture Components](README.md#android-architecture-components) |
 
 ## Android Basics
 
