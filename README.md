@@ -7,6 +7,14 @@
 | S.No | Content |
 | --------	 | ------------ |
 | 1 | [Android Application Components](Android%20Basics.md#android-application-components) |
+| 2 | [Activity](Android%20Basics.md#activity) |
+| 3 | [Activity Lifecycle](Android%20Basics.md#activity-lifecycle) |
+| 4 | [Manifest.xml](Android%20Basics.md#manifestxml) |
+| 5 | [Project structure of an Android Application](Android%20Basics.md#project-structure-of-an-android-application) |
+| 6 | [Content Provider](Android%20Basics.md#content-provider) |
+| 7 | [Broadcast Receiver](Android%20Basics.md#broadcast-receiver) |
+| 8 | [Types of Broadcasts](Android%20Basics.md#types-of-broadcasts) |
+| 9 | [LocalBroadcastManager](Android%20Basics.md#localbroadcastmanager) |
 
 ## Core Java
 
