@@ -6,8 +6,8 @@
 
 | S.No | Content |
 | --------	 | ------------ |
-| 1 | [Android Basics](Android-Interview-Questions#android-basics) |
-| 2 | [Core Java](Android-Interview-Questions#core-java) |
+| 1 | [Android Basics](README.md#android-basics-1) |
+| 2 | [Core Java](README.md#core-java) |
 
 ## Android Basics
 
