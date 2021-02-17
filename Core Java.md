@@ -86,7 +86,9 @@
 
 ## Can an Interface implement another Interface?
 
-- Yes, an interface can implement another interface (and more than one), but it needs to use extends, rather than implements keyword and while you can not remove methods from     parent interface, you can add new ones freely to your sub-interface.
+- Yes, an interface can implement another interface (and more than one), but it needs to use extends instead of Implement keyword.
+- The member variable in a 100% abstract class can have any access qualifier, where in an interface they are implicitly public static final.
+- If we try to implement an interface with another interface, it will throw a compile-time error in Java.
 
 ## Polymorphism
 
