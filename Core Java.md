@@ -437,3 +437,9 @@ byte y = (byte)x;
 - Listeners are also called as event handlers as they are the ones responsible to handle events occurring at the source. 
 - Listeners are interfaces and different types of listeners are used according to the event.
 
+## What is the difference between iterator and enumeration in java?
+
+- In Enumeration we have remove() method and we can only read and traverse through a collection.
+- Iterators can be applied to any collection. 
+- In Iterator, we can read and remove items from a collection.
+
