@@ -29,7 +29,7 @@
 ## Manifest.xml
 
 - AndroidManifest.xml describes each component of the application and how they interact.
-- The AndroidManifest.xml file contains information of your package, including components of the application such as activities, services, broadcast receivers, content           providers etc.
+- The AndroidManifest.xml file contains information of your package, including components of the application such as activities, services, broadcast receivers,         content providers etc.
 
 ## Project structure of an Android Application
 
@@ -72,7 +72,7 @@ __Ordered Broadcasts__
 - The order of receivers is managed and controlled by the attribute android:priority in corresponding intent-filter.
 - If receivers will have same priority then they may run in any order.
 
-## LocalBroadcastManager
+## Local BroadcastManager
 
 - If the communication is not between different applications on the Android device then is it suggested not to use the Global BroadcastManager because there can be     some security holes while using Global Broadcastmanager and you don’t have to worry about this if you are using LocalBroadcastManager.
 - LocalBroadcastManager is used to register and send a broadcast of intents to local objects in your process.
@@ -107,19 +107,22 @@ __advantages__
 
 - This context is tied to the lifecycle of an application. 
 - The application context can be used where you need a context whose lifecycle is separate from the current context or when you are passing a context beyond the scope   of an activity.
-- For example - MyApplication(which extends Application class). It is an instance of MyApplication only.
+- For example - MyApplication(which extends Application class). 
+- It is an instance of MyApplication only.
 
 ## Activity Context
 
 - This context is available in an activity which are currently present. 
 - This context is tied to the lifecycle of an activity. 
-- The activity context should be used when you are passing the context in the scope of an activity or you need the context whose lifecycle is attached to the current context.
+- The activity context should be used when you are passing the context in the scope of an activity or you need the context whose lifecycle is attached to the current   context.
 - For example - MainActivity. It is an instance of MainActivity only.
 
 ## Application Class
 
 - The Application class in Android is the base class within an Android app that contains all other components such as activities and services.
 - The Application class, or any subclass of the Application class, is instantiated before any other class when the process for your application/package is created.
+- These components communicate with each other with the help of Intents, Callbacks & other methods. 
+- Often, components depend on other components, for eg: initiating an activity on a button click.
 
 ## What is Intent?
 
@@ -129,7 +132,7 @@ __advantages__
   - Implicit Intent
   - Explicit Intent
   
-## What is Implicit Intent?
+## Implicit Intent
 
 - By using the Implicit Intents you can communicate between various applications present in the mobile device 
   (i.e.) Implicit intent is when you call system default intent like send email, send SMS, dial number. 
@@ -137,24 +140,24 @@ __advantages__
   (i.e.) if one application A is detecting the current location of the user then you can use the data of the user 
   (i.e.) the current location by communicating with application A.
   
-## What is Explicit Intent?
+## Explicit Intent
 
 - If you want communication between the components of your application only then you can use the Explicit Intents.
 - Explicit Intents are used to communicate with a particular component of the same application.
 - For example, if you want to launch an Activity by clicking some button on the present Activity.
   
-## What is	Pending Intent?
+## Pending Intent
 
 - If you want someone to perform any Intent operation at future point of time on behalf of you, then we will use Pending Intent.
 - A PendingIntent is generally used in cases were an AlarmManager needs to be executed or for Notification. 
 - A PendingIntent provides a means for applications to work, even after their process exits.
 
-## What is Intent Filter? 
+## Intent Filter 
 
-- Android OS uses filters to pinpoint the set of Activities, Services, and Broadcast receivers that can handle the Intent with help of specified set of action, categories, data   scheme associated with an Intent. 
-- You will use <intent-filter> element in the manifest file to list down actions, categories and data types associated with any activity, service, or broadcast receiver.
+- Android OS uses filters to pinpoint the set of Activities, Services, and Broadcast receivers that can handle the Intent with help of specified set of action,         categories, data scheme associated with an Intent. 
+- You will use <intent-filter> element in the manifest file to list down actions, categories and data types associated with any activity, service, or broadcast         receiver.
   
-##  What is Sticky Intent?
+## Sticky Intent
 
 - These are the Intents which sticks with Android system for future broadcast listener.
 - Sticky Intents allows communication between a function and a service. 
