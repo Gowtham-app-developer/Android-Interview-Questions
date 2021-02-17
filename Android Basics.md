@@ -46,8 +46,8 @@
 - These messages are sometime called events or intents.
 - When overriding the onReceive() method where each message is received as an Intent object parameter.
 - There are two ways to register a BroadcastReceiver.
-- __Static Broadcast Receivers__ These types of Receivers are declared in the manifest file and works even if the app is closed.
-- __Dynamic Broadcast Receivers__ These types of receivers work only if the app is active or minimized.
+- __Static Broadcast Receivers__ -> These types of Receivers are declared in the manifest file and works even if the app is closed.
+- __Dynamic Broadcast Receivers__ -> These types of receivers work only if the app is active or minimized.
 
 ## Types of Broadcasts
 
@@ -74,21 +74,27 @@ __Ordered Broadcasts__
 
 ## LocalBroadcastManager
 
-- If the communication is not between different applications on the Android device then is it suggested not to use the Global BroadcastManager because there can be some security holes while using Global Broadcastmanager and you don’t have to worry about this if you are using LocalBroadcastManager.LocalBroadcastManager is used to register and send a broadcast of intents to local objects in your process. It has lots of advantages:
+- If the communication is not between different applications on the Android device then is it suggested not to use the Global BroadcastManager because there can be     some security holes while using Global Broadcastmanager and you don’t have to worry about this if you are using LocalBroadcastManager.
+- LocalBroadcastManager is used to register and send a broadcast of intents to local objects in your process.
 
-You broadcasting data will not leave your app. So, if there is some leakage in your app then you need not worry about that.
-Another thing that can be noted here is that other applications can’t send any kind of broadcasts to your app. So, you need not worry about security holes.
+__advantages__
+
+- You broadcasting data will not leave your app. 
+- So, if there is some leakage in your app then you need not worry about that.
+- Another thing that can be noted here is that other applications can’t send any kind of broadcasts to your app. 
+- So, you need not worry about security holes.
 
 ## What is onSavedInstanceState() and onRestoreInstanceState() in activity?
 
-onSavedInstanceState() - This method is used to store data before pausing the activity.
-onRestoreInstanceState() - This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the onRestoreInstanceState() receive the bundle that contains the instance state information.
+- onSavedInstanceState() -> This method is used to store data before pausing the activity.
+- onRestoreInstanceState() -> This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the                   onRestoreInstanceState() receive the bundle that contains the instance state information.
 
 ## Why do we need to call setContentView() in onCreate() of Activity class?
 
-As onCreate() of an Activity is called only once, this is the point where most initialization should go: calling setContentView(int) to inflate the activity's UI, using findViewById to programmatically interact with widgets in the UI, calling managedQuery(android.net.Uri , String[], String, String[], String) to retrieve cursors for data being displayed, etc.
+- onCreate() of an Activity is called only once, this is the point where most initialization should go.
+- Calling setContentView(int) to inflate the activity's UI, using findViewById to programmatically interact with widgets in the UI.
+- It is inefficient to set the content in onResume() or onStart() (which are called multiple times) as the setContentView() is a heavy operation.
 
-It is inefficient to set the content in onResume() or onStart() (which are called multiple times) as the setContentView() is a heavy operation.
 ## Context
 
 - It is the context of the current state of the application.
@@ -100,7 +106,7 @@ It is inefficient to set the content in onResume() or onStart() (which are calle
 ## Application Context
 
 - This context is tied to the lifecycle of an application. 
-- The application context can be used where you need a context whose lifecycle is separate from the current context or when you are passing a context beyond the scope of an       activity.
+- The application context can be used where you need a context whose lifecycle is separate from the current context or when you are passing a context beyond the scope   of an activity.
 - For example - MyApplication(which extends Application class). It is an instance of MyApplication only.
 
 ## Activity Context
