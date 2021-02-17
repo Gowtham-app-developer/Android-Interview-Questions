@@ -6,6 +6,13 @@
 
 | S.No | Content |
 | --------	 | ------------ |
+| 1 | [Android Basics](Android-Interview-Questions#android-basics) |
+| 2 | [Core Java](Android-Interview-Questions#core-java) |
+
+## Android Basics
+
+| S.No | Content |
+| --------	 | ------------ |
 | 1 | [Android Application Components](Android%20Basics.md#android-application-components) |
 | 2 | [Activity](Android%20Basics.md#activity) |
 | 3 | [Activity Lifecycle](Android%20Basics.md#activity-lifecycle) |
