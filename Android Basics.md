@@ -72,6 +72,23 @@ __Ordered Broadcasts__
 - The order of receivers is managed and controlled by the attribute android:priority in corresponding intent-filter.
 - If receivers will have same priority then they may run in any order.
 
+## LocalBroadcastManager
+
+- If the communication is not between different applications on the Android device then is it suggested not to use the Global BroadcastManager because there can be some security holes while using Global Broadcastmanager and you don’t have to worry about this if you are using LocalBroadcastManager.LocalBroadcastManager is used to register and send a broadcast of intents to local objects in your process. It has lots of advantages:
+
+You broadcasting data will not leave your app. So, if there is some leakage in your app then you need not worry about that.
+Another thing that can be noted here is that other applications can’t send any kind of broadcasts to your app. So, you need not worry about security holes.
+
+## What is onSavedInstanceState() and onRestoreInstanceState() in activity?
+
+onSavedInstanceState() - This method is used to store data before pausing the activity.
+onRestoreInstanceState() - This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the onRestoreInstanceState() receive the bundle that contains the instance state information.
+
+## Why do we need to call setContentView() in onCreate() of Activity class?
+
+As onCreate() of an Activity is called only once, this is the point where most initialization should go: calling setContentView(int) to inflate the activity's UI, using findViewById to programmatically interact with widgets in the UI, calling managedQuery(android.net.Uri , String[], String, String[], String) to retrieve cursors for data being displayed, etc.
+
+It is inefficient to set the content in onResume() or onStart() (which are called multiple times) as the setContentView() is a heavy operation.
 ## Context
 
 - It is the context of the current state of the application.
