@@ -84,7 +84,7 @@ __advantages__
 - Another thing that can be noted here is that other applications can’t send any kind of broadcasts to your app. 
 - So, you need not worry about security holes.
 
-## What is onSavedInstanceState() and onRestoreInstanceState() in activity?
+## onSavedInstanceState() & onRestoreInstanceState() in activity
 
 - onSavedInstanceState() -> This method is used to store data before pausing the activity.
 - onRestoreInstanceState() -> This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the                   onRestoreInstanceState() receive the bundle that contains the instance state information.
