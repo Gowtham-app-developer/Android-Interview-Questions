@@ -428,3 +428,12 @@ byte y = (byte)x;
 - This means that you can add items, change items, remove items and clear the list in the same way.
 - However, while the ArrayList class and the LinkedList class can be used in the same way, they are built very differently.
 
+## Event Handling
+
+- When you press a button in your program or Android application the state of the button changes from ‘Unclicked’ to ‘Clicked’.
+- This change in the state of our button is called an Event.
+- The button you press is an object too (i.e.) Source is the object which generates an event. 
+- In other words, a source is an object which undergoes state change.
+- Listeners are also called as event handlers as they are the ones responsible to handle events occurring at the source. 
+- Listeners are interfaces and different types of listeners are used according to the event.
+
