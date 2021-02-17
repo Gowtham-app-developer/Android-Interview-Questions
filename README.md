@@ -55,7 +55,7 @@
 | 13 | [Polymorphism](CORE_JAVA.md#polymorphism) |
 | 14 | [Compiletime Polymorphism (or Static polymorphism)](CORE_JAVA.md#compiletime-polymorphism-or-static-polymorphism) |
 | 15 | [Runtime Polymorphism (or Dynamic polymorphism)](CORE_JAVA.md#runtime-polymorphism-or-dynamic-polymorphism) |
-| 16 | [Upcasting](CORE_JAVA.md#upcasting) |
+| 16 | [Typecasting](Core%20Java.md#typecasting) |
 | 17 | [Method Overloading](CORE_JAVA.md#method-overloading) |
 | 18 | [Method Overriding](CORE_JAVA.md#method-overriding) |
 | 19 | [Differences between abstract classes and interfaces](CORE_JAVA.md#differences-between-abstract-classes-and-interfaces) |
