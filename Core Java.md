@@ -113,7 +113,7 @@
 
 ## Typecasting
 
-- Typcasting is one of the concept from which conversion of one data type to another data type implicitly or explicitly.
+- Typcasting is the concept from which conversion of one data type to another data type implicitly or explicitly.
 
 __Upcasting__
 
