@@ -111,10 +111,20 @@
 - Dynamic polymorphism is a process in which a call to an overridden method is resolved at runtime, thats why it is called runtime polymorphism.
 - Method overriding is an example of runtime polymorphism.
 
-## Upcasting 
+## Typecasting
+
+- Typcasting is one of the concept from which conversion of one data type to another data type implicitly or explicitly.
+
+__Upcasting__
 
 - If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
 - In other words, Upcasting is the typecasting of a child object to a parent object.
+- Upcasting can be done implicitly.
+
+__Downcasting__
+
+- Similarly downcasting means the typecasting of a parent object to a child object.
+- Downcasting cannot be done implicitly but can be done explicitly.
 
 ## Method Overloading
 
