@@ -1,6 +1,6 @@
 # Basics
 
-## Tell all the Android application components
+## Android application components
 
 - Application components are the essential building blocks of an Android application.
 -	These components are loosely coupled by the application manifest file. 
@@ -26,7 +26,7 @@
 - onRestart -> Called after your activity is stopped, prior to start.
 - onDestroy -> Called before the activity is destroyed.
 
-## What is Manifest.xml?
+## Manifest.xml
 
 - AndroidManifest.xml describes each component of the application and how they interact.
 - The AndroidManifest.xml file contains information of your package, including components of the application such as activities, services, broadcast receivers, content           providers etc.
