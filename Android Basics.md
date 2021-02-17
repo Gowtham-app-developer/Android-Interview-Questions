@@ -1,11 +1,11 @@
 # Basics
 
-## Android application components
+## Android Application Components
 
-- Application components are the essential building blocks of an Android application.
--	These components are loosely coupled by the application manifest file. 
--	AndroidManifest.xml describes each component of the application and how they interact.
--	There are four different types of app components:
+- Application Components are the essential building blocks of an Android application.
+- These components are loosely coupled by the application manifest file. 
+- AndroidManifest.xml describes each component of the application and how they interact.
+- There are four different types of app components:
     - Activities
     - Services
     - Broadcast receivers
