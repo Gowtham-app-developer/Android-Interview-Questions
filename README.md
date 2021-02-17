@@ -8,6 +8,7 @@
 | --------	 | ------------ |
 | 1 | [Android Basics](README.md#android-basics-1) |
 | 2 | [Core Java](README.md#core-java) |
+| 3 | [Android Architecture Components](README.md#core-java) |
 
 ## Android Basics
 
@@ -92,4 +93,19 @@
 | 52 | [Singleton design Pattern](CORE_JAVA.md#singleton-design-pattern) |
 | 53 | [Linked List](CORE_JAVA.md#linked-list) |
 | 54 | [ArrayList vs LinkedList](CORE_JAVA.md#arraylist-vs-linkedlist) |
+
+## Android Architecture Components
+
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Android Jetpack](Android%20Architecture.md#android-jetpack) |
+| 2 | [What is Architecture?](Android%20Architecture.md#what-is-architecture) |
+| 3 | [Android Architecture Components](Android%20Architecture.md#android-architecture-components-1) |
+| 4 | [Data Binding](Android%20Architecture.md#data-binding) |
+| 5 | [View Model](Android%20Architecture.md#view-model) |
+| 6 | [Android LiveData](Android%20Architecture.md#android-livedata) |
+| 7 | [Mutable LiveData](Android%20Architecture.md#mutable-livedata) |
+| 8 | [Room Database](Android%20Architecture.md#room-database) |
+| 9 | [Components of Room](Android%20Architecture.md#components-of-room) |
+| 10 | [Android Jetpack](README.md#android-basics-1) |
 
