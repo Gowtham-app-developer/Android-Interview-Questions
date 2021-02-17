@@ -14,7 +14,19 @@
 | 6 | [Content Provider](Android%20Basics.md#content-provider) |
 | 7 | [Broadcast Receiver](Android%20Basics.md#broadcast-receiver) |
 | 8 | [Types of Broadcasts](Android%20Basics.md#types-of-broadcasts) |
-| 9 | [LocalBroadcastManager](Android%20Basics.md#localbroadcastmanager) |
+| 9 | [Local BroadcastManager](Android%20Basics.md#local-broadcastmanager) |
+| 10 | [onSavedInstanceState() & onRestoreInstanceState() in activity](Android%20Basics.md#onsavedinstancestate--onrestoreinstancestate-in-activity) |
+| 11 | [Why do we need to call setContentView() in onCreate() of Activity class?](Android%20Basics.md#why-do-we-need-to-call-setcontentview-in-oncreate-of-activity-class) |
+| 12 | [Context](Android%20Basics.md#context) |
+| 13 | [Application Context](Android%20Basics.md#application-context) |
+| 14 | [Activity Context](Android%20Basics.md#activity-context) |
+| 15 | [Application Class](Android%20Basics.md#application-class) |
+| 16 | [What is Intent?](Android%20Basics.md#what-is-intent) |
+| 17 | [Implicit Intent](Android%20Basics.md#implicit-intent) |
+| 18 | [Explicit Intent](Android%20Basics.md#explicit-intent) |
+| 19 | [Pending Intent](Android%20Basics.md#pending-intent) |
+| 20 | [Intent Filter](Android%20Basics.md#intent-filter) |
+| 21 | [Sticky Intent](Android%20Basics.md#sticky-intent) |
 
 ## Core Java
 
