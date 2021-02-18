@@ -218,7 +218,7 @@ MyButton.setOnClickListener(new Button.OnClickListener {
 
 ## What is a singleton class in Android?
 
-- A singleton class is a class which can create only an object that can be shared all other classes.
+- A singleton class is a class that can have only one object(an instance of the class) at a time that can be shared all other classes.
 
 ```ruby
 private static volatile RESTService instance;
