@@ -198,23 +198,20 @@ int a = 0; //a is declared AND initialized to 0
 MyObject x = new MyObject(); //x is declared and initialized with an instance of MyObject
 ```
 
-- __Instantiation__ is the process when memory is allocated for an object. 
+- __Instantiating__ a class means to create a new instance of the class.
+- It is the process when memory is allocated for an object. 
 - This is what the new keyword is doing. 
 - A reference to the object that was created is returned from the new keyword.
-- In simple terms, Instantiating a class means to create a new instance of the class.
 
 ```ruby
 MyObject x = new MyObject(); //we are making a new instance of the class MyObject
 ```
-
-- __Declaration__ is the process when you state to the program that there will be an object of a certain type existing and what the name of that object will be.
-- In simple terms, Declaring a variable means to introduce a new variable to the program and define its type and its name.
+- __Declaration__ a variable means to introduce a new variable to the program and define its type and its name.
 
 ```ruby
 int a; //a is declared
 ```
-
-- __Assigning__  to a variable means to provide the variable with a value.
+- __Assigning__ to a variable means to provide the variable with a value.
 
 ```ruby
 int a = 0; //we are assigning to a; yes, initializing a variable means you assign it a value, so they do overlap!
