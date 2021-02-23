@@ -71,8 +71,8 @@
 | 29 | [Synchronized keyword](Core%20Java.md#synchronized-keyword) |
 | 30 | [Finalize()](Core%20Java.md#finalize) |
 | 31 | [Finally keyword](Core%20Java.md#finally-keyword) |
-| 32 | [Difference between Encapsulation & Abstraction?](Core%20Java.md#difference-between-encapsulation--abstraction) |
-| 34 | [Constructors vs Methods?](Core%20Java.md#constructors-vs-methods) |
+| 32 | [Threads](Core%20Java.md#threads) |
+| 34 | [Constructors vs Methods](Core%20Java.md#constructors-vs-methods) |
 | 35 | [What is a deadlock in Java](Core%20Java.md#what-is-a-deadlock-in-java) |
 | 36 | [What is String.intern()? When and why should it be used?](Core%20Java.md#what-is-stringintern-when-and-why-should-it-be-used) |
 | 37 | [Garbage Collector](Core%20Java.md#garbage-collector) |
