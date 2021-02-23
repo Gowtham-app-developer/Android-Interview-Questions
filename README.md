@@ -68,7 +68,7 @@
 | 26 | [Serialization and De-serialization](Core%20Java.md#serialization-and-de-serialization) |
 | 27 | [What are anonymous classes?](Core%20Java.md#what-are-anonymous-classes) |
 | 28 | [What is a singleton class in Android?](Core%20Java.md#what-is-a-singleton-class-in-android) |
-| 29 | [Final modifier](Core%20Java.md#final-modifier) |
+| 29 | [synchronized keyword](Core%20Java.md#synchronized-keyword) |
 | 30 | [Finalize()](Core%20Java.md#finalize) |
 | 31 | [Finally keyword](Core%20Java.md#finally-keyword) |
 | 32 | [Difference between Encapsulation & Abstraction?](Core%20Java.md#difference-between-encapsulation--abstraction) |
