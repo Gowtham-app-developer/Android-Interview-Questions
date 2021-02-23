@@ -296,7 +296,10 @@ private static volatile RESTService instance;
 
 ## What is a deadlock in Java
 
-- A deadlock occurs when a thread enters a waiting state because a requested system resource is held by another waiting process, which in turn is waiting for another resource     held by another waiting process.
+- Deadlock in java is a part of multithreading.
+- Deadlock describes a situation where two or more threads are blocked forever and waiting for each other.
+- Deadlock can occur in a situation when a thread is waiting for an object lock, that is acquired by another thread and second thread is waiting for an object lock that is       acquired by first thread.
+- A Java multithreaded program may suffer from the deadlock condition because the synchronized keyword causes the executing thread to block while waiting for the lock, or         monitor, associated with the specified object.
 
 ## What is String.intern()? When and why should it be used?
 
