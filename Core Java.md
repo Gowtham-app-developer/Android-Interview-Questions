@@ -260,7 +260,7 @@ private static volatile RESTService instance;
  }
  ```
 
-## synchronized keyword
+## Synchronized keyword
 
 - When we start two or more threads within a program, there may be a situation when multiple threads try to access the same resource and finally they can produce unforeseen       result.
 - By using Synchronization which will allow only one thread to access the shared resource.
