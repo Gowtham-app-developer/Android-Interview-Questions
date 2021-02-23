@@ -260,13 +260,10 @@ private static volatile RESTService instance;
  }
  ```
 
-## Final modifier
+## synchronized keyword
 
-- Final modifiers - once declared cannot be modified.
-- A blank final variable in Java is a final variable that is not initialized during declaration.
-    - final Classes- A final class cannot have subclasses.
-    - final Variables- A final variable cannot be changed once it is initialized.
-    - final Methods- A final method cannot be overridden by subclasses.
+- When we start two or more threads within a program, there may be a situation when multiple threads try to access the same resource and finally they can produce unforeseen       result
+- By using Synchronization which will allow only one thread to access the shared resource.
     
 ## Finalize()
 
