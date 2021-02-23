@@ -190,7 +190,7 @@ __Usage of Java super Keyword__
 - __Initialization__ is the process when values are put into the memory that was allocated. 
 - This is what the Constructor of a class does when using the new keyword.
 - A variable must also be initialized by having the reference to some object in memory passed to it.
-- In simple terms, To initialize a variable means to assign it an initial value.
+- In simple terms, The new operator is followed by a call to a constructor, which initializes the new object.
 
 ```ruby
 int a; //a is declared
