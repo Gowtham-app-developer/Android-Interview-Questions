@@ -267,6 +267,7 @@ private static volatile RESTService instance;
     
 ## Finalize()
 
+- Finalize method is to clear garbage value.
 - The finalize() method is called by the garbage collector on an object when garbage collection determines that there are no more references to the object.
 - It is a method that the Garbage Collector always calls just before the deletion/destroying the object which is eligible for Garbage Collection, so as to perform clean-up       activity. 
 - Clean-up activity means closing the resources associated with that object like Database Connection, Network Connection or we can say resource de-allocation.
