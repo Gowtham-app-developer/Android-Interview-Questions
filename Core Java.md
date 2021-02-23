@@ -185,7 +185,7 @@ __Usage of Java super Keyword__
 - Once a value is assigned to a string it cannot be changed and if changed, it creates a new object of the String. 
 - This is not the case with StringBuffer.
 
-## What is the difference between instantiation, initialization, Declaration and Assigning of an object?
+## instantiation, initialization, Declaration and Assigning of an object?
 
 - __Initialization__ is the process when values are put into the memory that was allocated. 
 - This is what the Constructor of a class does when using the new keyword.
