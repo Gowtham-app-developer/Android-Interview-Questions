@@ -185,15 +185,41 @@ __Usage of Java super Keyword__
 - Once a value is assigned to a string it cannot be changed and if changed, it creates a new object of the String. 
 - This is not the case with StringBuffer.
 
-## What is the difference between instantiation, initialization and Declaration of an object?
+## What is the difference between instantiation, initialization, Declaration and Assigning of an object?
 
 - __Initialization__ is the process when values are put into the memory that was allocated. 
 - This is what the Constructor of a class does when using the new keyword.
 - A variable must also be initialized by having the reference to some object in memory passed to it.
+- In simple terms, To initialize a variable means to assign it an initial value.
+
+```ruby
+int a; //a is declared
+int a = 0; //a is declared AND initialized to 0
+MyObject x = new MyObject(); //x is declared and initialized with an instance of MyObject
+```
+
 - __Instantiation__ is the process when memory is allocated for an object. 
 - This is what the new keyword is doing. 
 - A reference to the object that was created is returned from the new keyword.
+- In simple terms, Instantiating a class means to create a new instance of the class.
+
+```ruby
+MyObject x = new MyObject(); //we are making a new instance of the class MyObject
+```
+
 - __Declaration__ is the process when you state to the program that there will be an object of a certain type existing and what the name of that object will be.
+- In simple terms, Declaring a variable means to introduce a new variable to the program and define its type and its name.
+
+```ruby
+int a; //a is declared
+```
+
+- __Assigning__  to a variable means to provide the variable with a value.
+
+```ruby
+int a = 0; //we are assigning to a; yes, initializing a variable means you assign it a value, so they do overlap!
+a = 1; //we are assigning to a
+```
 
 ## Serialization and De-serialization
  
