@@ -476,3 +476,12 @@ byte y = (byte)x;
 - Iterators can be applied to any collection. 
 - In Iterator, we can read and remove items from a collection.
 
+## Event Handling
+
+- It is Changing the state of an object is known as an event. 
+- Example: click on button. 
+- Event handling has three main components,
+- __Events__ : An event is a change in state of an object.
+- __Events Source__ : Event source is an object that generates an event.
+- __Listeners__ : A listener is an object that listens to the event and gets notified when an event occurs.
+
