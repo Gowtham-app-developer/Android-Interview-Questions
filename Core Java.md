@@ -277,14 +277,12 @@ private static volatile RESTService instance;
 
 - Finally is a code block and is used to place important code, it will be executed at the end of a try catch block regardless of whether or not an exception occurs.
 
-## Difference between Encapsulation & Abstraction?
+## Threads
 
-- Abstraction focuses on the outside view of an object (i.e. the interface)
-- Encapsulation (information hiding) prevents clients from seeing it’s inside view.
-- Abstraction solves the problem in the design side while Encapsulation is the Implementation.
+- Threads allows a program to operate more efficiently by doing multiple things at the same time.
+- Threads can be used to perform complicated tasks in the background without interrupting the main program.
 
-
-## Constructors vs Methods?
+## Constructors vs Methods
 
 - Constructor does not return any value where the method may/may not return a value.
 - In case constructor is not present, a default constructor is provided by java compilerand in the case of a method, no default method is provided.
