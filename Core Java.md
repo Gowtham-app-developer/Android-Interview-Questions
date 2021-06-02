@@ -7,7 +7,7 @@
 ## Why is Java said to be platform independent?
 
 - The execution of the code does not depend upon the OS.
-- It is said to be platform-independent because the java compiled code(byte code) can run on all operating systems.  
+- It is said to be platform-independent because the java compiled code(byte code) can run on all operating systems with the help of middleware(i.e.) using JVM.  
    <p align="left">
     <img src="https://user-images.githubusercontent.com/78175168/120521028-1b276280-c3f2-11eb-9de5-a2bcc704d9a9.png"/>
    </p>
