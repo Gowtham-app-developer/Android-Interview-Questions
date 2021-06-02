@@ -93,6 +93,13 @@
 | 52 | [Singleton design Pattern](Core%20Java.md#singleton-design-pattern) |
 | 53 | [Linked List](Core%20Java.md#linked-list) |
 | 54 | [ArrayList vs LinkedList](Core%20Java.md#arraylist-vs-linkedlist) |
+| 55 | [Event Handler](Core%20Java.md#oops) |
+| 56 | [What is the hashCode() and equals() used for?](Core%20Java.md#oops) |
+| 57 | [What is Dependency Injection?](Core%20Java.md#oops) |
+| 58 | [Difference between StringBuffer and StringBuilder?](Core%20Java.md#oops) |
+| 59 | [threadpool executor](Core%20Java.md#oops) |
+| 60 | [What is the difference between iterator and enumeration in java?](Core%20Java.md#oops) |
+| 61 | [What does the keyword synchronized mean?](Core%20Java.md#hashmap) |
 
 ## Android Architecture Components
 
