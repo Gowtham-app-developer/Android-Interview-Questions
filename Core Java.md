@@ -140,6 +140,45 @@ public class My_Calculation extends Calculation {
 -	We can use setter and getter methods to set and get the data in it.
 -	By providing only a setter or getter method, you can make the class read-only or write-only.
 
+__Example__
+
+```ruby
+public class EncapTest {
+   private String name;
+   private int age;
+
+   public int getAge() {
+      return age;
+   }
+
+   public String getName() {
+      return name;
+   }
+
+   public void setAge( int newAge) {
+      age = newAge;
+   }
+
+   public void setName(String newName) {
+      name = newName;
+   }
+
+}
+```
+
+```ruby
+public class MainClass {
+
+   public static void main(String args[]) {
+      EncapTest encap = new EncapTest();
+      encap.setName("James");
+      encap.setAge(20);
+
+      System.out.print("Name : " + encap.getName() + " Age : " + encap.getAge());
+   }
+}
+```
+
 ## Abstract Classes
 
 - A class which is declared with the abstract keyword is known as an abstract class in Java.
@@ -148,6 +187,34 @@ public class My_Calculation extends Calculation {
 - There are two ways to achieve abstraction in java
     - Abstract class (0 to 100%)
     - Interface (100%)
+
+```ruby
+/ Abstract class
+abstract class Animal {
+  // Abstract method (does not have a body)
+  public abstract void animalSound();
+  // Regular method
+  public void sleep() {
+    System.out.println("Zzz");
+  }
+}
+
+// Subclass (inherit from Animal)
+class Elephant extends Animal {
+  public void animalSound() {
+    // The body of animalSound() is provided here
+    System.out.println("The elephant says: mmmmmaaa");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Elephant myElephant = new Elephant(); // Create a Elephant object
+    myElephant.animalSound();
+    myElephant.sleep();
+  }
+}
+```
     
 ## Interfaces
 
