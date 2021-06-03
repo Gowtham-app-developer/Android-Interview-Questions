@@ -225,6 +225,32 @@ class Main {
 - It is used to achieve abstraction and multiple inheritance in Java.
 - Interfaces can have abstract methods and variables.
 
+__Example__
+
+```ruby
+interface Animal {
+  public void animalSound(); // interface method (does not have a body)
+  public void sleep(); // interface method (does not have a body)
+}
+
+class Elephant implements Animal {
+  public void animalSound() {
+    System.out.println("The Elephant says: wee wee");
+  }
+  public void sleep() {
+    System.out.println("Zzz");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Elephant myElephant = new Elephant();
+    myElephant.animalSound();
+    myElephant.sleep();
+  }
+}
+```
+
 ## Can an Interface implement another Interface?
 
 - Yes, an interface can implement another interface (and more than one), but it needs to use extends instead of Implement keyword.
