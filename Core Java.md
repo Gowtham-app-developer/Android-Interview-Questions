@@ -312,6 +312,22 @@ class Main {
 - Dynamic polymorphism is a process in which a call to an overridden method is resolved at runtime, thats why it is called runtime polymorphism.
 - Method overriding is an example of runtime polymorphism.
 
+__Example__
+
+```ruby
+class Bike{
+   void run(){System.out.println("running");}
+ }
+ class Pulsar extends Bike{
+   void run(){System.out.println("running safely with 60km");}
+ 
+   public static void main(String args[]){
+     Bike b = new Pulsar();//upcasting
+     b.run();
+   }
+ }
+```
+
 ## Typecasting
 
 - Typcasting is the concept from which conversion of one data type to another data type implicitly or explicitly.
