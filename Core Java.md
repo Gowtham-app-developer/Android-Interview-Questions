@@ -188,8 +188,9 @@ public class MainClass {
     - Abstract class (0 to 100%)
     - Interface (100%)
 
+__Example__
+
 ```ruby
-/ Abstract class
 abstract class Animal {
   // Abstract method (does not have a body)
   public abstract void animalSound();
