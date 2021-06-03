@@ -25,7 +25,7 @@
 __Creating the Class__
 
 ```ruby
-class car {
+class Car {
   
   int numberOfDoors = 5;
   
