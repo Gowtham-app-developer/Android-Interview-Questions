@@ -14,10 +14,11 @@
 
 ## Classes and Objects
 
-- It is a basic unit of Object Oriented Programming and represents the real life entities.
-- A class can be defined as a template (blueprint) that describes the behavior/state that the object.
+
+- A class can be defined as a template (blueprint) from which objects are created.
 - A class has two important things (i.e.) Properties and Methods.
 - Example: If we take a car color and numberOfSeats is properties and drive(), break() is Methods.
+- Objects are the basic unit of Object Oriented Programming and represents the real life entities.
 - Objects have states and behaviors.
 - For example, we can take a Car -> Car is an object.
 
