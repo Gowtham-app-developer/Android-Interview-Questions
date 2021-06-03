@@ -53,6 +53,26 @@ Car myCar = Car();
 - At the time of calling constructor, memory for the object is allocated in the memory.
 - It calls a default constructor if there is no constructor available in the class.
 
+__Example__
+
+```ruby
+Public class MyClass {
+   Int num;
+   MyClass() {
+      num = 10;
+   }
+}
+```
+
+```ruby
+public class Demo {
+   public static void main(String args[]) {
+      MyClass t1 = new MyClass();
+      System.out.println(t1.num);
+   }
+}
+```
+
 ## What is Inheritance?
 
 - Inheritance is the process by which objects of one class acquire the properties & methods of another class. 
