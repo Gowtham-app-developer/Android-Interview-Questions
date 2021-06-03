@@ -14,10 +14,11 @@
 
 ## Classes and Objects
 
-- A template (blueprint) for creating objects (the real thing) that we're going to showing in our app.
+- It is a basic unit of Object Oriented Programming and represents the real life entities.
+- A class can be defined as a template (blueprint) that describes the behavior/state that the object.
 - A class has two important things (i.e.) Properties and Methods.
 - Example: If we take a car color and numberOfSeats is properties and drive(), break() is Methods.
-- It is a basic unit of Object Oriented Programming and represents the real life entities.
+- Objects have states and behaviors.
 - For example, we can take a Car -> Car is an object.
 
 __Creating the Class__
@@ -35,6 +36,13 @@ class car {
 ```
 
 - Where int numberOfDoors = 5 is the varaible(i.e.) Properties and void drive() is the function(i.e.) Methods
+
+__Creating an Object from the Class__
+
+```ruby
+Car myCar = Car();
+```
+- where int Car = 5 is the type, myCar is the object and Car() is the new version of that class. 
 
 ## Constructor
 
