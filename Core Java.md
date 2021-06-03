@@ -79,6 +79,31 @@ public class Demo {
 - It provides code reusability. 
 - It is used to achieve runtime polymorphism.
 
+```ruby
+class Calculation {
+   int z;
+	
+   public void addition(int x, int y) {
+      z = x + y;
+      System.out.println("The sum of the given numbers:"+z);
+   }
+}
+
+public class My_Calculation extends Calculation {
+   public void multiplication(int x, int y) {
+      z = x * y;
+      System.out.println("The product of the given numbers:"+z);
+   }
+	
+   public static void main(String args[]) {
+      int a = 20, b = 10;
+      My_Calculation demo = new My_Calculation();
+      demo.addition(a, b);
+      demo.multiplication(a, b);
+   }
+}
+```
+
 ## Does Java support multiple inheritance?
 
 - Java supports multiple inheritance by interface only since it can implement multiple interfaces but can extend only one class.
