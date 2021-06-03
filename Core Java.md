@@ -20,6 +20,22 @@
 - It is a basic unit of Object Oriented Programming and represents the real life entities.
 - For example, we can take a Car -> Car is an object.
 
+__Creating the Class__
+
+```ruby
+class car {
+  
+  int numberOfDoors = 5;
+  
+  void drive(){
+    print('wheels start turning');
+  }
+    
+}
+```
+
+- Where int numberOfDoors = 5 is the varaible(i.e.) Properties and void drive() is the function(i.e.) Methods
+
 ## Constructor
 
 - Constructor is a block of code that initializes the newly created object.
