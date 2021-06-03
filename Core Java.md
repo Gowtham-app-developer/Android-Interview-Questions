@@ -338,6 +338,29 @@ __Upcasting__
 - In other words, Upcasting is the typecasting of a child object to a parent object.
 - Upcasting can be done implicitly.
 
+__Example__
+
+```ruby
+class  Parent{  
+   void PrintData() {  
+      System.out.println("method of parent class");  
+   }  
+}  
+  
+class Child extends Parent {  
+   void PrintData() {  
+      System.out.println("method of child class");  
+   }  
+}  
+class UpcastingExample{  
+   public static void main(String args[]) {  
+        
+      Parent obj1 = (Parent) new Child();    
+      obj1.PrintData();   
+   }  
+}
+```
+
 __Downcasting__
 
 - Similarly downcasting means the typecasting of a parent object to a child object.
