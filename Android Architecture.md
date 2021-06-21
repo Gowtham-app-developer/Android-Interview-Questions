@@ -2,8 +2,8 @@
 
 ## Android Jetpack
 
--	Android Jetpack is a collection of Android software components which helps us in building Android apps.
--	These software components helps in reducing the boilerplate code and making complex things very simple.
+-	Android Jetpack is a collection of libraries to help developers follow best practices, reduce boilerplate code and write code that works consistently across Android versions   and devices so that developers can focus on the code they care about.
+-	In simple it helps in reducing the boilerplate code and making complex things very simple.
 
 ## What is Architecture?
 
