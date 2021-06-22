@@ -88,9 +88,9 @@ __DAO__
 - WorkManager we can enqueue our background processing even when the app is not running and the device is rebooted for some reason. 
 - It also lets us define constraints necessary to run the task e.g. network availability before starting the background task.
 
-## Architecture pattern
+## Android Architecture pattern
 
-- An architecture pattern gives modularity to the project files and assures that all the codes get covered in Unit testing. 
+- An Android Architecture pattern gives modularity to the project files and assures that all the codes get covered in Unit testing. 
 - It makes the task easy for developers to maintain the software and to expand the features of the application in the future.
 
 ## MVC
