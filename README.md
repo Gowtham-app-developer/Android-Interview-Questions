@@ -2,6 +2,24 @@
 
 # Topics
 
+## Android Architecture Components
+
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Android Jetpack](Android%20Architecture.md#android-jetpack) |
+| 2 | [What is Architecture?](Android%20Architecture.md#what-is-architecture) |
+| 3 | [Android Architecture Components](Android%20Architecture.md#android-architecture-components-1) |
+| 4 | [Data Binding](Android%20Architecture.md#data-binding) |
+| 5 | [View Model](Android%20Architecture.md#view-model) |
+| 6 | [Android LiveData](Android%20Architecture.md#android-livedata) |
+| 7 | [Mutable LiveData](Android%20Architecture.md#mutable-livedata) |
+| 8 | [Room Database](Android%20Architecture.md#room-database) |
+| 9 | [Components of Room](Android%20Architecture.md#components-of-room) |
+| 10 | [Work Manager](Android%20Architecture.md#work-manager) |
+| 10 | [Work Manager](Android%20Architecture.md#work-manager) |
+| 10 | [Work Manager](Android%20Architecture.md#work-manager) |
+
+
 ## Android Basics
 
 | S.No | Content |
@@ -100,19 +118,4 @@
 | 59 | [threadpool executor](Core%20Java.md#oops) |
 | 60 | [What is the difference between iterator and enumeration in java?](Core%20Java.md#oops) |
 | 61 | [What does the keyword synchronized mean?](Core%20Java.md#hashmap) |
-
-## Android Architecture Components
-
-| S.No | Content |
-| --------	 | ------------ |
-| 1 | [Android Jetpack](Android%20Architecture.md#android-jetpack) |
-| 2 | [What is Architecture?](Android%20Architecture.md#what-is-architecture) |
-| 3 | [Android Architecture Components](Android%20Architecture.md#android-architecture-components-1) |
-| 4 | [Data Binding](Android%20Architecture.md#data-binding) |
-| 5 | [View Model](Android%20Architecture.md#view-model) |
-| 6 | [Android LiveData](Android%20Architecture.md#android-livedata) |
-| 7 | [Mutable LiveData](Android%20Architecture.md#mutable-livedata) |
-| 8 | [Room Database](Android%20Architecture.md#room-database) |
-| 9 | [Components of Room](Android%20Architecture.md#components-of-room) |
-| 10 | [Android Jetpack](README.md#android-basics-1) |
 
