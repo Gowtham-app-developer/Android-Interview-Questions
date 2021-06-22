@@ -27,6 +27,9 @@
 - onRestart -> Called after your activity is stopped, prior to start.
 - onDestroy -> Called before the activity is destroyed.
 
+![image](https://user-images.githubusercontent.com/78175168/122950352-022f2300-d39a-11eb-853e-44d6a261d3a3.png)
+
+
 ## Manifest.xml
 
 - AndroidManifest.xml describes each component of the application and how they interact.
