@@ -13,7 +13,8 @@
     
 ## Activity
 
-- An activity represents a single screen with a user interface just like window or Containers.
+- Activity represents the presentation layer of an Android application, e.g. a screen which the user sees.
+- An Android application can have several activities and it can be switched between them during runtime of the application.
 - Android activity is the subclass of ContextThemeWrapper class.
 
 ## Activity Lifecycle
