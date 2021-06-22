@@ -130,7 +130,7 @@ __advantages__
 
 ## What is Intent?
 
-- Intents are messages that can be used to pass information to the various components of android. 
+- Intents are messages that can be used to pass information between the components in android. 
 - It is used to launch an activity, display a web page, send SMS, send email, etc. 
 - There are two types of intents in android:
   - Implicit Intent
