@@ -200,3 +200,9 @@ __Model View Presenter__
 - Clean code can be read and enhanced by a developer other than its original author that comes With understandability comes readability, changeability, extensibility, and         maintainability.
 - Code should be elegant, no duplication, Runs all the Tests, Create the meaningful Names in Classes and functions ,Minimize the number of entities such as classes, Methods and   the Functions.
 
+## Work Manager
+
+- WorkManager is a background processing library which is used to execute background tasks which should run in a guaranteed way but not necessarily immediately. 
+- WorkManager we can enqueue our background processing even when the app is not running and the device is rebooted for some reason. 
+- It also lets us define constraints necessary to run the task e.g. network availability before starting the background task.
+
