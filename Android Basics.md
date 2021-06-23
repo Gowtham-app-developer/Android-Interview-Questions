@@ -33,7 +33,7 @@
 ## Manifest.xml
 
 - AndroidManifest.xml describes each component of the application and how they interact.
-- The AndroidManifest.xml file contains information of your package, including components of the application such as activities, services, broadcast receivers,         content providers etc.
+- The AndroidManifest.xml file contains information of your package, User Permissions, including components of the application such as activities, services, broadcast receivers,         content providers etc.
 
 ## Project structure of an Android Application
 
