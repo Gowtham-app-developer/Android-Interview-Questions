@@ -124,11 +124,15 @@
 
 ## What is a Job Scheduling?
 
-- Job Scheduling api, as the name suggests, allows to schedule jobs while letting the system optimize based on memory, power, and connectivity conditions.
-- The JobScheduler supports batch scheduling of jobs. The Android system can combine jobs so that battery consumption is reduced. 
-- JobManager makes handling uploads easier as it handles automatically the unreliability of the network. It also survives application restarts.
+- Android Job Scheduling API, is the better choice for scheduling background jobs for your application.
+- It improves the battery life by performing similar jobs as batches in the background.
+- JobManager makes handling uploads easier as it handles automatically the unreliability of the network. 
+- It is available from Android 5.0 (API Level 21)
+- It also survives application restarts.
+- It is the better alternative for Alaram Manager and Sync Adapters.
 
 __Scenarios:__
+
 - Tasks that should be done once the device is connect to a power supply
 - Tasks that require network access or a Wi-Fi connection.
 - Task that are not critical or user facing
@@ -136,13 +140,13 @@ __Scenarios:__
 
 ## How to run parallel tasks in Java or Android?
 
-- Creating and destroying threads has a high CPU usage, so when we need to perform lots of small, simple tasks concurrently, the overhead of creating our own threads can take     up a significant portion of the CPU cycles and severely affect the final response time.
+- Creating and destroying threads has a high CPU usage, so when we need to perform lots of small, simple tasks concurrently, the overhead of creating our own threads can take up a significant portion of the CPU cycles and severely affect the final response time.
 - ThreadPool consists of a task queue and a group of worker threads, which allows it to run multiple parallel instances of a task.
 
 ## How should update the UI of an activity from a background service?
 
-- We need to register a LocalBroadcastReceiver in the activity. And send a broadcast with the data using intents from the background service. 
-- As long as the activity is in the foreground, the UI will be updated from the background. Ensure to unregister the broadcast receiver in the onStop() method of the activity     to avoid memory leaks. 
+- We need to register a LocalBroadcastReceiver in the activity and send a broadcast with the data using intents from the background service. 
+- As long as the activity is in the foreground, the UI will be updated from the background. Ensure to unregister the broadcast receiver in the onStop() method of the activity to avoid memory leaks. 
 - We can also register a Handler and pass data using Handlers. I have detailed a sample implementation on this.
 
 ## What is Memory Leak?
