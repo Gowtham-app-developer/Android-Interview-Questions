@@ -33,21 +33,18 @@
 
 ## Difference between Service & Intent Service
 
-- Unbounded Service is used to perform long repetitive task	Bounded 
-- Service is used to perform background task in bound with another component	
-- Intent Service is used to perform one time task i.e when the task completes the service destroys itself .
-
-- Unbound Service gets starts by calling startService().	
-- bounded Service gets starts by calling bindService().	
-- Intent Service gets  starts by calling startService().
-
-- Unbound Service is stopped or destroyed explicitly  by calling stopService().	
-- bounded Service is unbind or destroyed by calling unbindService().	
-- IntentService Implicitly calls stopself() to destroy
-
-- Unbound Service is independent of the component in which it is started.	
-- bound Service dependents on the component in which it is started.	
-- Intent Service is independent of the component in which it is started.
+- __Unbounded Service__ is used to perform long repetitive task	 
+- __Bounded Service__ is used to perform background task in bound with another component	
+- __Intent Service__ is used to perform one time task i.e when the task completes the service destroys itself .
+- __Unbound Service__ gets starts by calling startService().	
+- __Bounded Service__ gets starts by calling bindService().	
+- __Intent Service__ gets  starts by calling startService().
+- __Unbound Service__ is stopped or destroyed explicitly  by calling stopService().	
+- __Bounded Service__ is unbind or destroyed by calling unbindService().	
+- __IntentService__ Implicitly calls stopself() to destroy
+- __Unbound Service__ is independent of the component in which it is started.	
+- __Bound Service__ dependents on the component in which it is started.	
+- __Intent Service__ is independent of the component in which it is started.
 
 ## Difference between AsyncTasks & Threads?
 
