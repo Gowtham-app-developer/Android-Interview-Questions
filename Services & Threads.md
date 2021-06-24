@@ -31,11 +31,18 @@
 
 ![image](https://user-images.githubusercontent.com/78175168/123263533-b0f86e00-d516-11eb-99e9-a9b17af3e358.png)
 
+## Started Service
+
+- __Intent Service__ is used to perform one time task i.e when the task completes the service destroys itself.
+- __Intent Service__ gets  starts by calling startService().  
+- __IntentService__ Implicitly calls stopself() to destroy.
+- __Intent Service__ is independent of the component in which it is started.
+
 ## Difference between Service & Intent Service
 
 - __Unbounded Service__ is used to perform long repetitive task	 
 - __Bounded Service__ is used to perform background task in bound with another component	
-- __Intent Service__ is used to perform one time task i.e when the task completes the service destroys itself .
+- __Intent Service__ is used to perform one time task i.e when the task completes the service destroys itself.
 - __Unbound Service__ gets starts by calling startService().	
 - __Bounded Service__ gets starts by calling bindService().	
 - __Intent Service__ gets  starts by calling startService().
