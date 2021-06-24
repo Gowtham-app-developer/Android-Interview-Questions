@@ -29,7 +29,7 @@
 - A service is started when an application component, such as an activity, starts it by calling startService(). 
 - Once started, a service can run in the background indefinitely, even if the component that started it is destroyed.
 
-https://i.stack.imgur.com/M9NNT.png![image](https://user-images.githubusercontent.com/78175168/123261625-9cb37180-d514-11eb-82af-1703c01e609d.png)
+https://i.stack.imgur.com/M9NNT.png![image](https://user-images.githubusercontent.com/78175168/123261777-c9678900-d514-11eb-8017-f7b01f93b2af.png)
 
 
 ## Difference between Service & Intent Service
