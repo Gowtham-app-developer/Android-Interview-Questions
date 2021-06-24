@@ -38,7 +38,7 @@
 - __IntentService__ Implicitly calls stopself() to destroy.
 - __Intent Service__ is independent of the component in which it is started.
 
-## Difference between Service & Intent Service
+## Difference between Bounded Service, Unbounded Service & Intent Service
 
 - __Unbounded Service__ is used to perform long repetitive task	 
 - __Bounded Service__ is used to perform background task in bound with another component	
