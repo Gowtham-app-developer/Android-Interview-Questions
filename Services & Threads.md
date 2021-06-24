@@ -31,7 +31,7 @@
 
 ![image](https://user-images.githubusercontent.com/78175168/123263533-b0f86e00-d516-11eb-99e9-a9b17af3e358.png)
 
-## Started Service
+## Intent Service
 
 - __Intent Service__ is used to perform one time task i.e when the task completes the service destroys itself.
 - __Intent Service__ gets  starts by calling startService().  
