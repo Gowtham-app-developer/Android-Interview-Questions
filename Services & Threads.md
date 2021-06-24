@@ -33,11 +33,21 @@
 
 ## Difference between Service & Intent Service
 
-- __Service__ is the base class for Android services that can be extended to create any service. A
-- class that directly extends Service runs on the main thread so it will block the UI (if there is one) and should therefore either be used only for short tasks or should make   use of other threads for longer tasks.
-- __IntentService__ is a subclass of Service that handles asynchronous requests (expressed as “Intents”) on demand. 
-- Clients send requests through startService(Intent) calls. 
-- The service is started as needed, handles each Intent in turn using a worker thread, and stops itself when it runs out of work.
+- Unbounded Service is used to perform long repetitive task	Bounded 
+- Service is used to perform background task in bound with another component	
+- Intent Service is used to perform one time task i.e when the task completes the service destroys itself .
+
+- Unbound Service gets starts by calling startService().	
+- bounded Service gets starts by calling bindService().	
+- Intent Service gets  starts by calling startService().
+
+- Unbound Service is stopped or destroyed explicitly  by calling stopService().	
+- bounded Service is unbind or destroyed by calling unbindService().	
+- IntentService Implicitly calls stopself() to destroy
+
+- Unbound Service is independent of the component in which it is started.	
+- bound Service dependents on the component in which it is started.	
+- Intent Service is independent of the component in which it is started.
 
 ## Difference between AsyncTasks & Threads?
 
