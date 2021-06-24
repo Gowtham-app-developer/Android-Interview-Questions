@@ -53,6 +53,42 @@
 - __Bound Service__ dependents on the component in which it is started.	
 - __Intent Service__ is independent of the component in which it is started.
 
+## Async Task
+
+- Android application runs on a single thread when launched. 
+- Due to this single thread model tasks that take longer time to fetch the response can make the application non-responsive. 
+- To avoid this we use android AsyncTask to perform the heavy tasks in background on a dedicated thread and passing the results back to the UI thread. 
+- Hence use of AsyncTask in android application keeps the UI thread responsive at all times.
+
+## What are the basic methods used in an android AsyncTask class?
+
+- __doInBackground() :__ This method contains the code which needs to be executed in background. 
+- In this method we can send results multiple times to the UI thread by publishProgress() method. 
+- To notify that the background processing has been completed we just need to use the return statements
+- __onPreExecute() :__ This method contains the code which is executed before the background processing starts
+- __onPostExecute() :__ This method is called after doInBackground method completes processing. Result from doInBackground is passed to this method
+- __onProgressUpdate() :__ This method receives progress updates from doInBackground method, which is published via publishProgress method, and this method can use                                                                   this progress update to update the UI thread
+
+## what are the three generic types used in an android AsyncTask class?
+
+- __Params :__ The type of the parameters sent to the task upon execution
+- __Progress :__ The type of the progress units published during the background computation
+- __Result :__ The type of the result of the background computation
+
+## What are the Advantages of using AsyncTask
+
+- Provides generic solution for all network calls
+- Publish progress to UI while executing.
+- Run Asynchronously
+- Easy to maintain and read.
+
+## Problems in AysncTask
+
+- When you rotate your screen, Activity gets destroyed, so AsyncTask will not have a valid reference to publish data from onPostExecute(). 
+- In order to retain it, you need to usesetRetainState(true) if calling from fragment or onConfigChanges() if calling from activity method of an activity.
+- If activity gets finished, AsyncTask execution will not cancelled automatically, you need to cancel them else they will keep on running in the background.
+- If any exception occurs while performing network task, you need to handle them manually.
+
 ## Difference between AsyncTasks & Threads?
 
 - __Thread__ should be used to separate long running operations from main thread so that performance is improved. 
@@ -125,40 +161,6 @@ __Scenarios:__
 
 - Crash are due to exception and error like Nullpoint,classNotfound, typecast ,parse error etc. ANR also causes crash of application.
 
-## Async Task
-
-- Android application runs on a single thread when launched. 
-- Due to this single thread model tasks that take longer time to fetch the response can make the application non-responsive. 
-- To avoid this we use android AsyncTask to perform the heavy tasks in background on a dedicated thread and passing the results back to the UI thread. 
-- Hence use of AsyncTask in android application keeps the UI thread responsive at all times.
-
-## What are the basic methods used in an android AsyncTask class?
-
-- __doInBackground() :__ This method contains the code which needs to be executed in background. In this method we can send results multiple times to the UI thread by publishProgress() method. 
-- To notify that the background processing has been completed we just need to use the return statements
-- __onPreExecute() :__ This method contains the code which is executed before the background processing starts
-- __onPostExecute() :__ This method is called after doInBackground method completes processing. Result from doInBackground is passed to this method
-- __onProgressUpdate() :__ This method receives progress updates from doInBackground method, which is published via publishProgress method, and this method can use this           progress update to update the UI thread
-
-## what are the three generic types used in an android AsyncTask class?:
-
-- __Params :__ The type of the parameters sent to the task upon execution
-- __Progress :__ The type of the progress units published during the background computation
-- __Result :__ The type of the result of the background computation
-
-## What are the Advantages of using AsyncTask
-
-- Provides generic solution for all network calls
-- Publish progress to UI while executing.
-- Run Asynchronously
-- Easy to maintain and read.
-
-## Problems in AysncTask
-
-- When you rotate your screen, Activity gets destroyed, so AsyncTask will not have a valid reference to publish data from onPostExecute(). 
-- In order to retain it, you need to usesetRetainState(true) if calling from fragment or onConfigChanges() if calling from activity method of an activity.
-- If activity gets finished, AsyncTask execution will not cancelled automatically, you need to cancel them else they will keep on running in the background.
-- If any exception occurs while performing network task, you need to handle them manually.
 
 ## Android Threading
 
