@@ -5,7 +5,7 @@
 
 - A Service is an application component that can perform long-running operations in the background, and it doesn't provide a user interface. 
 - It can run in the background, even when the user is not interacting with your application. 
-- These are the three different types of services ->Foreground Services, Background Services and Bound Services.
+- These are the three different types of services -> Foreground Services, Background Services and Bound Services.
 
 ## Foreground Service 
 
