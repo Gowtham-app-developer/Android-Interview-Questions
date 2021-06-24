@@ -89,6 +89,18 @@
 - If activity gets finished, AsyncTask execution will not cancelled automatically, you need to cancel them else they will keep on running in the background.
 - If any exception occurs while performing network task, you need to handle them manually.
 
+## What are Handlers?
+
+- A thread must be created to execute long running jobs.
+- Handlers are objects for managing threads. 
+- A Handler is very convenient object to communicate between 2 threads (for instance : a background thread need to update the UI. You can use a Handler to post                                                                      some Runnable from your background thread to the UI thread).
+
+## Android Threading
+
+- When an application is launched in Android, it creates the first thread of execution, known as the “main” thread. 
+- The main thread is responsible for dispatching events to the appropriate user interface widgets as well as communicating with components from the Android UI toolkit.
+- To keep your application responsive, it is essential to avoid using the main thread to perform any operation that may end up keeping it blocked.
+
 ## Difference between AsyncTasks & Threads?
 
 - __Thread__ should be used to separate long running operations from main thread so that performance is improved. 
@@ -106,17 +118,9 @@
 - __AsyncTask__ allows you to perform asynchronous work on your user interface. 
 - It performs the blocking operations in a worker thread and then publishes the results on the UI thread, without requiring you to handle threads and/or handlers yourself.
 - __IntentService__ is a base class for Services that handle asynchronous requests (expressed as Intents) on demand. 
-- Clients send requests through startService(Intent) calls; the service is started as needed, handles each Intent in turn using a worker thread, and stops itself when it runs     out of work.
+- Clients send requests through startService(Intent) calls; the service is started as needed, handles each Intent in turn using a worker thread, and stops itself when it runs out of work.
 - A __thread__ is a single sequential flow of control within a program. 
 - Threads can be thought of as mini-processes running within a main process.
-
-## What are Handlers?
-
-- Handlers are objects for managing threads. 
-- It receives messages and writes code on how to handle the message. 
-- They run outside of the activity’s lifecycle, so they need to be cleaned up properly or else you will have thread leaks.
-- Handlers allow communicating between the background thread and the main thread.
-- A Handler class is preferred when we need to perform a background task repeatedly after every x seconds/minutes.
 
 ## What is a Job Scheduling?
 
@@ -161,9 +165,3 @@ __Scenarios:__
 
 - Crash are due to exception and error like Nullpoint,classNotfound, typecast ,parse error etc. ANR also causes crash of application.
 
-
-## Android Threading
-
-- When an application is launched in Android, it creates the first thread of execution, known as the “main” thread. 
-- The main thread is responsible for dispatching events to the appropriate user interface widgets as well as communicating with components from the Android UI toolkit.
-- To keep your application responsive, it is essential to avoid using the main thread to perform any operation that may end up keeping it blocked.
