@@ -24,10 +24,13 @@
 - A bound service offers a client-server interface that allows components to interact with the service, send requests, receive results. 
 - A bound service runs only as long as another application component is bound to it.
 
-## Unbound Service
+## Started Service / Unbound Service
 
 - A service is started when an application component, such as an activity, starts it by calling startService(). 
 - Once started, a service can run in the background indefinitely, even if the component that started it is destroyed.
+
+https://i.stack.imgur.com/M9NNT.png![image](https://user-images.githubusercontent.com/78175168/123261625-9cb37180-d514-11eb-82af-1703c01e609d.png)
+
 
 ## Difference between Service & Intent Service
 
