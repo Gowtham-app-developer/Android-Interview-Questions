@@ -10,8 +10,7 @@
 ## Foreground Service 
 
 - A foreground service performs some operation that is noticeable to the user. 
-- For example, we can use a foreground service to play an audio track. 
-- A Notification must be displayed to the user.
+- For example, we can use a foreground service to play an audio track a notification must be displayed to the user.
 
 ## Background Service
 
