@@ -22,7 +22,9 @@
 - The Java Compiler(javac) converts the Java Source Code into Java Byte-Code(.class). 
 - Then DEX Compiler converts this (.class) file into in Dalvik Byte Code i.e. “.dex” file.
 - Advantages – Execution is Faster, Applications are given on their own instances.
-     
+
+![image](https://user-images.githubusercontent.com/78175168/123641566-034fcc80-d840-11eb-9da3-fed79b6abecd.png)
+    
 ## What is ART?
 
 - Android Apps, written in Java, converted to byte code, packaged as apk and run on Runtime. 
@@ -30,6 +32,8 @@
 - Dalvik Virtual Machine(DVM) was the default runtime till Kitkat. 
 - From Lollipop onwards, Android Runtime is the default platform for the android applications to run. 
 - ART is claimed to be the fastest runtime than DVM, since ART does ahead-of-compilation which converts Android apks to odex to improve Application performance.
+
+![image](https://user-images.githubusercontent.com/78175168/123641740-34c89800-d840-11eb-9876-7e94039a041f.png)
 
 ## What is runtime?
 
