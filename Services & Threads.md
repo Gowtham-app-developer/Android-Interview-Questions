@@ -39,8 +39,8 @@
 
 ## Intent Service
 
-- Service is the base class of Intent Service.
-- __Intent Service__ is used to perform one time task (i.e.) only one request will be processed. and  when the task completes the service destroys itself.
+- Service is the base class of __Intent Service__.
+- __Intent Service__ is used to perform one time task (i.e.) only one request will be processed and  when the task completes the service destroys itself.
 - __Intent Service__ gets  starts by calling startService().  
 - __IntentService__ Implicitly calls stopself() to destroy.
 - __Intent Service__ is independent of the component in which it is started.
