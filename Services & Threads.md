@@ -18,18 +18,22 @@
 - A background service performs an operation that isn’t directly noticed by the user. 
 - In Android API level 26 and above, there are restrictions to using background services and it is recommended to use WorkManager in these cases.
 
+## Started Service / Unbound Service
+
+- A service is started when an application component, such as an activity, starts it by calling startService(). 
+- Once started, a service can run in the background indefinitely, even if the component that started it is destroyed.
+- Two ways to stop the execution of service  -> By calling stopService() method ot the service can stop itself by calling the stopSelf() method.
+
+![image](https://user-images.githubusercontent.com/78175168/123263533-b0f86e00-d516-11eb-99e9-a9b17af3e358.png)
+
 ## Bound Service
 
 - A service is bound when an application component binds to it by calling bindService(). 
 - A bound service offers a client-server interface that allows components to interact with the service, send requests, receive results. 
 - A bound service runs only as long as another application component is bound to it.
+- To stop the execution of this service, all the components must unbind themselves from the service by using unbindService() method.
 
-## Started Service / Unbound Service
-
-- A service is started when an application component, such as an activity, starts it by calling startService(). 
-- Once started, a service can run in the background indefinitely, even if the component that started it is destroyed.
-
-![image](https://user-images.githubusercontent.com/78175168/123263533-b0f86e00-d516-11eb-99e9-a9b17af3e358.png)
+![image](https://user-images.githubusercontent.com/78175168/123607434-84e13380-d81b-11eb-8f24-114b179990ab.png)
 
 ## Intent Service
 
