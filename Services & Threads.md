@@ -43,7 +43,13 @@
 - __Intent Service__ is used to perform one time task (i.e.) only one request will be processed and  when the task completes the service destroys itself.
 - __Intent Service__ gets  starts by calling startService().  
 - __IntentService__ Implicitly calls stopself() to destroy.
-- __Intent Service__ is independent of the component in which it is started.
+
+__Working__
+
+- __IntentService__ creates a worker thread and uses that thread to run the service.
+- __IntentService__ creates a queue that passes one intent at a time to onHandleIntent().
+- It queues up all the incoming requests and they are processed one by one.
+- Once the request Queue is empty it automatically stops itself.
 
 ## Difference between Bounded Service, Unbounded Service & Intent Service
 
