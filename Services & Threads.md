@@ -11,11 +11,13 @@
 ## Foreground Service 
 
 - A foreground service performs some operation that is noticeable to the user. 
-- For example, we can use a foreground service to play an audio track a notification must be displayed to the user.
+- For example, we can use a foreground service to play an audio track a notification must be displayed to the user and displaying notification is a must.
 
 ## Background Service
 
 - A background service performs an operation that isn’t directly noticed by the user. 
+- For example, while sending some images over Whatsapp, Whatsapp compresses the image file to reduce the size. 
+- This above mentioned task is done in background and the user have no idea about what is going in the background. 
 - In Android API level 26 and above, there are restrictions to using background services and it is recommended to use WorkManager in these cases.
 
 ## Started Service / Unbound Service
@@ -37,7 +39,8 @@
 
 ## Intent Service
 
-- __Intent Service__ is used to perform one time task i.e when the task completes the service destroys itself.
+- Service is the base class of Intent Service.
+- __Intent Service__ is used to perform one time task (i.e.) only one request will be processed. and  when the task completes the service destroys itself.
 - __Intent Service__ gets  starts by calling startService().  
 - __IntentService__ Implicitly calls stopself() to destroy.
 - __Intent Service__ is independent of the component in which it is started.
