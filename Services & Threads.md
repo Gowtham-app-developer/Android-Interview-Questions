@@ -167,6 +167,14 @@ public class DownloadJobService extends JobService{
 } 
 ```
 
+## Alaram Manager
+
+- An AlarmManager is used to trigger some code at a specific time. 
+- It uses the Android SDK’s alarm service and runs independently of the application’s lifecycle.
+- By the help of Android AlarmManager in android, you can schedule your application to run at a specific time in the future. 
+- It works whether your phone is running or not.
+- The Android AlarmManager holds a CPU wake lock that provides guarantee not to sleep the phone until broadcast is handled.
+
 ## How to run parallel tasks in Java or Android?
 
 - Creating and destroying threads has a high CPU usage, so when we need to perform lots of small, simple tasks concurrently, the overhead of creating our own threads can take up a significant portion of the CPU cycles and severely affect the final response time.
