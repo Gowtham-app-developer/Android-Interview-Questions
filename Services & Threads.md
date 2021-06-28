@@ -151,6 +151,22 @@ __Scenarios:__
 - Task that are not critical or user facing
 - Tasks that should be running on a regular basis as batch where the timing is not critical
 
+```ruby
+public class DownloadJobService extends JobService{
+
+    @Override
+    public boolean onStartJob(JobParameters jobParameters) {
+	
+	downloadFile();
+        return false;
+    }
+    @Override
+    public boolean onStopJob(JobParameters jobParameters) {
+        return false;
+    }
+} 
+```
+
 ## How to run parallel tasks in Java or Android?
 
 - Creating and destroying threads has a high CPU usage, so when we need to perform lots of small, simple tasks concurrently, the overhead of creating our own threads can take up a significant portion of the CPU cycles and severely affect the final response time.
