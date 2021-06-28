@@ -33,8 +33,6 @@
 - From Lollipop onwards, Android Runtime is the default platform for the android applications to run. 
 - ART is claimed to be the fastest runtime than DVM, since ART does ahead-of-compilation which converts Android apks to odex to improve Application performance.
 
-![image](https://user-images.githubusercontent.com/78175168/123641740-34c89800-d840-11eb-9876-7e94039a041f.png)
-
 ## What is runtime?
 
 - In a simplest term it is a system used by operating system which takes care of converting the code that you write in a high level language like Java to machine code and understand by CPU/Processor.
