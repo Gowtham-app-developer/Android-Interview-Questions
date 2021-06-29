@@ -24,7 +24,7 @@
 
 - A service is started when an application component, such as an activity, starts it by calling startService(). 
 - Once started, a service can run in the background indefinitely, even if the component that started it is destroyed.
-- Two ways to stop the execution of service  -> By calling stopService() method ot the service can stop itself by calling the stopSelf() method.
+- Two ways to stop the execution of service  -> By calling stopService() method and The service can stop itself by calling the stopSelf() method.
 
 ![image](https://user-images.githubusercontent.com/78175168/123263533-b0f86e00-d516-11eb-99e9-a9b17af3e358.png)
 
