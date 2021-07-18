@@ -322,6 +322,22 @@ __Downcasting__
 - There are two ways to overload the method in java -> By changing number of arguments, By changing the data type.
 - Method overloading increases the readability of the program.
 
+__Example__
+
+```ruby
+class Adder{  
+static int add(int a,int b){return a+b;}  
+static int add(int a,int b,int c){return a+b+c;}  
+}  
+
+class TestOverloading{  
+public static void main(String[] args){  
+System.out.println(Adder.add(1,1));  
+System.out.println(Adder.add(1,1,1));  
+}
+}  
+```
+
 ## Method Overriding
 
 - If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
