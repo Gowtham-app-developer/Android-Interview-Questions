@@ -363,11 +363,10 @@ class Dog extends Animal {
 
 public class Main {
    public static void main(String[] args) {
-      Animal myDog = new Dog(); 
+      Dog myDog = new Dog(); 
       myDog.animalSound();
    }
 }
-
 ```
 
 ## Final Keyword
