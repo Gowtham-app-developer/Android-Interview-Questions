@@ -282,6 +282,13 @@ class Main {
 
 - Typcasting is the concept from which conversion of one data type to another data type implicitly or explicitly.
 
+__Example__
+
+```ruby
+double myDouble = 1.1;
+int myInt = (int) myDouble;
+```
+
 __Upcasting__
 
 - If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
@@ -305,8 +312,8 @@ class Child extends Parent {
 class UpcastingExample{  
    public static void main(String args[]) {  
         
-      Parent obj1 = (Parent) new Child();    
-      obj1.PrintData();   
+      Parent obj = new Child();    
+      obj.PrintData();   
    }  
 }
 ```
