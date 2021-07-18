@@ -72,6 +72,11 @@
 - Strip down all the unused locale resources by adding required resources name in “resConfigs”.
 - Convert all the images to the webp or vector drawables
 
+## What is multiple apks?
+
+- Generating the multiple number of apks for a single application, by splitting a single apk into multiple apks, where each apk is specific for some sort of devices. 
+- Multiple apk is mainly used to generate specific apks for different screen densities and different CPU architecture.
+
 ## What is ProGuard?
 
 - ProGuard is a free java tool in Android, which helps us to do the following,
@@ -98,11 +103,6 @@
 - Git has a remote repository which is stored in a server and a local repository which is stored in the computer of each developer.
 - This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers’ computers.
 - Git is a Distributed Version Control System since the code is present in every developer’s computer.
-
-## What is multiple apks?
-
-- Generating the multiple number of apks for a single application, by splitting a single apk into multiple apks, where each apk is specific for some sort of devices. 
-- Multiple apk is mainly used to generate specific apks for different screen densities and different CPU architecture.
 
 ## What is Firebase?
 
