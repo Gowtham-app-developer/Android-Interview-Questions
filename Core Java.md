@@ -293,7 +293,7 @@ __Upcasting__
 
 - If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
 - In other words, Upcasting is the typecasting of a child object to a parent object.
-- Upcasting can be done implicitly.
+- Upcasting can be done implicitly or explicitly.
 
 __Example__
 
@@ -312,7 +312,7 @@ class Child extends Parent {
 class UpcastingExample{  
    public static void main(String args[]) {  
         
-      Parent obj = new Child();    
+      Parent obj = (Parent) new Child();    
       obj.PrintData();   
    }  
 }
