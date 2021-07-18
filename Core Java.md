@@ -345,6 +345,29 @@ System.out.println(Adder.add(1,1,1));
 - The method must have the same name and parameters as in the parent class.
 - Method overriding is used for runtime polymorphism
 
+__Example__
+
+```ruby
+class Vehicle{  
+  void move(){
+  System.out.println("Vehicle is moving");
+  }  
+} 
+
+class Cycle extends Vehicle{  
+  void move(){
+  System.out.println("Bike is running safely");
+  }  
+}
+
+class Bike extends Vehicle{  
+  public static void main(String args[]){  
+  Bike obj = new Bike();  
+  obj.move();  
+  }  
+}
+```
+
 ## Differences between abstract classes and interfaces
 
 - __Type of methods:__ Interface can have only abstract methods. Abstract class can have abstract and non-abstract methods. From Java 8, it can have default and static methods   also.
