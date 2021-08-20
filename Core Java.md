@@ -77,7 +77,9 @@ public class Demo {
 
 - Inheritance is the process by which objects of one class acquire the properties & methods of another class. 
 - It provides code reusability. 
-- It is used to achieve runtime polymorphism.
+- It is used to achieve runtime polymorphism(i.e.) Method Overriding.
+- We use extends keyword to perform inheritance.
+- We can't access private members of class through inheritance.
 
 ```ruby
 class Calculation {
