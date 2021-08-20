@@ -240,6 +240,8 @@ __Note__
 - To achieve interface in java we will use a keyword called implements.
 - By default interface methods are public and abstract.
 - By default interface variables are public static final.
+- From JDK 1.9 onwards interface can have private methods (i.e.) We can declare private method as a static or non static.
+- In JDK 1.8 interface can have static and deafult methods.
 
 __Example__
 
