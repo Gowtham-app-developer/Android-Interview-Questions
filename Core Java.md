@@ -483,8 +483,30 @@ public class Main {
 
 - Final keyword is a non-access modifier applicable only to a variable, a method or a class.
 - Final Variable -> To create constant Variable.
-- Final Methods -> Prevent Method Overriding.
-- Final Classes -> Prevent Inheritance
+- Final Methods -> To Prevent Method Overriding.
+- Final Classes -> To Prevent Inheritance.  
+
+## Finally keyword
+
+- Finally is a block of code which is used to place important code, it will be executed at the end of a try catch block regardless of whether or not an exception occurs.
+- It is mainly used for closing files or a database connection.
+
+__Example__
+
+```ruby
+public class Main { 
+   public static void main(String []args) { 
+      try { 
+         int data = 25/5; 
+         System.out.println(data);
+      } catch(NullPointerException e) { 
+         System.out.println(e);
+      } finally { 
+         System.out.println("finally block is always executed"); 
+      } 
+   }
+}
+```
 
 ## Static Keyword
 
@@ -592,9 +614,6 @@ private static volatile RESTService instance;
 - Clean-up activity means closing the resources associated with that object like Database Connection, Network Connection or we can say resource de-allocation.
 - The finally block is a key tool for preventing resource leaks.
 
-## Finally keyword
-
-- Finally is a code block and is used to place important code, it will be executed at the end of a try catch block regardless of whether or not an exception occurs.
 
 ## Threads
 
