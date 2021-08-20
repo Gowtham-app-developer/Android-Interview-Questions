@@ -429,14 +429,13 @@ class Bike extends Vehicle{
 
 ## Super Keyword
 
-- The super keyword in Java is a reference variable which is used to refer immediate parent class object.
-- It is applicable for variables, method and constructor.
+- The super keyword in Java is a reference variable which is used to refer immediate parent class object which is applicable for variables, method and constructor.
+- It is used to call superclass methods, superclass methods and superclass constructor.
 
 __Extra points__  
 
 - In other words, super keyword refers to the objects of super class, it is used when we want to call the superclass variables, methods and constructor through                                                     subclass objects.
 - Whenever you create the instance of subclass, an instance of parent class is created implicitly which is referred by super reference variable.  
-- It is used to call superclass methods and to access the superclass constructor.
 
 __Example__
 
