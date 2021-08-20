@@ -80,6 +80,7 @@ public class Demo {
 - It is used to achieve runtime polymorphism(i.e.) Method Overriding.
 - We use extends keyword to perform inheritance.
 - We can't access private members of class through inheritance.
+- Types -> Single Inheritance, Mutliple Inheritance, Multiple Inheritance and Hierarchical Inheritance.
 
 ```ruby
 class Calculation {
