@@ -3,6 +3,7 @@
 ## Oops
 
 - Object-Oriented Programming System (OOPs) is a programming concept that works on the principles of abstraction, encapsulation, inheritance, and polymorphism.
+- The main purpose of Oops is to deal with real world entity using programming language.
 
 ## Why is Java said to be platform independent?
 
@@ -13,7 +14,6 @@
    </p>
 
 ## Classes and Objects
-
 
 - A class can be defined as a template (blueprint) from which objects are created.
 - A class has two important things (i.e.) Properties and Methods.
