@@ -181,14 +181,14 @@ public class MainClass {
 
 ## Abstract Classes
 
-- A class which is declared with the abstract keyword is known as an abstract class in Java.
-- It can have abstract and non-abstract methods (method with the body).
 - Abstraction is a process of hiding the implementation details and showing only functionality to the user.
-- If a class contain partial impementation then we should declare a class as abstract and it cannot be instantiated.
-- Note: We can't create object for abstract class.
 - There are two ways to achieve abstraction in java
     - Abstract class (0 to 100%)
     - Interface (100%)
+- A class which is declared with the abstract keyword is known as an abstract class in Java.
+- It can have abstract and non-abstract methods (method with the body).
+- If a class contain partial impementation then we should declare a class as abstract and it cannot be instantiated.
+- We can't create object for abstract class.
 
 __Example__
 
