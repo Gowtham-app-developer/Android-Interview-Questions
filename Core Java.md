@@ -236,6 +236,11 @@ class Main {
 - It is used to achieve abstraction and multiple inheritance in Java.
 - Interfaces can have abstract methods and variables.
 
+__Note__  
+- To achieve interface in java we will use a keyword called implements.
+- By default interface methods are public and abstract.
+- By default interface variables are public static final.
+
 __Example__
 
 ```ruby
