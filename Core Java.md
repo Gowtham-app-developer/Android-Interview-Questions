@@ -19,6 +19,7 @@
 - A class has two important things (i.e.) Properties and Methods.
 - Example: If we take a car color and numberOfSeats is properties and drive(), break() is Methods.
 - Objects are the basic unit of Object Oriented Programming and represents the real life entities.
+- Objects is an instance of a class that excutes the class and it takes up space once the object is created.
 - Objects have states and behaviors.
 - For example, we can take a Car -> Car is an object.
 
