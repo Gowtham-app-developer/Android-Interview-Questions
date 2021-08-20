@@ -241,9 +241,33 @@ __Note__
 - By default interface methods are public and abstract.
 - By default interface variables are public static final.
 - From JDK 1.9 onwards interface can have private methods (i.e.) We can declare private method as a static or non static.
-- In JDK 1.8 interface can have static and deafult methods.
 
-__Example__
+__Example 1__
+
+```ruby
+interface A {
+
+  // Before JDK 1.8
+  public int a = 10; // public + static final
+  public void sleep(); // public + abstract
+  
+  // From JDK 1.8
+  public int a = 10; // public + static final
+  public void sleep(); // public + abstract
+  default void sleepOne(){}
+  static void sleepTwo(){}
+  
+  // From JDK 1.9
+  public int a = 10; // public + static final
+  public void sleep(); // public + abstract
+  default void sleepOne(){}
+  static void sleepTwo(){}
+  private void sleepThree(){}
+  
+}
+```
+
+__Example 2__
 
 ```ruby
 interface Animal {
