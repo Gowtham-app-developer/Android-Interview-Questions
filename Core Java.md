@@ -134,11 +134,11 @@ public class My_Calculation extends Calculation {
 ## What is Encapsulation?
 
 - Binding (or wrapping) code and data together into a single unit are known as encapsulation..
--	The whole idea behind encapsulation is to hide the implementation details from users.
--	If a data member is private it means it can only be accessed within the same class.
--	No outside class can access private data member (variable) of other class.
--	We can use setter and getter methods to set and get the data in it.
--	By providing only a setter or getter method, you can make the class read-only or write-only.
+- The whole idea behind encapsulation is to hide the implementation details from users.
+- If a data member is private it means it can only be accessed within the same class.
+- No outside class can access private data member (variable) of other class.
+- We can use setter and getter methods to set and get the data in it.
+- By providing only a setter or getter method, you can make the class read-only or write-only.
 
 __Example__
 
@@ -179,12 +179,16 @@ public class MainClass {
 }
 ```
 
-## Abstract Classes
+## Abstraction
 
 - Abstraction is a process of hiding the implementation details and showing only functionality to the user.
 - There are two ways to achieve abstraction in java
     - Abstract class (0 to 100%)
     - Interface (100%)
+- Example: By using Calculator we can Add, Substract , Multiply and Divide but we don't know what is happening internally.
+
+## Abstract Classes
+
 - A class which is declared with the abstract keyword is known as an abstract class in Java.
 - It can have abstract and non-abstract methods (method with the body).
 - If a class contain partial impementation then we should declare a class as abstract and it cannot be instantiated.
