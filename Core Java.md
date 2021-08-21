@@ -508,6 +508,14 @@ public class Main {
 }
 ```
 
+## Finalize() method
+
+- Finalize method is to clear garbage value.
+- Before removing the unused object by Garbage collector it release all the connections associated with the object.
+- The purpose of finalize() method is to release the resources like Database Connection and  Network Connection that is allocated by unused objects.
+- By default it is the protected finalize method and it is the object class. 
+- The finally block is a key tool for preventing resource leaks.
+
 ## Static Keyword
 
 - Static means that you don't have to create an instance of the class to use the methods or variables associated with the class.
@@ -604,15 +612,7 @@ private static volatile RESTService instance;
 ## Synchronized keyword
 
 - When we start two or more threads within a program, there may be a situation when multiple threads try to access the same resource and finally they can produce unforeseen       result.
-- By using Synchronization keyword in a method which will allow only one thread to access the shared resource.
-    
-## Finalize()
-
-- Finalize method is to clear garbage value.
-- The finalize() method is called by the garbage collector on an object when garbage collection determines that there are no more references to the object.
-- It is a method that the Garbage Collector always calls just before the deletion/destroying the object which is eligible for Garbage Collection, so as to perform clean-up       activity. 
-- Clean-up activity means closing the resources associated with that object like Database Connection, Network Connection or we can say resource de-allocation.
-- The finally block is a key tool for preventing resource leaks.
+- By using Synchronization keyword in a method which will allow only one thread to access the shared resource.  
 
 
 ## Threads
