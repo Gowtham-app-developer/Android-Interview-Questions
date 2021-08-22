@@ -522,6 +522,21 @@ public class Main {
 - Static is a non-access modifier applicable only to a blocks, variables, methods and nested classes.
 - Static Keyword in Java is used for memory management mainly.
 
+__Example__
+
+```ruby
+class Test {
+    public static void method() {
+      System.out.println("Static Keyword");
+    }
+}
+
+class Main {
+    public static void main(String args[]){  
+       Test.method();
+   }  
+}
+```
 
  ## Difference between == and .equals() method in Java?
 
