@@ -538,6 +538,14 @@ class Main {
 }
 ```
 
+## Synchronized keyword
+
+- When we start two or more threads within a program, there may be a situation when multiple threads try to access the same resource and finally they can produce unforeseen result.
+- By using Synchronization keyword in a method which will allow only one thread to access the shared resource.  
+- It is classified in to two categories -> Method Level Synchronization and Block Level Synchronization
+- Advantage -> We can resolve data inconsistency problems
+- Disadvantage -> It increases the waiting time of the thread and effects performance of the system.
+
  ## Difference between == and .equals() method in Java?
 
 - Main difference between .equals() method and == operator is that one is method and other is operator.
@@ -623,11 +631,6 @@ private static volatile RESTService instance;
      return instance;
  }
  ```
-
-## Synchronized keyword
-
-- When we start two or more threads within a program, there may be a situation when multiple threads try to access the same resource and finally they can produce unforeseen       result.
-- By using Synchronization keyword in a method which will allow only one thread to access the shared resource.  
 
 
 ## Threads
