@@ -239,3 +239,11 @@ With this background, let’s create a small app with MVI
 - Clean code can be read and enhanced by a developer other than its original author that comes With understandability comes readability, changeability, extensibility, and         maintainability.
 - Code should be elegant, no duplication, Runs all the Tests, Create the meaningful Names in Classes and functions ,Minimize the number of entities such as classes, Methods and   the Functions.
 
+## Design Pattern?
+
+- Makes the code understandable.
+- Makes the code maintainable for Long run.
+- Makes the Project loosely coupled.
+- Makes the code Testable.
+- Making Changes, new Features are Easy.
+
