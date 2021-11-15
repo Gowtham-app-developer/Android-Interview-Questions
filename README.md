@@ -59,7 +59,7 @@
 | S.No | Content |
 | --------	 | ------------ |
 | 1 | [Oops](Core%20Java.md#oops) |
-| 2 | [Why is Java said to be platform independent?](Core%20Java.md#version-control-system) |
+| 2 | [Why is Java said to be platform independent?](Core%20Java.md#why-is-java-said-to-be-platform-independent) |
 | 3 | [Classes and Objects](Core%20Java.md#classes-and-objects) |
 | 4 | [Constructor](Core%20Java.md#constructor) |
 | 5 | [What is Inheritance?](Core%20Java.md#what-is-inheritance) |
