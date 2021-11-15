@@ -39,7 +39,7 @@ class Car {
 
 - Where int numberOfDoors = 5 is the varaible(i.e.) Properties and void drive() is the function(i.e.) Methods
 
-__Creating an Object from the Class__
+__Creating an Object in the Class__
 
 ```ruby
 Car myCar = Car();
