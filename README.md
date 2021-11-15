@@ -2,58 +2,6 @@
 
 # Topics
 
-## Android Architecture Components
-
-| S.No | Content |
-| --------	 | ------------ |
-| 1 | [Android Jetpack](Android%20Architecture.md#android-jetpack) |
-| 2 | [What is Architecture?](Android%20Architecture.md#what-is-architecture) |
-| 3 | [Android Architecture Components](Android%20Architecture.md#android-architecture-components-1) |
-| 4 | [Data Binding](Android%20Architecture.md#data-binding) |
-| 5 | [View Model](Android%20Architecture.md#view-model) |
-| 6 | [Android LiveData](Android%20Architecture.md#android-livedata) |
-| 7 | [Mutable LiveData](Android%20Architecture.md#mutable-livedata) |
-| 8 | [Room Database](Android%20Architecture.md#room-database) |
-| 9 | [Components of Room](Android%20Architecture.md#components-of-room) |
-| 10 | [Work Manager](Android%20Architecture.md#work-manager) |
-| 10 | [Work Manager](Android%20Architecture.md#work-manager) |
-| 10 | [Work Manager](Android%20Architecture.md#work-manager) |
-
-
-## Android Basics
-
-| S.No | Content |
-| --------	 | ------------ |
-| 1 | [Android Basics](README.md#android-basics-1) |
-| 2 | [Core Java](README.md#core-java) |
-| 3 | [Android Architecture Components](README.md#android-architecture-components) |
-
-## Android Basics
-
-| S.No | Content |
-| --------	 | ------------ |
-| 1 | [Android Application Components](Android%20Basics.md#android-application-components) |
-| 2 | [Activity](Android%20Basics.md#activity) |
-| 3 | [Activity Lifecycle](Android%20Basics.md#activity-lifecycle) |
-| 4 | [Manifest.xml](Android%20Basics.md#manifestxml) |
-| 5 | [Project structure of an Android Application](Android%20Basics.md#project-structure-of-an-android-application) |
-| 6 | [Content Provider](Android%20Basics.md#content-provider) |
-| 7 | [Broadcast Receiver](Android%20Basics.md#broadcast-receiver) |
-| 8 | [Types of Broadcasts](Android%20Basics.md#types-of-broadcasts) |
-| 9 | [Local BroadcastManager](Android%20Basics.md#local-broadcastmanager) |
-| 10 | [onSavedInstanceState() & onRestoreInstanceState() in activity](Android%20Basics.md#onsavedinstancestate--onrestoreinstancestate-in-activity) |
-| 11 | [Why do we need to call setContentView() in onCreate() of Activity class?](Android%20Basics.md#why-do-we-need-to-call-setcontentview-in-oncreate-of-activity-class) |
-| 12 | [Context](Android%20Basics.md#context) |
-| 13 | [Application Context](Android%20Basics.md#application-context) |
-| 14 | [Activity Context](Android%20Basics.md#activity-context) |
-| 15 | [Application Class](Android%20Basics.md#application-class) |
-| 16 | [What is Intent?](Android%20Basics.md#what-is-intent) |
-| 17 | [Implicit Intent](Android%20Basics.md#implicit-intent) |
-| 18 | [Explicit Intent](Android%20Basics.md#explicit-intent) |
-| 19 | [Pending Intent](Android%20Basics.md#pending-intent) |
-| 20 | [Intent Filter](Android%20Basics.md#intent-filter) |
-| 21 | [Sticky Intent](Android%20Basics.md#sticky-intent) |
-
 ## Core Java
 
 | S.No | Content |
@@ -119,3 +67,55 @@
 | 60 | [What is the difference between iterator and enumeration in java?](Core%20Java.md#oops) |
 | 61 | [What does the keyword synchronized mean?](Core%20Java.md#hashmap) |
 
+
+## Android Architecture Components
+
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Android Jetpack](Android%20Architecture.md#android-jetpack) |
+| 2 | [What is Architecture?](Android%20Architecture.md#what-is-architecture) |
+| 3 | [Android Architecture Components](Android%20Architecture.md#android-architecture-components-1) |
+| 4 | [Data Binding](Android%20Architecture.md#data-binding) |
+| 5 | [View Model](Android%20Architecture.md#view-model) |
+| 6 | [Android LiveData](Android%20Architecture.md#android-livedata) |
+| 7 | [Mutable LiveData](Android%20Architecture.md#mutable-livedata) |
+| 8 | [Room Database](Android%20Architecture.md#room-database) |
+| 9 | [Components of Room](Android%20Architecture.md#components-of-room) |
+| 10 | [Work Manager](Android%20Architecture.md#work-manager) |
+| 10 | [Work Manager](Android%20Architecture.md#work-manager) |
+| 10 | [Work Manager](Android%20Architecture.md#work-manager) |
+
+
+## Android Basics
+
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Android Basics](README.md#android-basics-1) |
+| 2 | [Core Java](README.md#core-java) |
+| 3 | [Android Architecture Components](README.md#android-architecture-components) |
+
+## Android Basics
+
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Android Application Components](Android%20Basics.md#android-application-components) |
+| 2 | [Activity](Android%20Basics.md#activity) |
+| 3 | [Activity Lifecycle](Android%20Basics.md#activity-lifecycle) |
+| 4 | [Manifest.xml](Android%20Basics.md#manifestxml) |
+| 5 | [Project structure of an Android Application](Android%20Basics.md#project-structure-of-an-android-application) |
+| 6 | [Content Provider](Android%20Basics.md#content-provider) |
+| 7 | [Broadcast Receiver](Android%20Basics.md#broadcast-receiver) |
+| 8 | [Types of Broadcasts](Android%20Basics.md#types-of-broadcasts) |
+| 9 | [Local BroadcastManager](Android%20Basics.md#local-broadcastmanager) |
+| 10 | [onSavedInstanceState() & onRestoreInstanceState() in activity](Android%20Basics.md#onsavedinstancestate--onrestoreinstancestate-in-activity) |
+| 11 | [Why do we need to call setContentView() in onCreate() of Activity class?](Android%20Basics.md#why-do-we-need-to-call-setcontentview-in-oncreate-of-activity-class) |
+| 12 | [Context](Android%20Basics.md#context) |
+| 13 | [Application Context](Android%20Basics.md#application-context) |
+| 14 | [Activity Context](Android%20Basics.md#activity-context) |
+| 15 | [Application Class](Android%20Basics.md#application-class) |
+| 16 | [What is Intent?](Android%20Basics.md#what-is-intent) |
+| 17 | [Implicit Intent](Android%20Basics.md#implicit-intent) |
+| 18 | [Explicit Intent](Android%20Basics.md#explicit-intent) |
+| 19 | [Pending Intent](Android%20Basics.md#pending-intent) |
+| 20 | [Intent Filter](Android%20Basics.md#intent-filter) |
+| 21 | [Sticky Intent](Android%20Basics.md#sticky-intent) |
