@@ -1,7 +1,7 @@
 
 # Kotlin
 
-## What is Kotlin?
+## Kotlin
 
 - It is a Statically Typed Programming Language.
 - It is Officially announced for Android Development.
