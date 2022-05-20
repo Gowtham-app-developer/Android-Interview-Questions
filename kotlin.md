@@ -104,6 +104,34 @@ var company: String? = "May be declare nullable string"
 var nameLength:  Int = name ?.length ?: -1  
 var companyLength:  Int = company ?.length ?:  -1  
 ```
+
+## Tailrec [Recursive] Function
+
+- It is mainly used to prevent Stack Overflow Exception due to the limit of Stack Memory.
+- Uses Recursion in a more Optimized way. [ Recursion  means calling your own function within the function ]
+- We can print countless numbers without exception.
+- Prefix of tailrec keyword is used.
+- Example: Fibonacci type of Applications.
+
+__Example__
+
+```ruby
+ fun main(args: Array<String>) {
+
+        println(getFibonacciNumber(1000, BigInteger("1"), BigInteger("0")))
+    }
+
+    private tailrec fun getFibonacciNumber(n: Int, a: BigInteger, b: BigInteger): BigInteger {
+
+        return if (n == 0)
+            b
+        else
+            getFibonacciNumber(n - 1, a + b, a)
+    }
+```
+
+:arrow_up: [__Back to Top__](README.md#kotlin)
+
 ## Init Keyword
 
 - In Kotlin, the primary constructor cannot contain any code.
