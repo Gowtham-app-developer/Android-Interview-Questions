@@ -22,8 +22,12 @@
 
 ## var & val
 
-- var is like general variable and it's known as a mutable variable in kotlin and can be assigned multiple times.
-- val is like Final variable and it's known as immutable in kotlin and can be initialized only single time.
+- Var is mutable and Values of the variable can be changed later.
+- Val is immutable and Values of the variable cannot be changed later.
+- Note: DataTypes in Kotlin all are objects so it must be initialized.
+- Note: Try to use Float instead of Double because it consumes more memory size.
+
+:arrow_up: [__Back to Top__](README.md#kotlin)
 
 ## const vs val
 
