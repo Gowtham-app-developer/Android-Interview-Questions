@@ -92,3 +92,23 @@ var nameLength:  Int = name ?.length ?: -1
 var companyLength:  Int = company ?.length ?:  -1  
 ```
 
+```ruby
+fun main() {	
+  
+    var mValue = Employee ("Raja")
+    mValue.mName = "Gowtham"
+    
+    println("The Sum is ${mValue.mName}")
+    
+}
+
+class Employee(mName:String){
+    
+  var mName:String = "Gokul"
+    
+    init{
+        print("The Sum is ${mName}")
+    }
+    
+}
+```
