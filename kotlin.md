@@ -24,8 +24,8 @@
 
 - Var is mutable and Values of the variable can be changed later.
 - Val is immutable and Values of the variable cannot be changed later.
-- Note: DataTypes in Kotlin all are objects so it must be initialized.
-- Note: Try to use Float instead of Double because it consumes more memory size.
+- __Note:__ DataTypes in Kotlin all are objects so it must be initialized.
+- __Note:__ Try to use Float instead of Double because it consumes more memory size.
 
 :arrow_up: [__Back to Top__](README.md#kotlin)
 
