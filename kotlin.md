@@ -91,6 +91,11 @@ var company: String? = "May be declare nullable string"
 var nameLength:  Int = name ?.length ?: -1  
 var companyLength:  Int = company ?.length ?:  -1  
 ```
+## Init Keyword
+
+- In Kotlin, the primary constructor cannot contain any code.
+- init blocks allows adding code to the primary constructor.
+- The init block will execute immediately after the primary constructor.
 
 ```ruby
 fun main() {	
@@ -112,3 +117,4 @@ class Employee(mName:String){
     
 }
 ```
+:arrow_up: [__Back to Top__](README.md#flutter-interview-questions)
