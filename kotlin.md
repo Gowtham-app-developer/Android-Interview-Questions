@@ -104,7 +104,7 @@ var company: String? = "May be declare nullable string"
 var nameLength:  Int = name ?.length ?: -1  
 var companyLength:  Int = company ?.length ?:  -1  
 ```
-## Init Keyword, Primary Constructor & Secondary Constructor
+## Init Keyword
 
 - In Kotlin, the primary constructor cannot contain any code.
 - init blocks allows adding code to the primary constructor.
