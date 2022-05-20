@@ -27,6 +27,14 @@
 - __Note:__ DataTypes in Kotlin all are objects so it must be initialized.
 - __Note:__ Try to use Float instead of Double because it consumes more memory size.
 
+:arrow_up: [__Back to Top__](README.md#kotlin)  
+
+## Interoperability
+
+- We Can Call Java Functions from Kotlin and Kotlin Functions from Java using some annotations.
+- We Can have both Java and Kotlin files in the same Application.
+- __Example:__ Java doesn’t support default Functions but we can achieve using @JVMOverloads in Kotlin.
+
 :arrow_up: [__Back to Top__](README.md#kotlin)
 
 ## const vs val
