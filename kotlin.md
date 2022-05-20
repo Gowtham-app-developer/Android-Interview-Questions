@@ -97,6 +97,8 @@ var companyLength:  Int = company ?.length ?:  -1
 - init blocks allows adding code to the primary constructor.
 - The init block will execute immediately after the primary constructor.
 
+__Example using Primary Constructor__
+
 ```ruby
 fun main() {	
   
