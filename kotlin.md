@@ -10,14 +10,15 @@
 
 :arrow_up: [__Back to Top__](README.md#kotlin)
 
-## Advantages of Kotlin
+## Why Kotlin
 
-- Kotlin allows writing less code.
-- Kotlin has a strong community.
-- Kotlin is fully compatible with Java.
-- Adopting Kotlin is easy.
-- Kotlin development offers more safety.
-- Kotlin suits for the multi-platform development.
+- To Avoid NullPointer Exception.
+- It Supports Immutability.
+- It Supports Oops.
+- Write only Less Code (i.e.) Reduces a lot of Boilerplate Code.
+- It Supports Functional Programming (i.e.) Can pass Function as parameter to another function or Function can return another function.
+
+:arrow_up: [__Back to Top__](README.md#kotlin)
 
 ## var & val
 
