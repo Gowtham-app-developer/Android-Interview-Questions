@@ -94,7 +94,7 @@ var companyLength:  Int = company ?.length ?:  -1
 ## Init Keyword
 
 - In Kotlin, the primary constructor cannot contain any code.
-- init blocks allows adding code to the primary constructor.
+- The init blocks allows adding code to the primary constructor.
 - The init block will execute immediately after the primary constructor.
 
 __Example using Primary Constructor__
