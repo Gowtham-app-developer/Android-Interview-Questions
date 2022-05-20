@@ -13,8 +13,8 @@
 ## Why Kotlin
 
 - To Avoid NullPointer Exception.
-- It Supports Immutability.
-- It Supports Oops.
+- It Supports Immutability (i.e.) We can use val and var.
+- It Supports Oops concepts.
 - Write only Less Code (i.e.) Reduces a lot of Boilerplate Code.
 - It Supports Functional Programming (i.e.) Can pass Function as parameter to another function or Function can return another function.
 
