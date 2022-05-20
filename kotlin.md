@@ -104,11 +104,13 @@ var company: String? = "May be declare nullable string"
 var nameLength:  Int = name ?.length ?: -1  
 var companyLength:  Int = company ?.length ?:  -1  
 ```
-## Init Keyword
+## Init Keyword, Primary Constructor & Secondary Constructor
 
 - In Kotlin, the primary constructor cannot contain any code.
-- The init blocks allows adding code to the primary constructor.
+- init blocks allows adding code to the primary constructor.
 - The init block will execute immediately after the primary constructor.
+- Unlike the Primary Constructor, the Secondary constructor has its own body and the primary constructor call is expected.
+- We can’t declare the properties (i.e.) Val or Var in the Secondary Constructor.
 
 __Example using Primary Constructor__
 
@@ -130,6 +132,34 @@ class Employee(mName:String){
         print("The Sum is ${mName}")
     }
     
+}
+```
+__Example using Secondary Constructor__
+
+```ruby
+fun main() {	
+  
+    var mValueOne = Employee ("Kholi")
+    
+    var mValueTwo = Employee ("Raja", 16)
+    mValueTwo.mName = "Gowtham"
+    
+    println("The Sum is ${mValueTwo.mName}")
+    
+}
+
+class Employee(var mName:String){
+    
+  var mVarName:String = "Ganesh"
+    
+    init{
+        println("The Sum is ${mName}")
+    }
+    
+    constructor(_mName:String, mAge:Int):this(_mName){
+        println("The Sum is ${_mName} and ${mAge}")
+    }
+   
 }
 ```
 :arrow_up: [__Back to Top__](README.md#kotlin)
