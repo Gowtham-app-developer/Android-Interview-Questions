@@ -193,7 +193,7 @@ class Student {
 
 ## Abstract Class
 
-- By default all the abstract Properties are "open" in nature.
+- In Kotlin, By default all the abstract Properties are "open" in nature.
 - Abstract Classes are partially defined classes which are declared using abstract keywords.
 - It can have both abstract and non-abstract methods (method with the body).
 - If a class contains partial implementation then we should declare a class as abstract and it cannot be instantiated.
