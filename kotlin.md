@@ -214,7 +214,6 @@ fun main() {
     
 }
 
-
 open class Person{
   
     public var mValueOne: String = "Data_1"
@@ -227,8 +226,7 @@ open class Person{
 class Employee : Person() {
     
     init{
-        
-   		println(mValueOne)
+   		   println(mValueOne)
         // println(mValueTwo)
         println(mValueThree)
         println(mValueFour)
@@ -244,4 +242,5 @@ class Student {
     internal var mValueFour: String = "StuData_4"
    
 }
-```
+```  
+:arrow_up: [__Back to Top__](README.md#kotlin)
