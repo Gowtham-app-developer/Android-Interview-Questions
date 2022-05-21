@@ -201,6 +201,8 @@ class Employee(var mName:String){
 - __Internal:__  We can access it only inside our module.
 - __Protected:__  The Modifier Protected is not applicable for top level Function and Classes (i.e) It can be accessible only within a class or Subclass not     outside the Class.
 
+__Example__
+
 ```ruby
 fun main() {	
   
@@ -243,4 +245,39 @@ class Student {
    
 }
 ```  
-:arrow_up: [__Back to Top__](README.md#kotlin)
+:arrow_up: [__Back to Top__](README.md#kotlin)  
+
+## Abstract Class
+
+- By default all the abstract Properties are "open" in nature.
+- Abstract Classes are partially defined classes which are declared using abstract keywords.
+- It can have both abstract and non-abstract methods (method with the body).
+- If a class contains partial implementation then we should declare a class as abstract and it cannot be instantiated.
+- If we define any properties or methods in abstract class then we must override that properties or methods in the sub class.
+
+__Example__
+
+```ruby
+fun main() {	
+  
+  var mStudent = Student()
+	mStudent.myabstractMethod()
+    
+}
+
+abstract class Person{
+  
+    abstract fun myabstractMethod()
+   
+}
+
+class Student: Person(){
+    
+   override
+   fun myabstractMethod(){
+       println("Printed")
+   }
+   
+}
+```  
+:arrow_up: [__Back to Top__](README.md#kotlin)  
