@@ -191,3 +191,57 @@ class Employee(var mName:String){
 }
 ```
 :arrow_up: [__Back to Top__](README.md#kotlin)
+
+## Visibility Modifiers
+
+- It Supports Public, Protected, internal and Private.
+- By Default all the Classes and Functions are public in nature.
+- __Public:__  We can access it anywhere (inside and even outside) the Class.
+- __Private:__  We can access it only inside the Class.
+- __Internal:__  We can access it only inside our module.
+- __Protected:__  The Modifier Protected is not applicable for top level Function and Classes (i.e) It can be accessible only within a class or Subclass not     outside the Class.
+
+```ruby
+fun main() {	
+  
+   var mPerson = Employee()
+   
+   var mStudent = Student()
+   println(mStudent.mValueOne)
+   // println(mStudent.mValueTwo)
+   // println(mStudent.mValueThree)
+   println(mStudent.mValueFour)
+    
+}
+
+
+open class Person{
+  
+    public var mValueOne: String = "Data_1"
+    private var mValueTwo: String = "Data_2"
+    protected var mValueThree: String = "Data_3"
+    internal var mValueFour: String = "Data_4"
+   
+}
+
+class Employee : Person() {
+    
+    init{
+        
+   		println(mValueOne)
+        // println(mValueTwo)
+        println(mValueThree)
+        println(mValueFour)
+    }
+   
+}
+
+class Student {
+    
+    public var mValueOne: String = "StuData_1"
+    private var mValueTwo: String = "StuData_2"
+    protected var mValueThree: String = "StuData_3"
+    internal var mValueFour: String = "StuData_4"
+   
+}
+```
